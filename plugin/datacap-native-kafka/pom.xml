@@ -14,7 +14,7 @@
     <description>DataCap - Kafka</description>
 
     <properties>
-        <kafka.version>3.6.1</kafka.version>
+        <kafka.version>3.7.1</kafka.version>
         <testcontainers.version>1.17.6</testcontainers.version>
         <plugin.name>native-kafka</plugin.name>
     </properties>
