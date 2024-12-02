@@ -31,7 +31,7 @@
     "view-shadcn-ui": "2024.5.0-alpha.1732962695",
     "vue": "^3.4.21",
     "vue-clipboard3": "^2.0.0",
-    "vue-i18n": "^9.10.1",
+    "vue-i18n": "^9.14.2",
     "vue-picture-cropper": "^0.7.0",
     "vue-router": "^4.3.0",
     "vue3-ace-editor": "^2.2.4",
