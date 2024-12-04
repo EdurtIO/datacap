@@ -201,7 +201,7 @@
         <openai.version>2024.01.3</openai.version>
         <testcontainers.version>1.20.1</testcontainers.version>
         <quartz.version>2.3.2</quartz.version>
-        <h2.version>2.1.214</h2.version>
+        <h2.version>2.2.220</h2.version>
         <mongodb-driver.version>4.11.1</mongodb-driver.version>
         <assembly-plugin.version>3.6.0</assembly-plugin.version>
         <dep.reflections.version>0.10.2</dep.reflections.version>
