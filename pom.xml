@@ -182,7 +182,7 @@
         <dep.guice.version>5.1.0</dep.guice.version>
         <dep.trino.version>450</dep.trino.version>
         <dep.antlr4.version>4.13.2</dep.antlr4.version>
-        <springboot.version>2.7.4</springboot.version>
+        <springboot.version>3.4.0</springboot.version>
         <lombok.version>1.18.30</lombok.version>
         <junit.version>4.13.2</junit.version>
         <jjwt.version>0.9.1</jjwt.version>
