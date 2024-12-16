@@ -215,7 +215,7 @@
         <datacap.cos.version>5.6.227</datacap.cos.version>
         <datacap.s3.version>1.12.771</datacap.s3.version>
         <datacap.minio.version>8.5.12</datacap.minio.version>
-        <datacap.maven.model.version>3.9.6</datacap.maven.model.version>
+        <datacap.maven.model.version>3.9.9</datacap.maven.model.version>
         <!-- maven plugin -->
         <plugin.maven.checkstyle.version>3.3.1</plugin.maven.checkstyle.version>
         <plugin.maven.findbugs.version>4.8.5.0</plugin.maven.findbugs.version>
