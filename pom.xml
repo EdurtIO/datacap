@@ -180,7 +180,7 @@
         <dep.mysql.version>8.0.30</dep.mysql.version>
         <dep.snowflake.version>3.17.0</dep.snowflake.version>
         <dep.guice.version>5.1.0</dep.guice.version>
-        <dep.trino.version>450</dep.trino.version>
+        <dep.trino.version>468</dep.trino.version>
         <dep.antlr4.version>4.13.2</dep.antlr4.version>
         <springboot.version>2.7.4</springboot.version>
         <lombok.version>1.18.30</lombok.version>
