@@ -1,0 +1,1963 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    <url>
+        <loc>https://databap.edurt.io/index.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/index.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/index.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/download.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/download.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/download.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/partners.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/partners.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/partners.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/useCases.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/useCases.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/useCases.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/api/common/page.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/api/common/page.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/api/common/page.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/api/common/response.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/api/common/response.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/api/common/response.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/api/dashboard/delete.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/api/dashboard/delete.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/api/dashboard/delete.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/api/dashboard/edit.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/api/dashboard/edit.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/api/dashboard/edit.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/api/dashboard/get.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/api/dashboard/get.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/api/dashboard/get.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/api/dashboard/list.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/api/dashboard/list.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/api/dashboard/list.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/api/dashboard/save.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/api/dashboard/save.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/api/dashboard/save.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/api/menu/edit.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/api/menu/edit.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/api/menu/edit.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/api/menu/list.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/api/menu/list.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/api/menu/list.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/api/menu/save.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/api/menu/save.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/api/menu/save.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/api/plugin/install.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/api/plugin/install.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/api/plugin/install.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/api/plugin/plugin.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/api/plugin/plugin.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/api/plugin/plugin.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/api/plugin/uninstall.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/api/plugin/uninstall.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/api/plugin/uninstall.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/api/user/info.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/api/user/info.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/api/user/info.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/api/user/list.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/api/user/list.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/api/user/list.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/api/user/login.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/api/user/login.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/api/user/login.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/api/user/menu.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/api/user/menu.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/api/user/menu.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/api/user/register.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/api/user/register.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/api/user/register.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/api/workflow/delete.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/api/workflow/delete.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/api/workflow/delete.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/api/workflow/edit.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/api/workflow/edit.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/api/workflow/edit.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/api/workflow/get.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/api/workflow/get.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/api/workflow/get.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/api/workflow/list.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/api/workflow/list.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/api/workflow/list.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/api/workflow/log.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/api/workflow/log.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/api/workflow/log.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/api/workflow/restart.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/api/workflow/restart.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/api/workflow/restart.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/api/workflow/save.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/api/workflow/save.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/api/workflow/save.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/developer/doc/home.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/developer/doc/home.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/developer/doc/home.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/developer/feature/home.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/developer/feature/home.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/developer/feature/home.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/developer/file/kotlin/home.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/developer/file/kotlin/home.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/developer/file/kotlin/home.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/developer/filesystem/home.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/developer/filesystem/home.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/developer/filesystem/home.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/developer/notify/kotlin/home.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/developer/notify/kotlin/home.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/developer/notify/kotlin/home.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/developer/pipeline/home.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/developer/pipeline/home.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/developer/pipeline/home.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/developer/plugin/java/home.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/developer/plugin/java/home.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/developer/plugin/java/home.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/developer/plugin/kotlin/home.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/developer/plugin/kotlin/home.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/developer/plugin/kotlin/home.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/developer/sdk/home.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/developer/sdk/home.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/developer/sdk/home.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/developer/server/home.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/developer/server/home.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/developer/server/home.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/developer/specification/home.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/developer/specification/home.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/developer/specification/home.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/developer/web/home.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/developer/web/home.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/developer/web/home.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/driver/mongodb.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/driver/mongodb.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/driver/mongodb.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/reference/clients/cli.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/reference/clients/cli.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/reference/clients/cli.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/reference/connectors/alioss/home.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/reference/connectors/alioss/home.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/reference/connectors/alioss/home.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/reference/connectors/cassandra/home.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/reference/connectors/cassandra/home.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/reference/connectors/cassandra/home.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/reference/connectors/ceresdb/home.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/reference/connectors/ceresdb/home.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/reference/connectors/ceresdb/home.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/reference/connectors/clickhouse/home.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/reference/connectors/clickhouse/home.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/reference/connectors/clickhouse/home.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/reference/connectors/doris/home.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/reference/connectors/doris/home.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/reference/connectors/doris/home.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/reference/connectors/duckdb/home.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/reference/connectors/duckdb/home.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/reference/connectors/duckdb/home.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/reference/connectors/greptimedb/home.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/reference/connectors/greptimedb/home.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/reference/connectors/greptimedb/home.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/reference/connectors/h2/home.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/reference/connectors/h2/home.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/reference/connectors/h2/home.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/reference/connectors/hdfs/home.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/reference/connectors/hdfs/home.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/reference/connectors/hdfs/home.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/reference/connectors/hologres/home.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/reference/connectors/hologres/home.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/reference/connectors/hologres/home.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/reference/connectors/influxdb/home.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/reference/connectors/influxdb/home.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/reference/connectors/influxdb/home.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/reference/connectors/kafka/home.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/reference/connectors/kafka/home.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/reference/connectors/kafka/home.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/reference/connectors/matrixone/home.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/reference/connectors/matrixone/home.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/reference/connectors/matrixone/home.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/reference/connectors/mysql/home.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/reference/connectors/mysql/home.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/reference/connectors/mysql/home.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/reference/connectors/paradedb/home.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/reference/connectors/paradedb/home.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/reference/connectors/paradedb/home.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/reference/connectors/pinot/home.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/reference/connectors/pinot/home.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/reference/connectors/pinot/home.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/reference/connectors/questdb/home.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/reference/connectors/questdb/home.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/reference/connectors/questdb/home.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/reference/connectors/redis/home.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/reference/connectors/redis/home.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/reference/connectors/redis/home.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/reference/connectors/scylladb/home.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/reference/connectors/scylladb/home.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/reference/connectors/scylladb/home.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/reference/connectors/snowflake/home.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/reference/connectors/snowflake/home.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/reference/connectors/snowflake/home.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/reference/connectors/solr/home.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/reference/connectors/solr/home.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/reference/connectors/solr/home.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/reference/connectors/starrocks/home.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/reference/connectors/starrocks/home.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/reference/connectors/starrocks/home.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/reference/connectors/timescale/home.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/reference/connectors/timescale/home.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/reference/connectors/timescale/home.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/reference/connectors/ydb/home.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/reference/connectors/ydb/home.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/reference/connectors/ydb/home.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/reference/connectors/zookeeper/home.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/reference/connectors/zookeeper/home.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/reference/connectors/zookeeper/home.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/reference/filesystem/aliyun/home.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/reference/filesystem/aliyun/home.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/reference/filesystem/aliyun/home.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/reference/filesystem/cos/home.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/reference/filesystem/cos/home.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/reference/filesystem/cos/home.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/reference/filesystem/local/home.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/reference/filesystem/local/home.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/reference/filesystem/local/home.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/reference/filesystem/minio/home.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/reference/filesystem/minio/home.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/reference/filesystem/minio/home.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/reference/filesystem/qiniu/home.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/reference/filesystem/qiniu/home.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/reference/filesystem/qiniu/home.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/reference/filesystem/s3/home.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/reference/filesystem/s3/home.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/reference/filesystem/s3/home.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/reference/getStarted/install.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/reference/getStarted/install.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/reference/getStarted/install.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/reference/getStarted/installContainers.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/reference/getStarted/installContainers.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/reference/getStarted/installContainers.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/reference/getStarted/installFromDockerCompose.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/reference/getStarted/installFromDockerCompose.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/reference/getStarted/installFromDockerCompose.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/reference/getStarted/installRainbond.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/reference/getStarted/installRainbond.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/reference/getStarted/installRainbond.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/reference/getStarted/dashboard/home.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/reference/getStarted/dashboard/home.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/reference/getStarted/dashboard/home.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/reference/getStarted/dataset/adhoc/home.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/reference/getStarted/dataset/adhoc/home.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/reference/getStarted/dataset/adhoc/home.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/reference/getStarted/dataset/clear/home.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/reference/getStarted/dataset/clear/home.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/reference/getStarted/dataset/clear/home.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/reference/getStarted/dataset/create/home.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/reference/getStarted/dataset/create/home.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/reference/getStarted/dataset/create/home.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/reference/getStarted/dataset/history/home.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/reference/getStarted/dataset/history/home.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/reference/getStarted/dataset/history/home.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/reference/getStarted/dataset/sync/home.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/reference/getStarted/dataset/sync/home.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/reference/getStarted/dataset/sync/home.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/reference/getStarted/query/home.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/reference/getStarted/query/home.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/reference/getStarted/query/home.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/reference/getStarted/workflow/create/home.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/reference/getStarted/workflow/create/home.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/reference/getStarted/workflow/create/home.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/reference/getStarted/workflow/dag/home.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/reference/getStarted/workflow/dag/home.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/reference/getStarted/workflow/dag/home.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/reference/getStarted/workflow/delete/home.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/reference/getStarted/workflow/delete/home.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/reference/getStarted/workflow/delete/home.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/reference/getStarted/workflow/error/home.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/reference/getStarted/workflow/error/home.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/reference/getStarted/workflow/error/home.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/reference/getStarted/workflow/logger/home.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/reference/getStarted/workflow/logger/home.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/reference/getStarted/workflow/logger/home.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/reference/getStarted/workflow/restart/home.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/reference/getStarted/workflow/restart/home.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/reference/getStarted/workflow/restart/home.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/reference/getStarted/workflow/stop/home.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/reference/getStarted/workflow/stop/home.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/reference/getStarted/workflow/stop/home.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/reference/manager/datasource/home.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/reference/manager/datasource/home.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/reference/manager/datasource/home.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/reference/manager/history/query/home.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/reference/manager/history/query/home.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/reference/manager/history/query/home.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/reference/manager/pipeline/home.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/reference/manager/pipeline/home.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/reference/manager/pipeline/home.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/reference/manager/profile/home.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/reference/manager/profile/home.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/reference/manager/profile/home.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/reference/manager/report/home.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/reference/manager/report/home.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/reference/manager/report/home.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/reference/manager/snippet/home.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/reference/manager/snippet/home.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/reference/manager/snippet/home.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/reference/sqlSyntax/connectors/kafka/show_consumers.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/reference/sqlSyntax/connectors/kafka/show_consumers.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/reference/sqlSyntax/connectors/kafka/show_consumers.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/reference/sqlSyntax/connectors/kafka/show_databases.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/reference/sqlSyntax/connectors/kafka/show_databases.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/reference/sqlSyntax/connectors/kafka/show_databases.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/reference/sqlSyntax/connectors/kafka/show_tables.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/reference/sqlSyntax/connectors/kafka/show_tables.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/reference/sqlSyntax/connectors/kafka/show_tables.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/reference/sqlSyntax/connectors/kafka/show_topics.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/reference/sqlSyntax/connectors/kafka/show_topics.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/reference/sqlSyntax/connectors/kafka/show_topics.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/reference/system/functions/home.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/reference/system/functions/home.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/reference/system/functions/home.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/reference/system/menu/home.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/reference/system/menu/home.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/reference/system/menu/home.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/reference/system/sql/home.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/reference/system/sql/home.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/reference/system/sql/home.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/release/1.0.0.20221015.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/release/1.0.0.20221015.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/release/1.0.0.20221015.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/release/1.1.0.20221115.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/release/1.1.0.20221115.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/release/1.1.0.20221115.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/release/1.10.0.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/release/1.10.0.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/release/1.10.0.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/release/1.11.0.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/release/1.11.0.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/release/1.11.0.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/release/1.12.0.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/release/1.12.0.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/release/1.12.0.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/release/1.13.0.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/release/1.13.0.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/release/1.13.0.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/release/1.14.0.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/release/1.14.0.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/release/1.14.0.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/release/1.15.0.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/release/1.15.0.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/release/1.15.0.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/release/1.16.0.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/release/1.16.0.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/release/1.16.0.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/release/1.17.0.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/release/1.17.0.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/release/1.17.0.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/release/1.18.0.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/release/1.18.0.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/release/1.18.0.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/release/1.2.0.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/release/1.2.0.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/release/1.2.0.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/release/1.3.0.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/release/1.3.0.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/release/1.3.0.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/release/1.4.0.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/release/1.4.0.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/release/1.4.0.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/release/1.5.0.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/release/1.5.0.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/release/1.5.0.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/release/1.6.0.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/release/1.6.0.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/release/1.6.0.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/release/1.7.0.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/release/1.7.0.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/release/1.7.0.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/release/1.8.0.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/release/1.8.0.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/release/1.8.0.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/release/1.9.0.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/release/1.9.0.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/release/1.9.0.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/release/2024.01.1.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/release/2024.01.1.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/release/2024.01.1.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/release/2024.02.1.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/release/2024.02.1.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/release/2024.02.1.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/release/2024.03.1.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/release/2024.03.1.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/release/2024.03.1.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/release/2024.03.2.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/release/2024.03.2.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/release/2024.03.2.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/release/2024.03.3.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/release/2024.03.3.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/release/2024.03.3.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/release/2024.03.4.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/release/2024.03.4.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/release/2024.03.4.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/release/2024.03.5.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/release/2024.03.5.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/release/2024.03.5.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/release/2024.03.6.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/release/2024.03.6.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/release/2024.03.6.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/release/2024.03.7.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/release/2024.03.7.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/release/2024.03.7.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/release/2024.03.8.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/release/2024.03.8.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/release/2024.03.8.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/release/2024.03.9.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/release/2024.03.9.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/release/2024.03.9.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/release/2024.3.10.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/release/2024.3.10.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/release/2024.3.10.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/release/2024.3.11.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/release/2024.3.11.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/release/2024.3.11.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/release/2024.4.0.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/release/2024.4.0.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/release/2024.4.0.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/release/latest.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/release/latest.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/release/latest.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/resources/functions/home.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/resources/functions/home.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/resources/functions/home.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/en/index.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/index.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/index.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/en/download.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/download.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/download.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/en/partners.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/partners.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/partners.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/en/useCases.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/useCases.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/useCases.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/en/api/common/page.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/api/common/page.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/api/common/page.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/en/api/common/response.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/api/common/response.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/api/common/response.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/en/api/dashboard/delete.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/api/dashboard/delete.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/api/dashboard/delete.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/en/api/dashboard/edit.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/api/dashboard/edit.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/api/dashboard/edit.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/en/api/dashboard/get.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/api/dashboard/get.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/api/dashboard/get.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/en/api/dashboard/list.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/api/dashboard/list.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/api/dashboard/list.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/en/api/dashboard/save.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/api/dashboard/save.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/api/dashboard/save.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/en/api/menu/edit.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/api/menu/edit.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/api/menu/edit.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/en/api/menu/list.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/api/menu/list.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/api/menu/list.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/en/api/menu/save.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/api/menu/save.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/api/menu/save.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/en/api/plugin/install.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/api/plugin/install.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/api/plugin/install.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/en/api/plugin/plugin.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/api/plugin/plugin.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/api/plugin/plugin.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/en/api/plugin/uninstall.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/api/plugin/uninstall.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/api/plugin/uninstall.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/en/api/user/info.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/api/user/info.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/api/user/info.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/en/api/user/list.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/api/user/list.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/api/user/list.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/en/api/user/login.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/api/user/login.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/api/user/login.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/en/api/user/menu.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/api/user/menu.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/api/user/menu.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/en/api/user/register.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/api/user/register.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/api/user/register.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/en/api/workflow/delete.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/api/workflow/delete.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/api/workflow/delete.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/en/api/workflow/edit.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/api/workflow/edit.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/api/workflow/edit.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/en/api/workflow/get.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/api/workflow/get.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/api/workflow/get.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/en/api/workflow/list.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/api/workflow/list.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/api/workflow/list.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/en/api/workflow/log.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/api/workflow/log.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/api/workflow/log.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/en/api/workflow/restart.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/api/workflow/restart.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/api/workflow/restart.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/en/api/workflow/save.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/api/workflow/save.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/api/workflow/save.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/en/developer/doc/home.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/developer/doc/home.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/developer/doc/home.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/en/developer/feature/home.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/developer/feature/home.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/developer/feature/home.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/en/developer/file/kotlin/home.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/developer/file/kotlin/home.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/developer/file/kotlin/home.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/en/developer/filesystem/home.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/developer/filesystem/home.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/developer/filesystem/home.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/en/developer/notify/kotlin/home.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/developer/notify/kotlin/home.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/developer/notify/kotlin/home.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/en/developer/pipeline/home.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/developer/pipeline/home.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/developer/pipeline/home.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/en/developer/plugin/java/home.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/developer/plugin/java/home.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/developer/plugin/java/home.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/en/developer/plugin/kotlin/home.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/developer/plugin/kotlin/home.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/developer/plugin/kotlin/home.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/en/developer/sdk/home.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/developer/sdk/home.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/developer/sdk/home.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/en/developer/server/home.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/developer/server/home.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/developer/server/home.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/en/developer/specification/home.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/developer/specification/home.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/developer/specification/home.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/en/developer/web/home.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/developer/web/home.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/developer/web/home.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/en/driver/mongodb.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/driver/mongodb.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/driver/mongodb.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/en/reference/clients/cli.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/reference/clients/cli.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/reference/clients/cli.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/en/reference/connectors/alioss/home.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/reference/connectors/alioss/home.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/reference/connectors/alioss/home.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/en/reference/connectors/cassandra/home.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/reference/connectors/cassandra/home.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/reference/connectors/cassandra/home.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/en/reference/connectors/ceresdb/home.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/reference/connectors/ceresdb/home.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/reference/connectors/ceresdb/home.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/en/reference/connectors/clickhouse/home.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/reference/connectors/clickhouse/home.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/reference/connectors/clickhouse/home.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/en/reference/connectors/doris/home.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/reference/connectors/doris/home.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/reference/connectors/doris/home.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/en/reference/connectors/duckdb/home.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/reference/connectors/duckdb/home.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/reference/connectors/duckdb/home.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/en/reference/connectors/greptimedb/home.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/reference/connectors/greptimedb/home.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/reference/connectors/greptimedb/home.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/en/reference/connectors/h2/home.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/reference/connectors/h2/home.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/reference/connectors/h2/home.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/en/reference/connectors/hdfs/home.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/reference/connectors/hdfs/home.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/reference/connectors/hdfs/home.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/en/reference/connectors/hologres/home.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/reference/connectors/hologres/home.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/reference/connectors/hologres/home.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/en/reference/connectors/influxdb/home.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/reference/connectors/influxdb/home.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/reference/connectors/influxdb/home.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/en/reference/connectors/kafka/home.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/reference/connectors/kafka/home.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/reference/connectors/kafka/home.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/en/reference/connectors/matrixone/home.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/reference/connectors/matrixone/home.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/reference/connectors/matrixone/home.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/en/reference/connectors/mysql/home.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/reference/connectors/mysql/home.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/reference/connectors/mysql/home.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/en/reference/connectors/paradedb/home.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/reference/connectors/paradedb/home.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/reference/connectors/paradedb/home.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/en/reference/connectors/pinot/home.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/reference/connectors/pinot/home.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/reference/connectors/pinot/home.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/en/reference/connectors/questdb/home.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/reference/connectors/questdb/home.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/reference/connectors/questdb/home.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/en/reference/connectors/redis/home.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/reference/connectors/redis/home.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/reference/connectors/redis/home.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/en/reference/connectors/scylladb/home.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/reference/connectors/scylladb/home.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/reference/connectors/scylladb/home.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/en/reference/connectors/snowflake/home.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/reference/connectors/snowflake/home.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/reference/connectors/snowflake/home.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/en/reference/connectors/solr/home.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/reference/connectors/solr/home.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/reference/connectors/solr/home.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/en/reference/connectors/starrocks/home.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/reference/connectors/starrocks/home.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/reference/connectors/starrocks/home.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/en/reference/connectors/timescale/home.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/reference/connectors/timescale/home.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/reference/connectors/timescale/home.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/en/reference/connectors/ydb/home.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/reference/connectors/ydb/home.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/reference/connectors/ydb/home.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/en/reference/connectors/zookeeper/home.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/reference/connectors/zookeeper/home.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/reference/connectors/zookeeper/home.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/en/reference/filesystem/aliyun/home.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/reference/filesystem/aliyun/home.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/reference/filesystem/aliyun/home.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/en/reference/filesystem/cos/home.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/reference/filesystem/cos/home.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/reference/filesystem/cos/home.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/en/reference/filesystem/local/home.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/reference/filesystem/local/home.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/reference/filesystem/local/home.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/en/reference/filesystem/minio/home.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/reference/filesystem/minio/home.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/reference/filesystem/minio/home.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/en/reference/filesystem/qiniu/home.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/reference/filesystem/qiniu/home.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/reference/filesystem/qiniu/home.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/en/reference/filesystem/s3/home.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/reference/filesystem/s3/home.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/reference/filesystem/s3/home.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/en/reference/getStarted/install.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/reference/getStarted/install.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/reference/getStarted/install.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/en/reference/getStarted/installContainers.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/reference/getStarted/installContainers.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/reference/getStarted/installContainers.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/en/reference/getStarted/installFromDockerCompose.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/reference/getStarted/installFromDockerCompose.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/reference/getStarted/installFromDockerCompose.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/en/reference/getStarted/installRainbond.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/reference/getStarted/installRainbond.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/reference/getStarted/installRainbond.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/en/reference/getStarted/dashboard/home.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/reference/getStarted/dashboard/home.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/reference/getStarted/dashboard/home.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/en/reference/getStarted/dataset/adhoc/home.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/reference/getStarted/dataset/adhoc/home.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/reference/getStarted/dataset/adhoc/home.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/en/reference/getStarted/dataset/clear/home.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/reference/getStarted/dataset/clear/home.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/reference/getStarted/dataset/clear/home.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/en/reference/getStarted/dataset/create/home.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/reference/getStarted/dataset/create/home.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/reference/getStarted/dataset/create/home.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/en/reference/getStarted/dataset/history/home.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/reference/getStarted/dataset/history/home.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/reference/getStarted/dataset/history/home.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/en/reference/getStarted/dataset/sync/home.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/reference/getStarted/dataset/sync/home.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/reference/getStarted/dataset/sync/home.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/en/reference/getStarted/query/home.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/reference/getStarted/query/home.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/reference/getStarted/query/home.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/en/reference/getStarted/workflow/create/home.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/reference/getStarted/workflow/create/home.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/reference/getStarted/workflow/create/home.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/en/reference/getStarted/workflow/dag/home.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/reference/getStarted/workflow/dag/home.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/reference/getStarted/workflow/dag/home.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/en/reference/getStarted/workflow/delete/home.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/reference/getStarted/workflow/delete/home.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/reference/getStarted/workflow/delete/home.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/en/reference/getStarted/workflow/error/home.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/reference/getStarted/workflow/error/home.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/reference/getStarted/workflow/error/home.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/en/reference/getStarted/workflow/logger/home.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/reference/getStarted/workflow/logger/home.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/reference/getStarted/workflow/logger/home.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/en/reference/getStarted/workflow/restart/home.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/reference/getStarted/workflow/restart/home.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/reference/getStarted/workflow/restart/home.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/en/reference/getStarted/workflow/stop/home.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/reference/getStarted/workflow/stop/home.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/reference/getStarted/workflow/stop/home.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/en/reference/manager/datasource/home.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/reference/manager/datasource/home.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/reference/manager/datasource/home.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/en/reference/manager/history/query/home.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/reference/manager/history/query/home.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/reference/manager/history/query/home.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/en/reference/manager/pipeline/home.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/reference/manager/pipeline/home.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/reference/manager/pipeline/home.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/en/reference/manager/profile/home.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/reference/manager/profile/home.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/reference/manager/profile/home.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/en/reference/manager/report/home.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/reference/manager/report/home.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/reference/manager/report/home.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/en/reference/manager/snippet/home.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/reference/manager/snippet/home.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/reference/manager/snippet/home.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/en/reference/sqlSyntax/connectors/kafka/show_consumers.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/reference/sqlSyntax/connectors/kafka/show_consumers.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/reference/sqlSyntax/connectors/kafka/show_consumers.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/en/reference/sqlSyntax/connectors/kafka/show_databases.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/reference/sqlSyntax/connectors/kafka/show_databases.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/reference/sqlSyntax/connectors/kafka/show_databases.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/en/reference/sqlSyntax/connectors/kafka/show_tables.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/reference/sqlSyntax/connectors/kafka/show_tables.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/reference/sqlSyntax/connectors/kafka/show_tables.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/en/reference/sqlSyntax/connectors/kafka/show_topics.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/reference/sqlSyntax/connectors/kafka/show_topics.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/reference/sqlSyntax/connectors/kafka/show_topics.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/en/reference/system/functions/home.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/reference/system/functions/home.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/reference/system/functions/home.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/en/reference/system/menu/home.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/reference/system/menu/home.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/reference/system/menu/home.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/en/reference/system/sql/home.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/reference/system/sql/home.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/reference/system/sql/home.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/en/release/1.0.0.20221015.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/release/1.0.0.20221015.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/release/1.0.0.20221015.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/en/release/1.1.0.20221115.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/release/1.1.0.20221115.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/release/1.1.0.20221115.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/en/release/1.10.0.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/release/1.10.0.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/release/1.10.0.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/en/release/1.11.0.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/release/1.11.0.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/release/1.11.0.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/en/release/1.12.0.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/release/1.12.0.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/release/1.12.0.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/en/release/1.13.0.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/release/1.13.0.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/release/1.13.0.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/en/release/1.14.0.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/release/1.14.0.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/release/1.14.0.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/en/release/1.15.0.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/release/1.15.0.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/release/1.15.0.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/en/release/1.16.0.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/release/1.16.0.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/release/1.16.0.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/en/release/1.17.0.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/release/1.17.0.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/release/1.17.0.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/en/release/1.18.0.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/release/1.18.0.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/release/1.18.0.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/en/release/1.2.0.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/release/1.2.0.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/release/1.2.0.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/en/release/1.3.0.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/release/1.3.0.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/release/1.3.0.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/en/release/1.4.0.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/release/1.4.0.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/release/1.4.0.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/en/release/1.5.0.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/release/1.5.0.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/release/1.5.0.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/en/release/1.6.0.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/release/1.6.0.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/release/1.6.0.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/en/release/1.7.0.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/release/1.7.0.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/release/1.7.0.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/en/release/1.8.0.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/release/1.8.0.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/release/1.8.0.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/en/release/1.9.0.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/release/1.9.0.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/release/1.9.0.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/en/release/2024.01.1.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/release/2024.01.1.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/release/2024.01.1.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/en/release/2024.02.1.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/release/2024.02.1.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/release/2024.02.1.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/en/release/2024.03.1.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/release/2024.03.1.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/release/2024.03.1.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/en/release/2024.03.2.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/release/2024.03.2.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/release/2024.03.2.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/en/release/2024.03.3.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/release/2024.03.3.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/release/2024.03.3.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/en/release/2024.03.4.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/release/2024.03.4.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/release/2024.03.4.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/en/release/2024.03.5.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/release/2024.03.5.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/release/2024.03.5.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/en/release/2024.03.6.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/release/2024.03.6.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/release/2024.03.6.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/en/release/2024.03.7.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/release/2024.03.7.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/release/2024.03.7.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/en/release/2024.03.8.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/release/2024.03.8.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/release/2024.03.8.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/en/release/2024.03.9.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/release/2024.03.9.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/release/2024.03.9.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/en/release/2024.3.10.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/release/2024.3.10.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/release/2024.3.10.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/en/release/2024.3.11.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/release/2024.3.11.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/release/2024.3.11.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/en/release/2024.4.0.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/release/2024.4.0.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/release/2024.4.0.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/en/release/latest.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/release/latest.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/release/latest.html"/>
+    </url>
+    <url>
+        <loc>https://databap.edurt.io/en/resources/functions/home.html</loc>
+        <lastmod>2024-12-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://databap.edurt.io/en/resources/functions/home.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://databap.edurt.io/resources/functions/home.html"/>
+    </url>
+</urlset>

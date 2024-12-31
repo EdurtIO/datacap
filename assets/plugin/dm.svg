@@ -1,0 +1,61 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+    <!-- Background -->
+    <!-- 背景 -->
+    <circle cx="100" cy="100" r="100" fill="#0066CC" />
+
+    <!-- Abstract DM representation -->
+    <!-- 抽象DM表示 -->
+    <g transform="translate(15, 30)">
+        <!-- D Letter Shape -->
+        <!-- D字母形状 -->
+        <path d="M20 20
+                 L50 20
+                 Q80 20 80 50
+                 L80 70
+                 Q80 100 50 100
+                 L20 100 Z"
+              fill="white"/>
+
+        <!-- M Letter Shape -->
+        <!-- M字母形状 -->
+        <path d="M90 20
+                 L110 20
+                 L120 50
+                 L130 20
+                 L150 20
+                 L150 100
+                 L130 100
+                 L130 50
+                 L120 80
+                 L110 50
+                 L110 100
+                 L90 100 Z"
+              fill="white"/>
+    </g>
+
+    <!-- Database layers -->
+    <!-- 数据库层 -->
+    <g transform="translate(60, 120)">
+        <path d="M40 0
+                 Q80 0 80 15
+                 Q80 30 40 30
+                 Q0 30 0 15
+                 Q0 0 40 0"
+              fill="white" fill-opacity="0.3"/>
+        <path d="M0 15
+                 Q0 30 40 30
+                 Q80 30 80 15"
+              fill="none" stroke="white" stroke-width="2"/>
+    </g>
+
+    <!-- Text -->
+    <!-- 文本 -->
+    <text x="100" y="170"
+          font-family="Arial, sans-serif"
+          font-weight="bold"
+          font-size="16"
+          fill="white"
+          text-anchor="middle">
+        DAMENG
+    </text>
+</svg>

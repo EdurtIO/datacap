@@ -1,0 +1,14 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+    <!-- 背景圆形 -->
+    <!-- Background circle -->
+    <circle cx="100" cy="100" r="100" fill="#F5F8FA" />
+
+    <text x="100" y="110"
+          font-family="Arial, sans-serif"
+          font-weight="bold"
+          font-size="28"
+          fill="#FFCC00"
+          text-anchor="middle">
+        CeresDB
+    </text>
+</svg>

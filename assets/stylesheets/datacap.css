@@ -1,0 +1,28 @@
+[dir=ltr] .md-nav__item--section > .md-nav {
+    margin-left: 5px;
+}
+
+.md-nav--lifted > .md-nav__list > .md-nav__item--active > .md-nav__link:not(.md-nav__container) {
+    margin-left: -12px;
+}
+
+.grid.cards.custom {
+    display: grid !important;
+    grid-template-columns: repeat(6, 1fr) !important;
+    gap: 0.4rem !important;
+}
+
+.grid.cards.custom .connector-logo-index img {
+    transition: transform 0.2s ease;
+}
+
+.grid.cards.custom .connector-logo-index img:hover {
+    transform: scale(1.1);
+}
+
+.md-typeset .grid.cards.custom > ol > li,
+.md-typeset .grid.cards.custom > ul > li,
+.md-typeset .grid.cards.custom > .card {
+    border: none;
+    box-shadow: none;
+}

@@ -1,0 +1,34 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+    <circle cx="100" cy="100" r="100" fill="#F5F8FA" />
+
+    <circle cx="100" cy="100" r="100" fill="none" stroke="#E1E8ED" stroke-width="2" />
+
+    <g transform="translate(30, 25) scale(0.4)">
+        <defs>
+            <path d="M20.205 31.816H347.03V313.87H20.205V31.816z" id="a" />
+            <linearGradient y1="283.316" id="c" x1="323.795" y2="22.6459" x2="72.1141" gradientUnits="userSpaceOnUse" gradientTransform="translate(20 31)">
+                <stop stop-color="#892c6c" offset="0" />
+                <stop stop-color="#d14671" offset="1" />
+            </linearGradient>
+            <linearGradient y1="17.5099" id="d" x1="57.9878" y2="279.464" x2="318.658" gradientUnits="userSpaceOnUse" gradientTransform="translate(20 31)">
+                <stop stop-color="#c34170" offset="0" />
+                <stop stop-color="#8b2c6c" offset="1" />
+            </linearGradient>
+            <linearGradient y1="276.898" id="e" x1="312.238" y2="17.5118" x2="46.4317" gradientUnits="userSpaceOnUse" gradientTransform="translate(20 31)">
+                <stop stop-color="#882b6b" offset="0" />
+                <stop stop-color="#cf4671" offset="1" />
+            </linearGradient>
+            <linearGradient y1="192.381" id="f" x1="34.7127" y2="89.5761" x2="70.973" gradientUnits="userSpaceOnUse" gradientTransform="translate(20 31)">
+                <stop stop-color="#ffffff" offset="0" />
+                <stop stop-color="#ffffff" offset="0.8598" />
+                <stop stop-color="#ffffff" offset="1" />
+            </linearGradient>
+        </defs>
+        <g clip-path="url(#b)">
+            <path d="M73.828 172.617c0-48.895 40.218-88.283 90.143-88.283 18.029 0 34.67 4.98 48.538 14.035L251.34 60.79c-24.038-18.109-54.548-28.975-87.369-28.975-79.51 0-143.766 62.93-143.766 140.801 0 77.871 64.256 140.801 143.766 140.801v-52.517c-49.925 0-90.143-39.388-90.143-88.284z" fill="url(#c)" />
+            <path d="M254.113 172.618h53.624c0-37.124-14.793-71.079-38.831-96.432L231 113.31c14.33 15.846 23.113 36.671 23.113 59.308z" fill="url(#d)" />
+            <path d="M207.886 177.146h-79.048l139.605 136.727 78.586-.453-139.143-136.274z" fill="url(#e)" />
+            <path d="M39.158 102.447c-34.67 98.697 68.878 139.896 68.878 139.896-11.094-8.15-24.962-27.164-29.123-40.747-8.783-28.069-6.01-50.253 8.321-74.701" opacity="0.6" fill="url(#f)" />
+        </g>
+    </g>
+</svg>
