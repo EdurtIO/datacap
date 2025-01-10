@@ -14,7 +14,7 @@
     <div class="relative mt-2">
       <ShadcnSpin v-model="loading"/>
 
-      <AceEditor v-if="formState.statement" :value="formState.statement" :read-only="true"/>
+      <AceEditor v-if="!loading && formState.statement" :value="formState.statement" :read-only="true"/>
     </div>
 
     <template #footer>
@@ -36,10 +36,7 @@
 
 <script lang="ts">
 import { defineComponent } from 'vue'
-import { StructureModel } from '@/model/structure.ts'
-import TableService from '@/services/table'
-import { SqlType, TableFilter, TableFilterRequest } from '@/model/table'
-
+import MetadataService from '@/services/metadata'
 import AceEditor from '@/views/components/editor/AceEditor.vue'
 
 export default defineComponent({
@@ -60,9 +57,6 @@ export default defineComponent({
   props: {
     isVisible: {
       type: Boolean
-    },
-    info: {
-      type: Object as () => StructureModel | null
     }
   },
   data()
@@ -71,60 +65,66 @@ export default defineComponent({
       loading: false,
       submitting: false,
       title: null as string | null,
-      formState: null as unknown as TableFilter
+      formState: null as any
     }
   },
   created()
   {
-    this.formState = TableFilterRequest.of()
-    this.formState.type = SqlType.DROP
-    if (this.info) {
-      this.title = this.$t('source.common.dropTableInfo').replace('$VALUE', String(this.info.title))
+    this.formState = {
+      preview: false,
+      statement: null
+    }
 
+    const table = this.$route.params?.table
+    if (table) {
+      this.title = this.$t('source.common.dropTableInfo').replace('$VALUE', table)
       this.onSubmit(true)
     }
   },
   methods: {
     onSubmit(preview: boolean)
     {
-      if (this.info && this.formState) {
+      const code = this.$route.params?.source
+      const database = this.$route.params?.database
+      const table = this.$route.params?.table
+
+      if (code && database && table) {
         if (preview) {
           this.loading = true
         }
         else {
           this.submitting = true
         }
-        this.formState.preview = preview
-        TableService.getData(String(this.info.value), this.formState)
-                    .then(response => {
-                      if (response.status) {
-                        if (preview) {
-                          this.formState.statement = response.data.content
-                        }
-                        else {
-                          this.$Message.success({
-                            content: this.$t('source.tip.dropTableSuccess').replace('$VALUE', String(this.info?.title)),
-                            showIcon: true
-                          })
+        MetadataService.dropTable(code, database, table, { preview })
+                       .then(response => {
+                         if (response.status) {
+                           if (preview) {
+                             this.formState.statement = response.data.content
+                           }
+                           else {
+                             this.$Message.success({
+                               content: this.$t('source.tip.dropTableSuccess').replace('$VALUE', table),
+                               showIcon: true
+                             })
 
-                          this.onCancel()
-                        }
-                      }
-                      else {
-                        this.$Message.error({
-                          content: response.message,
-                          showIcon: true
-                        })
-                      }
-                    })
-                    .finally(() => {
-                      if (preview) {
-                        this.loading = false
-                      }
-                      else {
-                        this.submitting = false
-                      }
-                    })
+                             this.onCancel()
+                           }
+                         }
+                         else {
+                           this.$Message.error({
+                             content: response.message,
+                             showIcon: true
+                           })
+                         }
+                       })
+                       .finally(() => {
+                         if (preview) {
+                           this.loading = false
+                         }
+                         else {
+                           this.submitting = false
+                         }
+                       })
       }
     },
     onCancel()

@@ -1,7 +1,7 @@
 {
   "name": "datacap-ui",
   "description": "DataCap console",
-  "version": "2024.4.1",
+  "version": "2025.1.0",
   "private": true,
   "scripts": {
     "dev": "vite",

@@ -145,10 +145,6 @@ public class SourceEntity
 
     @OneToMany(mappedBy = "source", cascade = CascadeType.REMOVE)
     @JsonIgnore
-    private List<DatabaseEntity> databases;
-
-    @OneToMany(mappedBy = "source", cascade = CascadeType.REMOVE)
-    @JsonIgnore
     private List<ScheduledHistoryEntity> historys;
 
     @Transient

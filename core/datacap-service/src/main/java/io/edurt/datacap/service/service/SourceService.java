@@ -26,6 +26,4 @@ public interface SourceService
     CommonResponse<ResponseWrapper> testConnection(SourceBody configure);
 
     CommonResponse<PageEntity<ScheduledHistoryEntity>> getHistory(String code, FilterBody filter);
-
-    CommonResponse<SourceEntity> syncMetadata(String code);
 }

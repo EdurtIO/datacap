@@ -2,13 +2,13 @@ import GridOptions from '@/views/components/grid/GridOptions'
 
 const createHeaders = (i18n: any) => {
     return [
-        { key: 'name', label: i18n.t('common.name') },
-        { key: 'dataType', label: i18n.t('common.type') },
-        { key: 'maximumLength', label: i18n.t('common.length') },
-        { key: 'isNullable', label: i18n.t('source.common.isNullable'), slot: 'isNullable' },
-        { key: 'defaultValue', label: i18n.t('source.common.defaultValue') },
-        { key: 'comment', label: i18n.t('source.common.comment') },
-        { key: 'extra', label: i18n.t('source.common.extra') }
+        { key: 'object_name', label: i18n.t('common.name') },
+        { key: 'object_data_type', label: i18n.t('common.type') },
+        { key: 'object_position', label: i18n.t('common.position') },
+        { key: 'object_nullable', label: i18n.t('source.common.isNullable'), slot: 'object_nullable' },
+        { key: 'object_default_value', label: i18n.t('source.common.defaultValue') },
+        { key: 'object_comment', label: i18n.t('source.common.comment') },
+        { key: 'object_definition', label: i18n.t('source.common.extra') }
     ]
 }
 

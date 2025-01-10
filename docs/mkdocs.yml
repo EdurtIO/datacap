@@ -137,6 +137,7 @@ plugins:
             ApiMenu: 菜单 API
             ApiPipeline: 流水线 API
             ApiWorkflow: 工作流 API
+            ApiMetadata: 元数据 API
             NavDriver: 驱动
         - locale: en
           name: English
@@ -165,6 +166,7 @@ plugins:
             ApiMenu: Menu API
             ApiPipeline: Pipeline API
             ApiWorkflow: Workflow API
+            ApiMetadata: Metadata API
             NavDriver: Driver
   - search
   - git-revision-date-localized:
@@ -334,6 +336,19 @@ nav:
         - api/workflow/delete.md
         - api/workflow/log.md
         - api/workflow/restart.md
+      - ApiMetadata:
+          - api/metadata/database.md
+          - api/metadata/databaseInfo.md
+          - api/metadata/table.md
+          - api/metadata/tableInfo.md
+          - api/metadata/tableStatement.md
+          - api/metadata/tableAutoIncrement.md
+          - api/metadata/table-create.md
+          - api/metadata/table-drop.md
+          - api/metadata/table-truncate.md
+          - api/metadata/engines.md
+          - api/metadata/column.md
+          - api/metadata/data-types.md
   - NavDriver:
       - driver/mongodb.md
   - useCases.md

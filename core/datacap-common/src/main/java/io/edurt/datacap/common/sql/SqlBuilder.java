@@ -28,7 +28,7 @@ public class SqlBuilder
     public SqlBuilder(final SqlBody configure)
     {
         this.configure = new SqlBody(configure.getDatabase(), configure.getTable(), configure.getColumns(), configure.getGroups(), configure.getOrders(), configure.getLimit(),
-                configure.getOffset(), configure.getWhere(), configure.getType(), configure.getValue(), configure.getCondition());
+                configure.getOffset(), configure.getWhere(), configure.getType(), configure.getValue(), configure.getCondition(), configure.isPreview());
     }
 
     public String getSql()
@@ -115,7 +115,7 @@ public class SqlBuilder
         return configure.getWhere()
                 .stream()
                 .map(column -> {
-                    String value = StringEscapeUtils.escapeSql(column.getValue());
+                    String value = StringEscapeUtils.escapeSql(String.valueOf(column.getValue()));
                     if (column.getOperator().equals(SqlOperator.LIKE) || column.getOperator().equals(SqlOperator.NLIKE)) {
                         value = StringEscapeUtils.escapeSql(String.format("%%%s%%", value));
                     }
@@ -165,7 +165,7 @@ public class SqlBuilder
         Preconditions.checkArgument(ArrayUtils.isNotEmpty(configure.getColumns().toArray(new SqlColumn[0])), "The columns must be specified");
         return configure.getColumns()
                 .stream()
-                .map(column -> String.format("`%s` = '%s'", column.getColumn(), StringEscapeUtils.escapeSql(column.getValue())))
+                .map(column -> String.format("`%s` = '%s'", column.getColumn(), StringEscapeUtils.escapeSql(String.valueOf(column.getValue()))))
                 .collect(Collectors.toList());
     }
 
@@ -173,7 +173,7 @@ public class SqlBuilder
     {
         return configure.getWhere()
                 .stream()
-                .map(column -> String.format("`%s` %s '%s'", column.getColumn(), column.getOperator().getSymbol(), StringEscapeUtils.escapeSql(column.getValue())))
+                .map(column -> String.format("`%s` %s '%s'", column.getColumn(), column.getOperator().getSymbol(), StringEscapeUtils.escapeSql(String.valueOf(column.getValue()))))
                 .collect(Collectors.toList());
     }
 
@@ -225,7 +225,7 @@ public class SqlBuilder
     {
         AlterBuilder.BEGIN();
         AlterBuilder.ALTER_TABLE(applyDatabaseAndTable());
-        AlterBuilder.AUTO_INCREMENT(configure.getValue());
+        AlterBuilder.AUTO_INCREMENT(String.valueOf(configure.getValue()));
         return AlterBuilder.SQL();
     }
 
@@ -256,7 +256,7 @@ public class SqlBuilder
         configure.getColumns()
                 .forEach(column -> {
                     columns.add(column.getColumn());
-                    values.add(column.getValue());
+                    values.add(String.valueOf(column.getValue()));
                 });
         InsertBuilder.INTO_COLUMNS(columns.toArray(new String[0]));
         InsertBuilder.INTO_VALUES(values.toArray(new String[0]));

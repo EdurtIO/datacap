@@ -6,7 +6,7 @@
     <parent>
         <groupId>io.edurt.datacap</groupId>
         <artifactId>datacap</artifactId>
-        <version>2024.4.1</version>
+        <version>2025.1.0</version>
         <relativePath>../../pom.xml</relativePath>
     </parent>
 
@@ -94,11 +94,6 @@
         </dependency>
         <dependency>
             <groupId>io.edurt.datacap</groupId>
-            <artifactId>datacap-sql</artifactId>
-            <version>${project.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>io.edurt.datacap</groupId>
             <artifactId>datacap-schedule</artifactId>
             <version>${project.version}</version>
         </dependency>
@@ -119,6 +114,11 @@
         <dependency>
             <groupId>io.edurt.datacap</groupId>
             <artifactId>datacap-executor-spi</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>io.edurt.datacap</groupId>
+            <artifactId>datacap-sql</artifactId>
             <version>${project.version}</version>
         </dependency>
     </dependencies>

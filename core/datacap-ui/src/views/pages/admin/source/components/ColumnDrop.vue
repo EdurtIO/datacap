@@ -37,8 +37,6 @@
 <script lang="ts">
 import { defineComponent } from 'vue'
 import { StructureModel } from '@/model/structure.ts'
-import TableService from '@/services/table'
-import { SqlType, TableFilter, TableFilterRequest } from '@/model/table'
 
 import AceEditor from '@/views/components/editor/AceEditor.vue'
 

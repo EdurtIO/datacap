@@ -10,15 +10,15 @@
       "description": "A powerful MySQL integration plugin that provides comprehensive database connectivity. Features include table/view management, data import/export, SQL query execution, stored procedure support, and real-time data synchronization. Optimized for high-performance data operations with connection pooling and batch processing capabilities.",
       "i18nFormat": true,
       "type": "Connector",
-      "version": "2024.4.1",
+      "version": "2025.1.0",
       "author": "datacap-community",
       "logo": "http://devlive-cdn.oss-cn-beijing.aliyuncs.com/applications/datacap/resources/logo/plugin/mysql.svg",
-      "released": "2024-12-31 09:47:06",
+      "released": "2025-01-08 18:56:55",
       "supportVersion": [
         "8.0",
         "5.7"
       ],
-      "url": "https://repo1.maven.org/maven2/io/edurt/datacap/datacap-plugin-mysql/2024.4.1/datacap-plugin-mysql-2024.4.1-bin.tar.gz"
+      "url": "https://repo1.maven.org/maven2/io/edurt/datacap/datacap-plugin-mysql/2025.1.0/datacap-plugin-mysql-2025.1.0-bin.tar.gz"
     },
     {
       "key": "datacap-plugin-clickhouse",
@@ -26,14 +26,14 @@
       "description": "ClickHouse is a distributed column-oriented database. It is a distributed database with a focus on performance, scalability, and ease of use.",
       "i18nFormat": true,
       "type": "Connector",
-      "version": "2024.4.1",
+      "version": "2025.1.0",
       "author": "datacap-community",
       "logo": "http://devlive-cdn.oss-cn-beijing.aliyuncs.com/applications/datacap/resources/logo/plugin/clickhouse.svg",
-      "released": "2024-12-31 09:47:06",
+      "released": "2025-01-08 18:56:55",
       "supportVersion": [
         "ALL"
       ],
-      "url": "https://repo1.maven.org/maven2/io/edurt/datacap/datacap-plugin-clickhouse/2024.4.1/datacap-plugin-clickhouse-2024.4.1-bin.tar.gz"
+      "url": "https://repo1.maven.org/maven2/io/edurt/datacap/datacap-plugin-clickhouse/2025.1.0/datacap-plugin-clickhouse-2025.1.0-bin.tar.gz"
     },
     {
       "key": "datacap-plugin-influxdb",
@@ -41,14 +41,14 @@
       "description": "InfluxDB is a time series database that stores and retrieves data points. It is a distributed database with a focus on performance, scalability, and ease of use.",
       "i18nFormat": true,
       "type": "Connector",
-      "version": "2024.4.1",
+      "version": "2025.1.0",
       "author": "datacap-community",
       "logo": "http://devlive-cdn.oss-cn-beijing.aliyuncs.com/applications/datacap/resources/logo/plugin/influxdb.svg",
-      "released": "2024-12-31 09:47:06",
+      "released": "2025-01-08 18:56:55",
       "supportVersion": [
         "ALL"
       ],
-      "url": "https://repo1.maven.org/maven2/io/edurt/datacap/datacap-plugin-influxdb/2024.4.1/datacap-plugin-influxdb-2024.4.1-bin.tar.gz"
+      "url": "https://repo1.maven.org/maven2/io/edurt/datacap/datacap-plugin-influxdb/2025.1.0/datacap-plugin-influxdb-2025.1.0-bin.tar.gz"
     },
     {
       "key": "datacap-plugin-solr",
@@ -56,14 +56,14 @@
       "description": "Solr is highly reliable, scalable and fault tolerant, providing distributed indexing, replication and load-balanced querying, automated failover and recovery, centralized configuration and more. Solr powers the search and navigation features of many of the world's largest internet sites.",
       "i18nFormat": true,
       "type": "Connector",
-      "version": "2024.4.1",
+      "version": "2025.1.0",
       "author": "datacap-community",
       "logo": "http://devlive-cdn.oss-cn-beijing.aliyuncs.com/applications/datacap/resources/logo/plugin/solr.svg",
-      "released": "2024-12-31 09:47:06",
+      "released": "2025-01-08 18:56:55",
       "supportVersion": [
         "ALL"
       ],
-      "url": "https://repo1.maven.org/maven2/io/edurt/datacap/datacap-plugin-solr/2024.4.1/datacap-plugin-solr-2024.4.1-bin.tar.gz"
+      "url": "https://repo1.maven.org/maven2/io/edurt/datacap/datacap-plugin-solr/2025.1.0/datacap-plugin-solr-2025.1.0-bin.tar.gz"
     },
     {
       "key": "datacap-plugin-cratedb",
@@ -71,14 +71,14 @@
       "description": "CrateDB is a hyper-fast database for real-time analytics and hybrid search. It handles multiple types of data and combines the simplicity of SQL with the scalability of a distributed architecture.",
       "i18nFormat": true,
       "type": "Connector",
-      "version": "2024.4.1",
+      "version": "2025.1.0",
       "author": "datacap-community",
       "logo": "http://devlive-cdn.oss-cn-beijing.aliyuncs.com/applications/datacap/resources/logo/plugin/cratedb.svg",
-      "released": "2024-12-31 09:47:06",
+      "released": "2025-01-08 18:56:55",
       "supportVersion": [
         "ALL"
       ],
-      "url": "https://repo1.maven.org/maven2/io/edurt/datacap/datacap-plugin-cratedb/2024.4.1/datacap-plugin-cratedb-2024.4.1-bin.tar.gz"
+      "url": "https://repo1.maven.org/maven2/io/edurt/datacap/datacap-plugin-cratedb/2025.1.0/datacap-plugin-cratedb-2025.1.0-bin.tar.gz"
     },
     {
       "key": "datacap-plugin-cratedb-http",
@@ -86,14 +86,14 @@
       "description": "Use HTTP to access the remote CrateDB database",
       "i18nFormat": true,
       "type": "Connector",
-      "version": "2024.4.1",
+      "version": "2025.1.0",
       "author": "datacap-community",
       "logo": "http://devlive-cdn.oss-cn-beijing.aliyuncs.com/applications/datacap/resources/logo/plugin/cratedbhttp.svg",
-      "released": "2024-12-31 09:47:06",
+      "released": "2025-01-08 18:56:55",
       "supportVersion": [
         "ALL"
       ],
-      "url": "https://repo1.maven.org/maven2/io/edurt/datacap/datacap-plugin-cratedb-http/2024.4.1/datacap-plugin-cratedb-http-2024.4.1-bin.tar.gz"
+      "url": "https://repo1.maven.org/maven2/io/edurt/datacap/datacap-plugin-cratedb-http/2025.1.0/datacap-plugin-cratedb-http-2025.1.0-bin.tar.gz"
     },
     {
       "key": "datacap-plugin-zookeeper",
@@ -101,14 +101,14 @@
       "description": "Zookeeper is a distributed, distributed configuration service. It is a distributed database with a focus on performance, scalability, and ease of use.",
       "i18nFormat": true,
       "type": "Connector",
-      "version": "2024.4.1",
+      "version": "2025.1.0",
       "author": "datacap-community",
       "logo": "http://devlive-cdn.oss-cn-beijing.aliyuncs.com/applications/datacap/resources/logo/plugin/zookeeper.svg",
-      "released": "2024-12-31 09:47:06",
+      "released": "2025-01-08 18:56:55",
       "supportVersion": [
         "ALL"
       ],
-      "url": "https://repo1.maven.org/maven2/io/edurt/datacap/datacap-plugin-zookeeper/2024.4.1/datacap-plugin-zookeeper-2024.4.1-bin.tar.gz"
+      "url": "https://repo1.maven.org/maven2/io/edurt/datacap/datacap-plugin-zookeeper/2025.1.0/datacap-plugin-zookeeper-2025.1.0-bin.tar.gz"
     },
     {
       "key": "datacap-plugin-kafka",
@@ -116,14 +116,14 @@
       "description": "Apache Kafka is an open-source distributed event streaming platform used by thousands of companies for high-performance data pipelines, streaming analytics, data integration, and mission-critical applications.",
       "i18nFormat": true,
       "type": "Connector",
-      "version": "2024.4.1",
+      "version": "2025.1.0",
       "author": "datacap-community",
       "logo": "http://devlive-cdn.oss-cn-beijing.aliyuncs.com/applications/datacap/resources/logo/plugin/kafka.svg",
-      "released": "2024-12-31 09:47:06",
+      "released": "2025-01-08 18:56:55",
       "supportVersion": [
         "ALL"
       ],
-      "url": "https://repo1.maven.org/maven2/io/edurt/datacap/datacap-plugin-kafka/2024.4.1/datacap-plugin-kafka-2024.4.1-bin.tar.gz"
+      "url": "https://repo1.maven.org/maven2/io/edurt/datacap/datacap-plugin-kafka/2025.1.0/datacap-plugin-kafka-2025.1.0-bin.tar.gz"
     },
     {
       "key": "datacap-plugin-redis",
@@ -131,14 +131,14 @@
       "description": "Redis is an in-memory data store used by millions of developers as a cache, vector database, document database, streaming engine, and message broker. Redis has built-in replication and different levels of on-disk persistence. It supports complex data types (for example, strings, hashes, lists, sets, sorted sets, and JSON), with atomic operations defined on those data types.",
       "i18nFormat": true,
       "type": "Connector",
-      "version": "2024.4.1",
+      "version": "2025.1.0",
       "author": "datacap-community",
       "logo": "http://devlive-cdn.oss-cn-beijing.aliyuncs.com/applications/datacap/resources/logo/plugin/redis.svg",
-      "released": "2024-12-31 09:47:06",
+      "released": "2025-01-08 18:56:55",
       "supportVersion": [
         "ALL"
       ],
-      "url": "https://repo1.maven.org/maven2/io/edurt/datacap/datacap-plugin-redis/2024.4.1/datacap-plugin-redis-2024.4.1-bin.tar.gz"
+      "url": "https://repo1.maven.org/maven2/io/edurt/datacap/datacap-plugin-redis/2025.1.0/datacap-plugin-redis-2025.1.0-bin.tar.gz"
     },
     {
       "key": "datacap-plugin-h2",
@@ -146,14 +146,14 @@
       "description": "H2 is a small, fast, and easy-to-use in-memory database.",
       "i18nFormat": true,
       "type": "Connector",
-      "version": "2024.4.1",
+      "version": "2025.1.0",
       "author": "datacap-community",
       "logo": "http://devlive-cdn.oss-cn-beijing.aliyuncs.com/applications/datacap/resources/logo/plugin/h2.svg",
-      "released": "2024-12-31 09:47:06",
+      "released": "2025-01-08 18:56:55",
       "supportVersion": [
         "ALL"
       ],
-      "url": "https://repo1.maven.org/maven2/io/edurt/datacap/datacap-plugin-h2/2024.4.1/datacap-plugin-h2-2024.4.1-bin.tar.gz"
+      "url": "https://repo1.maven.org/maven2/io/edurt/datacap/datacap-plugin-h2/2025.1.0/datacap-plugin-h2-2025.1.0-bin.tar.gz"
     },
     {
       "key": "datacap-plugin-db2",
@@ -161,14 +161,14 @@
       "description": "IBM® Db2® is the cloud-native database built to power low-latency transactions, real-time analytics and AI applications at scale.",
       "i18nFormat": true,
       "type": "Connector",
-      "version": "2024.4.1",
+      "version": "2025.1.0",
       "author": "datacap-community",
       "logo": "http://devlive-cdn.oss-cn-beijing.aliyuncs.com/applications/datacap/resources/logo/plugin/db2.svg",
-      "released": "2024-12-31 09:47:06",
+      "released": "2025-01-08 18:56:55",
       "supportVersion": [
         "ALL"
       ],
-      "url": "https://repo1.maven.org/maven2/io/edurt/datacap/datacap-plugin-db2/2024.4.1/datacap-plugin-db2-2024.4.1-bin.tar.gz"
+      "url": "https://repo1.maven.org/maven2/io/edurt/datacap/datacap-plugin-db2/2025.1.0/datacap-plugin-db2-2025.1.0-bin.tar.gz"
     },
     {
       "key": "datacap-plugin-dm",
@@ -176,14 +176,14 @@
       "description": "A professional database software developer and service provider, we provide users with technically advanced and detailed products.",
       "i18nFormat": true,
       "type": "Connector",
-      "version": "2024.4.1",
+      "version": "2025.1.0",
       "author": "datacap-community",
       "logo": "http://devlive-cdn.oss-cn-beijing.aliyuncs.com/applications/datacap/resources/logo/plugin/dm.svg",
-      "released": "2024-12-31 09:47:06",
+      "released": "2025-01-08 18:56:55",
       "supportVersion": [
         "ALL"
       ],
-      "url": "https://repo1.maven.org/maven2/io/edurt/datacap/datacap-plugin-dm/2024.4.1/datacap-plugin-dm-2024.4.1-bin.tar.gz"
+      "url": "https://repo1.maven.org/maven2/io/edurt/datacap/datacap-plugin-dm/2025.1.0/datacap-plugin-dm-2025.1.0-bin.tar.gz"
     },
     {
       "key": "datacap-plugin-hdfs",
@@ -191,14 +191,14 @@
       "description": "Hadoop Distributed File System (HDFS) is a distributed file system based on the Hadoop project.",
       "i18nFormat": true,
       "type": "Connector",
-      "version": "2024.4.1",
+      "version": "2025.1.0",
       "author": "datacap-community",
       "logo": "http://devlive-cdn.oss-cn-beijing.aliyuncs.com/applications/datacap/resources/logo/plugin/hdfs.svg",
-      "released": "2024-12-31 09:47:06",
+      "released": "2025-01-08 18:56:55",
       "supportVersion": [
         "ALL"
       ],
-      "url": "https://repo1.maven.org/maven2/io/edurt/datacap/datacap-plugin-hdfs/2024.4.1/datacap-plugin-hdfs-2024.4.1-bin.tar.gz"
+      "url": "https://repo1.maven.org/maven2/io/edurt/datacap/datacap-plugin-hdfs/2025.1.0/datacap-plugin-hdfs-2025.1.0-bin.tar.gz"
     },
     {
       "key": "datacap-plugin-alioss",
@@ -206,14 +206,14 @@
       "description": "Ali OSS is a cloud storage service that provides a simple, secure and efficient way to store and manage data.",
       "i18nFormat": true,
       "type": "Connector",
-      "version": "2024.4.1",
+      "version": "2025.1.0",
       "author": "datacap-community",
       "logo": "http://devlive-cdn.oss-cn-beijing.aliyuncs.com/applications/datacap/resources/logo/plugin/alioss.svg",
-      "released": "2024-12-31 09:47:06",
+      "released": "2025-01-08 18:56:55",
       "supportVersion": [
         "ALL"
       ],
-      "url": "https://repo1.maven.org/maven2/io/edurt/datacap/datacap-plugin-alioss/2024.4.1/datacap-plugin-alioss-2024.4.1-bin.tar.gz"
+      "url": "https://repo1.maven.org/maven2/io/edurt/datacap/datacap-plugin-alioss/2025.1.0/datacap-plugin-alioss-2025.1.0-bin.tar.gz"
     },
     {
       "key": "datacap-plugin-dremio",
@@ -221,14 +221,14 @@
       "description": "Dremio is a free, open source, distributed data platform.",
       "i18nFormat": true,
       "type": "Connector",
-      "version": "2024.4.1",
+      "version": "2025.1.0",
       "author": "datacap-community",
       "logo": "http://devlive-cdn.oss-cn-beijing.aliyuncs.com/applications/datacap/resources/logo/plugin/dremio.svg",
-      "released": "2024-12-31 09:47:06",
+      "released": "2025-01-08 18:56:55",
       "supportVersion": [
         "ALL"
       ],
-      "url": "https://repo1.maven.org/maven2/io/edurt/datacap/datacap-plugin-dremio/2024.4.1/datacap-plugin-dremio-2024.4.1-bin.tar.gz"
+      "url": "https://repo1.maven.org/maven2/io/edurt/datacap/datacap-plugin-dremio/2025.1.0/datacap-plugin-dremio-2025.1.0-bin.tar.gz"
     },
     {
       "key": "datacap-plugin-druid",
@@ -236,14 +236,14 @@
       "description": "A high performance, real-time analytics database that delivers sub-second queries on streaming and batch data at scale and under load.",
       "i18nFormat": true,
       "type": "Connector",
-      "version": "2024.4.1",
+      "version": "2025.1.0",
       "author": "datacap-community",
       "logo": "http://devlive-cdn.oss-cn-beijing.aliyuncs.com/applications/datacap/resources/logo/plugin/druid.svg",
-      "released": "2024-12-31 09:47:06",
+      "released": "2025-01-08 18:56:55",
       "supportVersion": [
         "ALL"
       ],
-      "url": "https://repo1.maven.org/maven2/io/edurt/datacap/datacap-plugin-druid/2024.4.1/datacap-plugin-druid-2024.4.1-bin.tar.gz"
+      "url": "https://repo1.maven.org/maven2/io/edurt/datacap/datacap-plugin-druid/2025.1.0/datacap-plugin-druid-2025.1.0-bin.tar.gz"
     },
     {
       "key": "datacap-plugin-duckdb",
@@ -251,14 +251,14 @@
       "description": "To use DuckDB, you must first create a connection to a database. The exact syntax varies between the client APIs but it typically involves passing an argument to configure persistence.",
       "i18nFormat": true,
       "type": "Connector",
-      "version": "2024.4.1",
+      "version": "2025.1.0",
       "author": "datacap-community",
       "logo": "http://devlive-cdn.oss-cn-beijing.aliyuncs.com/applications/datacap/resources/logo/plugin/duckdb.svg",
-      "released": "2024-12-31 09:47:06",
+      "released": "2025-01-08 18:56:55",
       "supportVersion": [
         "ALL"
       ],
-      "url": "https://repo1.maven.org/maven2/io/edurt/datacap/datacap-plugin-duckdb/2024.4.1/datacap-plugin-duckdb-2024.4.1-bin.tar.gz"
+      "url": "https://repo1.maven.org/maven2/io/edurt/datacap/datacap-plugin-duckdb/2025.1.0/datacap-plugin-duckdb-2025.1.0-bin.tar.gz"
     },
     {
       "key": "datacap-plugin-pinot",
@@ -266,14 +266,14 @@
       "description": "Apache Pinot is a real-time distributed OLAP datastore, built to deliver scalable real-time analytics with low latency. It can ingest from batch data sources (such as Hadoop HDFS, Amazon S3, Azure ADLS, Google Cloud Storage) as well as stream data sources (such as Apache Kafka).",
       "i18nFormat": true,
       "type": "Connector",
-      "version": "2024.4.1",
+      "version": "2025.1.0",
       "author": "datacap-community",
       "logo": "http://devlive-cdn.oss-cn-beijing.aliyuncs.com/applications/datacap/resources/logo/plugin/pinot.svg",
-      "released": "2024-12-31 09:47:06",
+      "released": "2025-01-08 18:56:55",
       "supportVersion": [
         "ALL"
       ],
-      "url": "https://repo1.maven.org/maven2/io/edurt/datacap/datacap-plugin-pinot/2024.4.1/datacap-plugin-pinot-2024.4.1-bin.tar.gz"
+      "url": "https://repo1.maven.org/maven2/io/edurt/datacap/datacap-plugin-pinot/2025.1.0/datacap-plugin-pinot-2025.1.0-bin.tar.gz"
     },
     {
       "key": "datacap-plugin-cassandra",
@@ -281,14 +281,14 @@
       "description": "Cassandra is a distributed key-value store for the cloud.",
       "i18nFormat": true,
       "type": "Connector",
-      "version": "2024.4.1",
+      "version": "2025.1.0",
       "author": "datacap-community",
       "logo": "http://devlive-cdn.oss-cn-beijing.aliyuncs.com/applications/datacap/resources/logo/plugin/cassandra.svg",
-      "released": "2024-12-31 09:47:06",
+      "released": "2025-01-08 18:56:55",
       "supportVersion": [
         "ALL"
       ],
-      "url": "https://repo1.maven.org/maven2/io/edurt/datacap/datacap-plugin-cassandra/2024.4.1/datacap-plugin-cassandra-2024.4.1-bin.tar.gz"
+      "url": "https://repo1.maven.org/maven2/io/edurt/datacap/datacap-plugin-cassandra/2025.1.0/datacap-plugin-cassandra-2025.1.0-bin.tar.gz"
     },
     {
       "key": "datacap-plugin-matrixone",
@@ -296,14 +296,14 @@
       "description": "MatrixOne is a hyper-converged cloud & edge native distributed database with a structure that separates storage, computation, and transactions to form a consolidated HSTAP data engine. This engine enables a single database system to accommodate diverse business loads such as OLTP, OLAP, and stream computing. It also supports deployment and utilization across public, private, and edge clouds, ensuring compatibility with diverse infrastructures.",
       "i18nFormat": true,
       "type": "Connector",
-      "version": "2024.4.1",
+      "version": "2025.1.0",
       "author": "datacap-community",
       "logo": "http://devlive-cdn.oss-cn-beijing.aliyuncs.com/applications/datacap/resources/logo/plugin/matrixone.svg",
-      "released": "2024-12-31 09:47:06",
+      "released": "2025-01-08 18:56:55",
       "supportVersion": [
         "ALL"
       ],
-      "url": "https://repo1.maven.org/maven2/io/edurt/datacap/datacap-plugin-matrixone/2024.4.1/datacap-plugin-matrixone-2024.4.1-bin.tar.gz"
+      "url": "https://repo1.maven.org/maven2/io/edurt/datacap/datacap-plugin-matrixone/2025.1.0/datacap-plugin-matrixone-2025.1.0-bin.tar.gz"
     },
     {
       "key": "datacap-plugin-scylladb",
@@ -311,14 +311,14 @@
       "description": "ScyllaDB is a distributed database written in C++ and designed to fully exploit modern cloud infrastructure. It utilizes a shard-per-core architecture, meaning each CPU core has dedicated resources that independently handle data for maximum efficiency. ",
       "i18nFormat": true,
       "type": "Connector",
-      "version": "2024.4.1",
+      "version": "2025.1.0",
       "author": "datacap-community",
       "logo": "http://devlive-cdn.oss-cn-beijing.aliyuncs.com/applications/datacap/resources/logo/plugin/scylladb.svg",
-      "released": "2024-12-31 09:47:06",
+      "released": "2025-01-08 18:56:55",
       "supportVersion": [
         "ALL"
       ],
-      "url": "https://repo1.maven.org/maven2/io/edurt/datacap/datacap-plugin-scylladb/2024.4.1/datacap-plugin-scylladb-2024.4.1-bin.tar.gz"
+      "url": "https://repo1.maven.org/maven2/io/edurt/datacap/datacap-plugin-scylladb/2025.1.0/datacap-plugin-scylladb-2025.1.0-bin.tar.gz"
     },
     {
       "key": "datacap-plugin-paradedb",
@@ -326,14 +326,14 @@
       "description": "ParadeDB is a modern Elasticsearch alternative built on Postgres. Built for real-time, update-heavy workloads.",
       "i18nFormat": true,
       "type": "Connector",
-      "version": "2024.4.1",
+      "version": "2025.1.0",
       "author": "datacap-community",
       "logo": "http://devlive-cdn.oss-cn-beijing.aliyuncs.com/applications/datacap/resources/logo/plugin/paradedb.svg",
-      "released": "2024-12-31 09:47:06",
+      "released": "2025-01-08 18:56:55",
       "supportVersion": [
         "ALL"
       ],
-      "url": "https://repo1.maven.org/maven2/io/edurt/datacap/datacap-plugin-paradedb/2024.4.1/datacap-plugin-paradedb-2024.4.1-bin.tar.gz"
+      "url": "https://repo1.maven.org/maven2/io/edurt/datacap/datacap-plugin-paradedb/2025.1.0/datacap-plugin-paradedb-2025.1.0-bin.tar.gz"
     },
     {
       "key": "datacap-plugin-hive-2x",
@@ -341,14 +341,14 @@
       "description": "The Apache Hive ™ is a distributed, fault-tolerant data warehouse system that enables analytics at a massive scale and facilitates reading, writing, and managing petabytes of data residing in distributed storage using SQL.",
       "i18nFormat": true,
       "type": "Connector",
-      "version": "2024.4.1",
+      "version": "2025.1.0",
       "author": "datacap-community",
       "logo": "http://devlive-cdn.oss-cn-beijing.aliyuncs.com/applications/datacap/resources/logo/plugin/hive2x.svg",
-      "released": "2024-12-31 09:47:06",
+      "released": "2025-01-08 18:56:55",
       "supportVersion": [
         "2.x"
       ],
-      "url": "https://repo1.maven.org/maven2/io/edurt/datacap/datacap-plugin-hive-2x/2024.4.1/datacap-plugin-hive-2x-2024.4.1-bin.tar.gz"
+      "url": "https://repo1.maven.org/maven2/io/edurt/datacap/datacap-plugin-hive-2x/2025.1.0/datacap-plugin-hive-2x-2025.1.0-bin.tar.gz"
     },
     {
       "key": "datacap-plugin-kyuubi",
@@ -356,14 +356,14 @@
       "description": "Apache Kyuubi, a distributed and multi-tenant gateway to provide serverless SQL on lakehouses.",
       "i18nFormat": true,
       "type": "Connector",
-      "version": "2024.4.1",
+      "version": "2025.1.0",
       "author": "datacap-community",
       "logo": "http://devlive-cdn.oss-cn-beijing.aliyuncs.com/applications/datacap/resources/logo/plugin/kyuubi.svg",
-      "released": "2024-12-31 09:47:06",
+      "released": "2025-01-08 18:56:55",
       "supportVersion": [
         "ALL"
       ],
-      "url": "https://repo1.maven.org/maven2/io/edurt/datacap/datacap-plugin-kyuubi/2024.4.1/datacap-plugin-kyuubi-2024.4.1-bin.tar.gz"
+      "url": "https://repo1.maven.org/maven2/io/edurt/datacap/datacap-plugin-kyuubi/2025.1.0/datacap-plugin-kyuubi-2025.1.0-bin.tar.gz"
     },
     {
       "key": "datacap-plugin-ignite",
@@ -371,14 +371,14 @@
       "description": "Apache Ignite is a distributed database for high-performance computing with in-memory speed.",
       "i18nFormat": true,
       "type": "Connector",
-      "version": "2024.4.1",
+      "version": "2025.1.0",
       "author": "datacap-community",
       "logo": "http://devlive-cdn.oss-cn-beijing.aliyuncs.com/applications/datacap/resources/logo/plugin/ignite.svg",
-      "released": "2024-12-31 09:47:06",
+      "released": "2025-01-08 18:56:55",
       "supportVersion": [
         "ALL"
       ],
-      "url": "https://repo1.maven.org/maven2/io/edurt/datacap/datacap-plugin-ignite/2024.4.1/datacap-plugin-ignite-2024.4.1-bin.tar.gz"
+      "url": "https://repo1.maven.org/maven2/io/edurt/datacap/datacap-plugin-ignite/2025.1.0/datacap-plugin-ignite-2025.1.0-bin.tar.gz"
     },
     {
       "key": "datacap-plugin-impala",
@@ -386,14 +386,14 @@
       "description": "Apache Impala is the open source, native analytic database for open data and table formats.",
       "i18nFormat": true,
       "type": "Connector",
-      "version": "2024.4.1",
+      "version": "2025.1.0",
       "author": "datacap-community",
       "logo": "http://devlive-cdn.oss-cn-beijing.aliyuncs.com/applications/datacap/resources/logo/plugin/impala.svg",
-      "released": "2024-12-31 09:47:06",
+      "released": "2025-01-08 18:56:55",
       "supportVersion": [
         "ALL"
       ],
-      "url": "https://repo1.maven.org/maven2/io/edurt/datacap/datacap-plugin-impala/2024.4.1/datacap-plugin-impala-2024.4.1-bin.tar.gz"
+      "url": "https://repo1.maven.org/maven2/io/edurt/datacap/datacap-plugin-impala/2025.1.0/datacap-plugin-impala-2025.1.0-bin.tar.gz"
     },
     {
       "key": "datacap-plugin-kylin",
@@ -401,14 +401,14 @@
       "description": "Apache Kylin is a leading open source OLAP engine for Big Data capable for sub-second query latency on trillions of records. Since being created and open sourced by eBay in 2014, and graduated to Top Level Project of Apache Software Foundation in 2015. Kylin has quickly been adopted by thousands of organizations world widely as their critical analytics application for Big Data.",
       "i18nFormat": true,
       "type": "Connector",
-      "version": "2024.4.1",
+      "version": "2025.1.0",
       "author": "datacap-community",
       "logo": "http://devlive-cdn.oss-cn-beijing.aliyuncs.com/applications/datacap/resources/logo/plugin/kylin.svg",
-      "released": "2024-12-31 09:47:06",
+      "released": "2025-01-08 18:56:55",
       "supportVersion": [
         "ALL"
       ],
-      "url": "https://repo1.maven.org/maven2/io/edurt/datacap/datacap-plugin-kylin/2024.4.1/datacap-plugin-kylin-2024.4.1-bin.tar.gz"
+      "url": "https://repo1.maven.org/maven2/io/edurt/datacap/datacap-plugin-kylin/2025.1.0/datacap-plugin-kylin-2025.1.0-bin.tar.gz"
     },
     {
       "key": "datacap-plugin-timescale",
@@ -416,14 +416,14 @@
       "description": "TimescaleDB is an open-source database designed to make SQL scalable for time-series data. It is engineered up from PostgreSQL and packaged as a PostgreSQL extension, providing automatic partitioning across time and space (partitioning key), as well as full SQL support.",
       "i18nFormat": true,
       "type": "Connector",
-      "version": "2024.4.1",
+      "version": "2025.1.0",
       "author": "datacap-community",
       "logo": "http://devlive-cdn.oss-cn-beijing.aliyuncs.com/applications/datacap/resources/logo/plugin/timescale.svg",
-      "released": "2024-12-31 09:47:06",
+      "released": "2025-01-08 18:56:55",
       "supportVersion": [
         "ALL"
       ],
-      "url": "https://repo1.maven.org/maven2/io/edurt/datacap/datacap-plugin-timescale/2024.4.1/datacap-plugin-timescale-2024.4.1-bin.tar.gz"
+      "url": "https://repo1.maven.org/maven2/io/edurt/datacap/datacap-plugin-timescale/2025.1.0/datacap-plugin-timescale-2025.1.0-bin.tar.gz"
     },
     {
       "key": "datacap-plugin-iotdb",
@@ -431,14 +431,14 @@
       "description": "Apache IoTDB (Database for Internet of Things) is an IoT native database with high performance for data management and analysis, deployable on the edge and the cloud. ",
       "i18nFormat": true,
       "type": "Connector",
-      "version": "2024.4.1",
+      "version": "2025.1.0",
       "author": "datacap-community",
       "logo": "http://devlive-cdn.oss-cn-beijing.aliyuncs.com/applications/datacap/resources/logo/plugin/iotdb.svg",
-      "released": "2024-12-31 09:47:06",
+      "released": "2025-01-08 18:56:55",
       "supportVersion": [
         "ALL"
       ],
-      "url": "https://repo1.maven.org/maven2/io/edurt/datacap/datacap-plugin-iotdb/2024.4.1/datacap-plugin-iotdb-2024.4.1-bin.tar.gz"
+      "url": "https://repo1.maven.org/maven2/io/edurt/datacap/datacap-plugin-iotdb/2025.1.0/datacap-plugin-iotdb-2025.1.0-bin.tar.gz"
     },
     {
       "key": "datacap-plugin-monetdb",
@@ -446,14 +446,14 @@
       "description": "MonetDB is a high performance relational database system for analytics.",
       "i18nFormat": true,
       "type": "Connector",
-      "version": "2024.4.1",
+      "version": "2025.1.0",
       "author": "datacap-community",
       "logo": "http://devlive-cdn.oss-cn-beijing.aliyuncs.com/applications/datacap/resources/logo/plugin/monetdb.svg",
-      "released": "2024-12-31 09:47:06",
+      "released": "2025-01-08 18:56:55",
       "supportVersion": [
         "ALL"
       ],
-      "url": "https://repo1.maven.org/maven2/io/edurt/datacap/datacap-plugin-monetdb/2024.4.1/datacap-plugin-monetdb-2024.4.1-bin.tar.gz"
+      "url": "https://repo1.maven.org/maven2/io/edurt/datacap/datacap-plugin-monetdb/2025.1.0/datacap-plugin-monetdb-2025.1.0-bin.tar.gz"
     },
     {
       "key": "datacap-plugin-ydb",
@@ -461,14 +461,14 @@
       "description": "YDB is a versatile open source Distributed SQL Database that combines high availability and scalability with strong consistency and ACID transactions. It accommodates transactional (OLTP), analytical (OLAP), and streaming workloads simultaneously.",
       "i18nFormat": true,
       "type": "Connector",
-      "version": "2024.4.1",
+      "version": "2025.1.0",
       "author": "datacap-community",
       "logo": "http://devlive-cdn.oss-cn-beijing.aliyuncs.com/applications/datacap/resources/logo/plugin/ydb.svg",
-      "released": "2024-12-31 09:47:06",
+      "released": "2025-01-08 18:56:55",
       "supportVersion": [
         "ALL"
       ],
-      "url": "https://repo1.maven.org/maven2/io/edurt/datacap/datacap-plugin-ydb/2024.4.1/datacap-plugin-ydb-2024.4.1-bin.tar.gz"
+      "url": "https://repo1.maven.org/maven2/io/edurt/datacap/datacap-plugin-ydb/2025.1.0/datacap-plugin-ydb-2025.1.0-bin.tar.gz"
     },
     {
       "key": "datacap-plugin-neo4j",
@@ -476,14 +476,14 @@
       "description": "Neo4j is a graph database for knowledge management and analysis.",
       "i18nFormat": true,
       "type": "Connector",
-      "version": "2024.4.1",
+      "version": "2025.1.0",
       "author": "datacap-community",
       "logo": "http://devlive-cdn.oss-cn-beijing.aliyuncs.com/applications/datacap/resources/logo/plugin/neo4j.svg",
-      "released": "2024-12-31 09:47:06",
+      "released": "2025-01-08 18:56:55",
       "supportVersion": [
         "ALL"
       ],
-      "url": "https://repo1.maven.org/maven2/io/edurt/datacap/datacap-plugin-neo4j/2024.4.1/datacap-plugin-neo4j-2024.4.1-bin.tar.gz"
+      "url": "https://repo1.maven.org/maven2/io/edurt/datacap/datacap-plugin-neo4j/2025.1.0/datacap-plugin-neo4j-2025.1.0-bin.tar.gz"
     },
     {
       "key": "datacap-plugin-oceanbase",
@@ -491,14 +491,14 @@
       "description": "OceanBase is an enterprise distributed relational database with high availability, high performance, horizontal scalability, and compatibility with SQL standards.",
       "i18nFormat": true,
       "type": "Connector",
-      "version": "2024.4.1",
+      "version": "2025.1.0",
       "author": "datacap-community",
       "logo": "http://devlive-cdn.oss-cn-beijing.aliyuncs.com/applications/datacap/resources/logo/plugin/oceanbase.svg",
-      "released": "2024-12-31 09:47:06",
+      "released": "2025-01-08 18:56:55",
       "supportVersion": [
         "ALL"
       ],
-      "url": "https://repo1.maven.org/maven2/io/edurt/datacap/datacap-plugin-oceanbase/2024.4.1/datacap-plugin-oceanbase-2024.4.1-bin.tar.gz"
+      "url": "https://repo1.maven.org/maven2/io/edurt/datacap/datacap-plugin-oceanbase/2025.1.0/datacap-plugin-oceanbase-2025.1.0-bin.tar.gz"
     },
     {
       "key": "datacap-plugin-oracle",
@@ -506,14 +506,14 @@
       "description": "Oracle is an advanced, enterprise-class relational database management system.",
       "i18nFormat": true,
       "type": "Connector",
-      "version": "2024.4.1",
+      "version": "2025.1.0",
       "author": "datacap-community",
       "logo": "http://devlive-cdn.oss-cn-beijing.aliyuncs.com/applications/datacap/resources/logo/plugin/oracle.svg",
-      "released": "2024-12-31 09:47:06",
+      "released": "2025-01-08 18:56:55",
       "supportVersion": [
         "ALL"
       ],
-      "url": "https://repo1.maven.org/maven2/io/edurt/datacap/datacap-plugin-oracle/2024.4.1/datacap-plugin-oracle-2024.4.1-bin.tar.gz"
+      "url": "https://repo1.maven.org/maven2/io/edurt/datacap/datacap-plugin-oracle/2025.1.0/datacap-plugin-oracle-2025.1.0-bin.tar.gz"
     },
     {
       "key": "datacap-plugin-phoenix",
@@ -521,14 +521,14 @@
       "description": "Apache Phoenix is a SQL skin over HBase delivered as a client-embedded JDBC driver targeting low latency queries over HBase data. ",
       "i18nFormat": true,
       "type": "Connector",
-      "version": "2024.4.1",
+      "version": "2025.1.0",
       "author": "datacap-community",
       "logo": "http://devlive-cdn.oss-cn-beijing.aliyuncs.com/applications/datacap/resources/logo/plugin/phoenix.svg",
-      "released": "2024-12-31 09:47:06",
+      "released": "2025-01-08 18:56:55",
       "supportVersion": [
         "ALL"
       ],
-      "url": "https://repo1.maven.org/maven2/io/edurt/datacap/datacap-plugin-phoenix/2024.4.1/datacap-plugin-phoenix-2024.4.1-bin.tar.gz"
+      "url": "https://repo1.maven.org/maven2/io/edurt/datacap/datacap-plugin-phoenix/2025.1.0/datacap-plugin-phoenix-2025.1.0-bin.tar.gz"
     },
     {
       "key": "datacap-plugin-postgresql",
@@ -536,14 +536,14 @@
       "description": "PostgreSQL is a powerful, open source object-relational database system.",
       "i18nFormat": true,
       "type": "Connector",
-      "version": "2024.4.1",
+      "version": "2025.1.0",
       "author": "datacap-community",
       "logo": "http://devlive-cdn.oss-cn-beijing.aliyuncs.com/applications/datacap/resources/logo/plugin/postgresql.svg",
-      "released": "2024-12-31 09:47:06",
+      "released": "2025-01-08 18:56:55",
       "supportVersion": [
         "ALL"
       ],
-      "url": "https://repo1.maven.org/maven2/io/edurt/datacap/datacap-plugin-postgresql/2024.4.1/datacap-plugin-postgresql-2024.4.1-bin.tar.gz"
+      "url": "https://repo1.maven.org/maven2/io/edurt/datacap/datacap-plugin-postgresql/2025.1.0/datacap-plugin-postgresql-2025.1.0-bin.tar.gz"
     },
     {
       "key": "datacap-plugin-presto",
@@ -551,14 +551,14 @@
       "description": "Presto is a distributed SQL query engine for big data.",
       "i18nFormat": true,
       "type": "Connector",
-      "version": "2024.4.1",
+      "version": "2025.1.0",
       "author": "datacap-community",
       "logo": "http://devlive-cdn.oss-cn-beijing.aliyuncs.com/applications/datacap/resources/logo/plugin/presto.svg",
-      "released": "2024-12-31 09:47:06",
+      "released": "2025-01-08 18:56:55",
       "supportVersion": [
         "ALL"
       ],
-      "url": "https://repo1.maven.org/maven2/io/edurt/datacap/datacap-plugin-presto/2024.4.1/datacap-plugin-presto-2024.4.1-bin.tar.gz"
+      "url": "https://repo1.maven.org/maven2/io/edurt/datacap/datacap-plugin-presto/2025.1.0/datacap-plugin-presto-2025.1.0-bin.tar.gz"
     },
     {
       "key": "datacap-plugin-snowflake",
@@ -566,14 +566,14 @@
       "description": "Snowflake is a database for analytics.",
       "i18nFormat": true,
       "type": "Connector",
-      "version": "2024.4.1",
+      "version": "2025.1.0",
       "author": "datacap-community",
       "logo": "http://devlive-cdn.oss-cn-beijing.aliyuncs.com/applications/datacap/resources/logo/plugin/snowflake.svg",
-      "released": "2024-12-31 09:47:06",
+      "released": "2025-01-08 18:56:55",
       "supportVersion": [
         "ALL"
       ],
-      "url": "https://repo1.maven.org/maven2/io/edurt/datacap/datacap-plugin-snowflake/2024.4.1/datacap-plugin-snowflake-2024.4.1-bin.tar.gz"
+      "url": "https://repo1.maven.org/maven2/io/edurt/datacap/datacap-plugin-snowflake/2025.1.0/datacap-plugin-snowflake-2025.1.0-bin.tar.gz"
     },
     {
       "key": "datacap-plugin-sqlserver",
@@ -581,14 +581,14 @@
       "description": "Microsoft SQL Server is a relational database management system.",
       "i18nFormat": true,
       "type": "Connector",
-      "version": "2024.4.1",
+      "version": "2025.1.0",
       "author": "datacap-community",
       "logo": "http://devlive-cdn.oss-cn-beijing.aliyuncs.com/applications/datacap/resources/logo/plugin/sqlserver.svg",
-      "released": "2024-12-31 09:47:06",
+      "released": "2025-01-08 18:56:55",
       "supportVersion": [
         "ALL"
       ],
-      "url": "https://repo1.maven.org/maven2/io/edurt/datacap/datacap-plugin-sqlserver/2024.4.1/datacap-plugin-sqlserver-2024.4.1-bin.tar.gz"
+      "url": "https://repo1.maven.org/maven2/io/edurt/datacap/datacap-plugin-sqlserver/2025.1.0/datacap-plugin-sqlserver-2025.1.0-bin.tar.gz"
     },
     {
       "key": "datacap-plugin-tdengine",
@@ -596,14 +596,14 @@
       "description": "TDengine is an open source, high-performance, cloud native time-series database optimized for Internet of Things (IoT), Connected Cars, and Industrial IoT.",
       "i18nFormat": true,
       "type": "Connector",
-      "version": "2024.4.1",
+      "version": "2025.1.0",
       "author": "datacap-community",
       "logo": "http://devlive-cdn.oss-cn-beijing.aliyuncs.com/applications/datacap/resources/logo/plugin/tdengine.svg",
-      "released": "2024-12-31 09:47:06",
+      "released": "2025-01-08 18:56:55",
       "supportVersion": [
         "ALL"
       ],
-      "url": "https://repo1.maven.org/maven2/io/edurt/datacap/datacap-plugin-tdengine/2024.4.1/datacap-plugin-tdengine-2024.4.1-bin.tar.gz"
+      "url": "https://repo1.maven.org/maven2/io/edurt/datacap/datacap-plugin-tdengine/2025.1.0/datacap-plugin-tdengine-2025.1.0-bin.tar.gz"
     },
     {
       "key": "datacap-plugin-trino",
@@ -611,14 +611,14 @@
       "description": "Trino is a distributed SQL query engine for big data.",
       "i18nFormat": true,
       "type": "Connector",
-      "version": "2024.4.1",
+      "version": "2025.1.0",
       "author": "datacap-community",
       "logo": "http://devlive-cdn.oss-cn-beijing.aliyuncs.com/applications/datacap/resources/logo/plugin/trino.svg",
-      "released": "2024-12-31 09:47:06",
+      "released": "2025-01-08 18:56:55",
       "supportVersion": [
         "ALL"
       ],
-      "url": "https://repo1.maven.org/maven2/io/edurt/datacap/datacap-plugin-trino/2024.4.1/datacap-plugin-trino-2024.4.1-bin.tar.gz"
+      "url": "https://repo1.maven.org/maven2/io/edurt/datacap/datacap-plugin-trino/2025.1.0/datacap-plugin-trino-2025.1.0-bin.tar.gz"
     },
     {
       "key": "datacap-plugin-doris",
@@ -626,14 +626,14 @@
       "description": "Apache Doris is a distributed OLAP database.",
       "i18nFormat": true,
       "type": "Connector",
-      "version": "2024.4.1",
+      "version": "2025.1.0",
       "author": "datacap-community",
       "logo": "http://devlive-cdn.oss-cn-beijing.aliyuncs.com/applications/datacap/resources/logo/plugin/doris.svg",
-      "released": "2024-12-31 09:47:06",
+      "released": "2025-01-08 18:56:55",
       "supportVersion": [
         "ALL"
       ],
-      "url": "https://repo1.maven.org/maven2/io/edurt/datacap/datacap-plugin-doris/2024.4.1/datacap-plugin-doris-2024.4.1-bin.tar.gz"
+      "url": "https://repo1.maven.org/maven2/io/edurt/datacap/datacap-plugin-doris/2025.1.0/datacap-plugin-doris-2025.1.0-bin.tar.gz"
     },
     {
       "key": "datacap-plugin-starrocks",
@@ -641,14 +641,14 @@
       "description": "StarRocks is a distributed OLAP database.",
       "i18nFormat": true,
       "type": "Connector",
-      "version": "2024.4.1",
+      "version": "2025.1.0",
       "author": "datacap-community",
       "logo": "http://devlive-cdn.oss-cn-beijing.aliyuncs.com/applications/datacap/resources/logo/plugin/starrocks.svg",
-      "released": "2024-12-31 09:47:06",
+      "released": "2025-01-08 18:56:55",
       "supportVersion": [
         "ALL"
       ],
-      "url": "https://repo1.maven.org/maven2/io/edurt/datacap/datacap-plugin-starrocks/2024.4.1/datacap-plugin-starrocks-2024.4.1-bin.tar.gz"
+      "url": "https://repo1.maven.org/maven2/io/edurt/datacap/datacap-plugin-starrocks/2025.1.0/datacap-plugin-starrocks-2025.1.0-bin.tar.gz"
     },
     {
       "key": "datacap-plugin-hologres",
@@ -656,14 +656,14 @@
       "description": "Hologres is a unified real-time data warehousing service developed by Alibaba Cloud. You can use Hologres to write, update, process, and analyze large amounts of data in real time.",
       "i18nFormat": true,
       "type": "Connector",
-      "version": "2024.4.1",
+      "version": "2025.1.0",
       "author": "datacap-community",
       "logo": "http://devlive-cdn.oss-cn-beijing.aliyuncs.com/applications/datacap/resources/logo/plugin/hologres.svg",
-      "released": "2024-12-31 09:47:06",
+      "released": "2025-01-08 18:56:55",
       "supportVersion": [
         "ALL"
       ],
-      "url": "https://repo1.maven.org/maven2/io/edurt/datacap/datacap-plugin-hologres/2024.4.1/datacap-plugin-hologres-2024.4.1-bin.tar.gz"
+      "url": "https://repo1.maven.org/maven2/io/edurt/datacap/datacap-plugin-hologres/2025.1.0/datacap-plugin-hologres-2025.1.0-bin.tar.gz"
     },
     {
       "key": "datacap-plugin-greptimedb",
@@ -671,14 +671,14 @@
       "description": "GreptimeDB is an open-source unified & cost-effective time-series database for Metrics, Logs, and Events (also Traces in plan). You can gain real-time insights from Edge to Cloud at Any Scale.",
       "i18nFormat": true,
       "type": "Connector",
-      "version": "2024.4.1",
+      "version": "2025.1.0",
       "author": "datacap-community",
       "logo": "http://devlive-cdn.oss-cn-beijing.aliyuncs.com/applications/datacap/resources/logo/plugin/greptimedb.svg",
-      "released": "2024-12-31 09:47:06",
+      "released": "2025-01-08 18:56:55",
       "supportVersion": [
         "ALL"
       ],
-      "url": "https://repo1.maven.org/maven2/io/edurt/datacap/datacap-plugin-greptimedb/2024.4.1/datacap-plugin-greptimedb-2024.4.1-bin.tar.gz"
+      "url": "https://repo1.maven.org/maven2/io/edurt/datacap/datacap-plugin-greptimedb/2025.1.0/datacap-plugin-greptimedb-2025.1.0-bin.tar.gz"
     },
     {
       "key": "datacap-plugin-questdb",
@@ -686,14 +686,14 @@
       "description": "QuestDB is the world's fastest growing open-source time-series database. It offers massive ingestion throughput, millisecond queries, powerful time-series SQL extensions, and scales well with minimal and maximal hardware. Save costs with better performance and efficiency.",
       "i18nFormat": true,
       "type": "Connector",
-      "version": "2024.4.1",
+      "version": "2025.1.0",
       "author": "datacap-community",
       "logo": "http://devlive-cdn.oss-cn-beijing.aliyuncs.com/applications/datacap/resources/logo/plugin/questdb.svg",
-      "released": "2024-12-31 09:47:06",
+      "released": "2025-01-08 18:56:55",
       "supportVersion": [
         "ALL"
       ],
-      "url": "https://repo1.maven.org/maven2/io/edurt/datacap/datacap-plugin-questdb/2024.4.1/datacap-plugin-questdb-2024.4.1-bin.tar.gz"
+      "url": "https://repo1.maven.org/maven2/io/edurt/datacap/datacap-plugin-questdb/2025.1.0/datacap-plugin-questdb-2025.1.0-bin.tar.gz"
     },
     {
       "key": "datacap-plugin-h2-tcp",
@@ -701,14 +701,14 @@
       "description": "Use TCP to access the remote H2 database",
       "i18nFormat": true,
       "type": "Connector",
-      "version": "2024.4.1",
+      "version": "2025.1.0",
       "author": "datacap-community",
       "logo": "http://devlive-cdn.oss-cn-beijing.aliyuncs.com/applications/datacap/resources/logo/plugin/h2tcp.svg",
-      "released": "2024-12-31 09:47:06",
+      "released": "2025-01-08 18:56:55",
       "supportVersion": [
         "ALL"
       ],
-      "url": "https://repo1.maven.org/maven2/io/edurt/datacap/datacap-plugin-h2-tcp/2024.4.1/datacap-plugin-h2-tcp-2024.4.1-bin.tar.gz"
+      "url": "https://repo1.maven.org/maven2/io/edurt/datacap/datacap-plugin-h2-tcp/2025.1.0/datacap-plugin-h2-tcp-2025.1.0-bin.tar.gz"
     },
     {
       "key": "datacap-plugin-clickhouse-http",
@@ -716,14 +716,14 @@
       "description": "Use HTTP to access the remote ClickHouse database",
       "i18nFormat": true,
       "type": "Connector",
-      "version": "2024.4.1",
+      "version": "2025.1.0",
       "author": "datacap-community",
       "logo": "http://devlive-cdn.oss-cn-beijing.aliyuncs.com/applications/datacap/resources/logo/plugin/clickhousehttp.svg",
-      "released": "2024-12-31 09:47:06",
+      "released": "2025-01-08 18:56:55",
       "supportVersion": [
         "ALL"
       ],
-      "url": "https://repo1.maven.org/maven2/io/edurt/datacap/datacap-plugin-clickhouse-http/2024.4.1/datacap-plugin-clickhouse-http-2024.4.1-bin.tar.gz"
+      "url": "https://repo1.maven.org/maven2/io/edurt/datacap/datacap-plugin-clickhouse-http/2025.1.0/datacap-plugin-clickhouse-http-2025.1.0-bin.tar.gz"
     },
     {
       "key": "datacap-plugin-ceresdb",
@@ -731,14 +731,14 @@
       "description": "CeresDB is a database system designed to allow for the storage and retrieval of semi-structured data, i.e. data that conforms to a “top-level schema” where columns types are known, but those columns can in-turn contain dictionaries or lists.",
       "i18nFormat": true,
       "type": "Connector",
-      "version": "2024.4.1",
+      "version": "2025.1.0",
       "author": "datacap-community",
       "logo": "http://devlive-cdn.oss-cn-beijing.aliyuncs.com/applications/datacap/resources/logo/plugin/ceresdb.svg",
-      "released": "2024-12-31 09:47:06",
+      "released": "2025-01-08 18:56:55",
       "supportVersion": [
         "ALL"
       ],
-      "url": "https://repo1.maven.org/maven2/io/edurt/datacap/datacap-plugin-ceresdb/2024.4.1/datacap-plugin-ceresdb-2024.4.1-bin.tar.gz"
+      "url": "https://repo1.maven.org/maven2/io/edurt/datacap/datacap-plugin-ceresdb/2025.1.0/datacap-plugin-ceresdb-2025.1.0-bin.tar.gz"
     },
     {
       "key": "datacap-plugin-redis-jdbc",
@@ -746,14 +746,14 @@
       "description": "Use JDBC to access Redis",
       "i18nFormat": true,
       "type": "Connector",
-      "version": "2024.4.1",
+      "version": "2025.1.0",
       "author": "datacap-community",
       "logo": "http://devlive-cdn.oss-cn-beijing.aliyuncs.com/applications/datacap/resources/logo/plugin/redisjdbc.svg",
-      "released": "2024-12-31 09:47:06",
+      "released": "2025-01-08 18:56:55",
       "supportVersion": [
         "ALL"
       ],
-      "url": "https://repo1.maven.org/maven2/io/edurt/datacap/datacap-plugin-redis-jdbc/2024.4.1/datacap-plugin-redis-jdbc-2024.4.1-bin.tar.gz"
+      "url": "https://repo1.maven.org/maven2/io/edurt/datacap/datacap-plugin-redis-jdbc/2025.1.0/datacap-plugin-redis-jdbc-2025.1.0-bin.tar.gz"
     },
     {
       "key": "datacap-plugin-elasticsearch-8x",
@@ -761,14 +761,14 @@
       "description": "Use Elasticsearch 8.x",
       "i18nFormat": true,
       "type": "Connector",
-      "version": "2024.4.1",
+      "version": "2025.1.0",
       "author": "datacap-community",
       "logo": "http://devlive-cdn.oss-cn-beijing.aliyuncs.com/applications/datacap/resources/logo/plugin/elasticsearch8x.svg",
-      "released": "2024-12-31 09:47:06",
+      "released": "2025-01-08 18:56:55",
       "supportVersion": [
         "8.x"
       ],
-      "url": "https://repo1.maven.org/maven2/io/edurt/datacap/datacap-plugin-elasticsearch-8x/2024.4.1/datacap-plugin-elasticsearch-8x-2024.4.1-bin.tar.gz"
+      "url": "https://repo1.maven.org/maven2/io/edurt/datacap/datacap-plugin-elasticsearch-8x/2025.1.0/datacap-plugin-elasticsearch-8x-2025.1.0-bin.tar.gz"
     },
     {
       "key": "datacap-plugin-mongo-atlas",
@@ -776,14 +776,14 @@
       "description": "The MongoDB Atlas SQL JDBC Driver provides SQL connectivity to MongoDB Atlas for client applications developed in Java.",
       "i18nFormat": true,
       "type": "Connector",
-      "version": "2024.4.1",
+      "version": "2025.1.0",
       "author": "datacap-community",
       "logo": "http://devlive-cdn.oss-cn-beijing.aliyuncs.com/applications/datacap/resources/logo/plugin/mongoatlas.svg",
-      "released": "2024-12-31 09:47:06",
+      "released": "2025-01-08 18:56:55",
       "supportVersion": [
         "ALL"
       ],
-      "url": "https://repo1.maven.org/maven2/io/edurt/datacap/datacap-plugin-mongo-atlas/2024.4.1/datacap-plugin-mongo-atlas-2024.4.1-bin.tar.gz"
+      "url": "https://repo1.maven.org/maven2/io/edurt/datacap/datacap-plugin-mongo-atlas/2025.1.0/datacap-plugin-mongo-atlas-2025.1.0-bin.tar.gz"
     },
     {
       "key": "datacap-plugin-mongo-community",
@@ -791,14 +791,14 @@
       "description": "The MongoDB Community SQL JDBC Driver provides SQL connectivity to MongoDB Community for client applications developed in Java.",
       "i18nFormat": true,
       "type": "Connector",
-      "version": "2024.4.1",
+      "version": "2025.1.0",
       "author": "datacap-community",
       "logo": "http://devlive-cdn.oss-cn-beijing.aliyuncs.com/applications/datacap/resources/logo/plugin/mongocommunity.svg",
-      "released": "2024-12-31 09:47:06",
+      "released": "2025-01-08 18:56:55",
       "supportVersion": [
         "ALL"
       ],
-      "url": "https://repo1.maven.org/maven2/io/edurt/datacap/datacap-plugin-mongo-community/2024.4.1/datacap-plugin-mongo-community-2024.4.1-bin.tar.gz"
+      "url": "https://repo1.maven.org/maven2/io/edurt/datacap/datacap-plugin-mongo-community/2025.1.0/datacap-plugin-mongo-community-2025.1.0-bin.tar.gz"
     },
     {
       "key": "datacap-convert-csv",
@@ -806,14 +806,14 @@
       "description": "A CSV file conversion plugin for DataCap.",
       "i18nFormat": true,
       "type": "Converter",
-      "version": "2024.4.1",
+      "version": "2025.1.0",
       "author": "datacap-community",
       "logo": "http://devlive-cdn.oss-cn-beijing.aliyuncs.com/applications/datacap/resources/logo/convert/csv.svg",
-      "released": "2024-12-31 09:47:06",
+      "released": "2025-01-08 18:56:55",
       "supportVersion": [
         "ALL"
       ],
-      "url": "https://repo1.maven.org/maven2/io/edurt/datacap/datacap-convert-csv/2024.4.1/datacap-convert-csv-2024.4.1-bin.tar.gz"
+      "url": "https://repo1.maven.org/maven2/io/edurt/datacap/datacap-convert-csv/2025.1.0/datacap-convert-csv-2025.1.0-bin.tar.gz"
     },
     {
       "key": "datacap-convert-txt",
@@ -821,14 +821,14 @@
       "description": "A TXT file conversion plugin for DataCap.",
       "i18nFormat": true,
       "type": "Converter",
-      "version": "2024.4.1",
+      "version": "2025.1.0",
       "author": "datacap-community",
       "logo": "http://devlive-cdn.oss-cn-beijing.aliyuncs.com/applications/datacap/resources/logo/convert/txt.svg",
-      "released": "2024-12-31 09:47:06",
+      "released": "2025-01-08 18:56:55",
       "supportVersion": [
         "ALL"
       ],
-      "url": "https://repo1.maven.org/maven2/io/edurt/datacap/datacap-convert-txt/2024.4.1/datacap-convert-txt-2024.4.1-bin.tar.gz"
+      "url": "https://repo1.maven.org/maven2/io/edurt/datacap/datacap-convert-txt/2025.1.0/datacap-convert-txt-2025.1.0-bin.tar.gz"
     },
     {
       "key": "datacap-convert-json",
@@ -836,14 +836,14 @@
       "description": "A JSON file conversion plugin for DataCap.",
       "i18nFormat": true,
       "type": "Converter",
-      "version": "2024.4.1",
+      "version": "2025.1.0",
       "author": "datacap-community",
       "logo": "http://devlive-cdn.oss-cn-beijing.aliyuncs.com/applications/datacap/resources/logo/convert/json.svg",
-      "released": "2024-12-31 09:47:06",
+      "released": "2025-01-08 18:56:55",
       "supportVersion": [
         "ALL"
       ],
-      "url": "https://repo1.maven.org/maven2/io/edurt/datacap/datacap-convert-json/2024.4.1/datacap-convert-json-2024.4.1-bin.tar.gz"
+      "url": "https://repo1.maven.org/maven2/io/edurt/datacap/datacap-convert-json/2025.1.0/datacap-convert-json-2025.1.0-bin.tar.gz"
     },
     {
       "key": "datacap-convert-xml",
@@ -851,14 +851,14 @@
       "description": "A XML file conversion plugin for DataCap.",
       "i18nFormat": true,
       "type": "Converter",
-      "version": "2024.4.1",
+      "version": "2025.1.0",
       "author": "datacap-community",
       "logo": "http://devlive-cdn.oss-cn-beijing.aliyuncs.com/applications/datacap/resources/logo/convert/xml.svg",
-      "released": "2024-12-31 09:47:06",
+      "released": "2025-01-08 18:56:55",
       "supportVersion": [
         "ALL"
       ],
-      "url": "https://repo1.maven.org/maven2/io/edurt/datacap/datacap-convert-xml/2024.4.1/datacap-convert-xml-2024.4.1-bin.tar.gz"
+      "url": "https://repo1.maven.org/maven2/io/edurt/datacap/datacap-convert-xml/2025.1.0/datacap-convert-xml-2025.1.0-bin.tar.gz"
     },
     {
       "key": "datacap-convert-none",
@@ -866,14 +866,14 @@
       "description": "A multidimensional arrays file conversion plugin for DataCap.",
       "i18nFormat": true,
       "type": "Converter",
-      "version": "2024.4.1",
+      "version": "2025.1.0",
       "author": "datacap-community",
       "logo": "http://devlive-cdn.oss-cn-beijing.aliyuncs.com/applications/datacap/resources/logo/convert/none.svg",
-      "released": "2024-12-31 09:47:06",
+      "released": "2025-01-08 18:56:55",
       "supportVersion": [
         "ALL"
       ],
-      "url": "https://repo1.maven.org/maven2/io/edurt/datacap/datacap-convert-none/2024.4.1/datacap-convert-none-2024.4.1-bin.tar.gz"
+      "url": "https://repo1.maven.org/maven2/io/edurt/datacap/datacap-convert-none/2025.1.0/datacap-convert-none-2025.1.0-bin.tar.gz"
     },
     {
       "key": "datacap-executor-local",
@@ -881,14 +881,14 @@
       "description": "A local execution plugin for DataCap.",
       "i18nFormat": true,
       "type": "Executor",
-      "version": "2024.4.1",
+      "version": "2025.1.0",
       "author": "datacap-community",
       "logo": "http://devlive-cdn.oss-cn-beijing.aliyuncs.com/applications/datacap/resources/logo/executor/local.svg",
-      "released": "2024-12-31 09:47:06",
+      "released": "2025-01-08 18:56:55",
       "supportVersion": [
         "ALL"
       ],
-      "url": "https://repo1.maven.org/maven2/io/edurt/datacap/datacap-executor-local/2024.4.1/datacap-executor-local-2024.4.1-bin.tar.gz"
+      "url": "https://repo1.maven.org/maven2/io/edurt/datacap/datacap-executor-local/2025.1.0/datacap-executor-local-2025.1.0-bin.tar.gz"
     },
     {
       "key": "datacap-executor-seatunnel",
@@ -896,14 +896,14 @@
       "description": "A Seatunnel execution plugin for DataCap.",
       "i18nFormat": true,
       "type": "Executor",
-      "version": "2024.4.1",
+      "version": "2025.1.0",
       "author": "datacap-community",
       "logo": "http://devlive-cdn.oss-cn-beijing.aliyuncs.com/applications/datacap/resources/logo/executor/seatunnel.svg",
-      "released": "2024-12-31 09:47:06",
+      "released": "2025-01-08 18:56:55",
       "supportVersion": [
         "ALL"
       ],
-      "url": "https://repo1.maven.org/maven2/io/edurt/datacap/datacap-executor-seatunnel/2024.4.1/datacap-executor-seatunnel-2024.4.1-bin.tar.gz"
+      "url": "https://repo1.maven.org/maven2/io/edurt/datacap/datacap-executor-seatunnel/2025.1.0/datacap-executor-seatunnel-2025.1.0-bin.tar.gz"
     },
     {
       "key": "datacap-scheduler-local",
@@ -911,14 +911,14 @@
       "description": "A local scheduling plugin for DataCap.",
       "i18nFormat": true,
       "type": "Scheduler",
-      "version": "2024.4.1",
+      "version": "2025.1.0",
       "author": "datacap-community",
       "logo": "http://devlive-cdn.oss-cn-beijing.aliyuncs.com/applications/datacap/resources/logo/scheduler/local.svg",
-      "released": "2024-12-31 09:47:06",
+      "released": "2025-01-08 18:56:55",
       "supportVersion": [
         "ALL"
       ],
-      "url": "https://repo1.maven.org/maven2/io/edurt/datacap/datacap-scheduler-local/2024.4.1/datacap-scheduler-local-2024.4.1-bin.tar.gz"
+      "url": "https://repo1.maven.org/maven2/io/edurt/datacap/datacap-scheduler-local/2025.1.0/datacap-scheduler-local-2025.1.0-bin.tar.gz"
     },
     {
       "key": "datacap-fs-local",
@@ -926,14 +926,14 @@
       "description": "A local file system plugin for DataCap.",
       "i18nFormat": true,
       "type": "FileSystem",
-      "version": "2024.4.1",
+      "version": "2025.1.0",
       "author": "datacap-community",
       "logo": "http://devlive-cdn.oss-cn-beijing.aliyuncs.com/applications/datacap/resources/logo/fs/local.svg",
-      "released": "2024-12-31 09:47:06",
+      "released": "2025-01-08 18:56:55",
       "supportVersion": [
         "ALL"
       ],
-      "url": "https://repo1.maven.org/maven2/io/edurt/datacap/datacap-fs-local/2024.4.1/datacap-fs-local-2024.4.1-bin.tar.gz"
+      "url": "https://repo1.maven.org/maven2/io/edurt/datacap/datacap-fs-local/2025.1.0/datacap-fs-local-2025.1.0-bin.tar.gz"
     },
     {
       "key": "datacap-fs-qiniu",
@@ -941,14 +941,14 @@
       "description": "A Qiniu file system plugin for DataCap.",
       "i18nFormat": true,
       "type": "FileSystem",
-      "version": "2024.4.1",
+      "version": "2025.1.0",
       "author": "datacap-community",
       "logo": "http://devlive-cdn.oss-cn-beijing.aliyuncs.com/applications/datacap/resources/logo/fs/qiniu.svg",
-      "released": "2024-12-31 09:47:06",
+      "released": "2025-01-08 18:56:55",
       "supportVersion": [
         "ALL"
       ],
-      "url": "https://repo1.maven.org/maven2/io/edurt/datacap/datacap-fs-qiniu/2024.4.1/datacap-fs-qiniu-2024.4.1-bin.tar.gz"
+      "url": "https://repo1.maven.org/maven2/io/edurt/datacap/datacap-fs-qiniu/2025.1.0/datacap-fs-qiniu-2025.1.0-bin.tar.gz"
     },
     {
       "key": "datacap-fs-alioss",
@@ -956,14 +956,14 @@
       "description": "A Ali OSS file system plugin for DataCap.",
       "i18nFormat": true,
       "type": "FileSystem",
-      "version": "2024.4.1",
+      "version": "2025.1.0",
       "author": "datacap-community",
       "logo": "http://devlive-cdn.oss-cn-beijing.aliyuncs.com/applications/datacap/resources/logo/fs/alioss.svg",
-      "released": "2024-12-31 09:47:06",
+      "released": "2025-01-08 18:56:55",
       "supportVersion": [
         "ALL"
       ],
-      "url": "https://repo1.maven.org/maven2/io/edurt/datacap/datacap-fs-alioss/2024.4.1/datacap-fs-alioss-2024.4.1-bin.tar.gz"
+      "url": "https://repo1.maven.org/maven2/io/edurt/datacap/datacap-fs-alioss/2025.1.0/datacap-fs-alioss-2025.1.0-bin.tar.gz"
     },
     {
       "key": "datacap-fs-tencent-cos",
@@ -971,14 +971,14 @@
       "description": "A Tencent COS file system plugin for DataCap.",
       "i18nFormat": true,
       "type": "FileSystem",
-      "version": "2024.4.1",
+      "version": "2025.1.0",
       "author": "datacap-community",
       "logo": "http://devlive-cdn.oss-cn-beijing.aliyuncs.com/applications/datacap/resources/logo/fs/tencent-cos.svg",
-      "released": "2024-12-31 09:47:06",
+      "released": "2025-01-08 18:56:55",
       "supportVersion": [
         "ALL"
       ],
-      "url": "https://repo1.maven.org/maven2/io/edurt/datacap/datacap-fs-tencent-cos/2024.4.1/datacap-fs-tencent-cos-2024.4.1-bin.tar.gz"
+      "url": "https://repo1.maven.org/maven2/io/edurt/datacap/datacap-fs-tencent-cos/2025.1.0/datacap-fs-tencent-cos-2025.1.0-bin.tar.gz"
     },
     {
       "key": "datacap-fs-amazon-s3",
@@ -986,14 +986,14 @@
       "description": "A Amazon S3 file system plugin for DataCap.",
       "i18nFormat": true,
       "type": "FileSystem",
-      "version": "2024.4.1",
+      "version": "2025.1.0",
       "author": "datacap-community",
       "logo": "http://devlive-cdn.oss-cn-beijing.aliyuncs.com/applications/datacap/resources/logo/fs/amazon-s3.svg",
-      "released": "2024-12-31 09:47:06",
+      "released": "2025-01-08 18:56:55",
       "supportVersion": [
         "ALL"
       ],
-      "url": "https://repo1.maven.org/maven2/io/edurt/datacap/datacap-fs-amazon-s3/2024.4.1/datacap-fs-amazon-s3-2024.4.1-bin.tar.gz"
+      "url": "https://repo1.maven.org/maven2/io/edurt/datacap/datacap-fs-amazon-s3/2025.1.0/datacap-fs-amazon-s3-2025.1.0-bin.tar.gz"
     },
     {
       "key": "datacap-fs-minio",
@@ -1001,14 +1001,14 @@
       "description": "A Minio file system plugin for DataCap.",
       "i18nFormat": true,
       "type": "FileSystem",
-      "version": "2024.4.1",
+      "version": "2025.1.0",
       "author": "datacap-community",
       "logo": "http://devlive-cdn.oss-cn-beijing.aliyuncs.com/applications/datacap/resources/logo/fs/minio.svg",
-      "released": "2024-12-31 09:47:06",
+      "released": "2025-01-08 18:56:55",
       "supportVersion": [
         "ALL"
       ],
-      "url": "https://repo1.maven.org/maven2/io/edurt/datacap/datacap-fs-minio/2024.4.1/datacap-fs-minio-2024.4.1-bin.tar.gz"
+      "url": "https://repo1.maven.org/maven2/io/edurt/datacap/datacap-fs-minio/2025.1.0/datacap-fs-minio-2025.1.0-bin.tar.gz"
     }
   ]
 }

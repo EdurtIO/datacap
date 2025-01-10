@@ -156,16 +156,21 @@ export class HttpUtils
         })
     }
 
-    delete(url: string): Promise<ResponseModel>
+    delete(url: string, data = {}): Promise<ResponseModel>
     {
         return new Promise((resolve) => {
-            axios.delete(url, this.configure)
-                 .then(result => {
-                     resolve(this.handlerSuccessful(result))
-                 }, error => {
-                     this.handlerMessage(error.message)
-                     resolve(this.handlerFailed(error))
-                 })
+            axios.delete(
+                url,
+                {
+                    data: data,
+                    ...this.configure
+                }
+            ).then(result => {
+                resolve(this.handlerSuccessful(result))
+            }, error => {
+                this.handlerMessage(error.message)
+                resolve(this.handlerFailed(error))
+            })
         })
     }
 

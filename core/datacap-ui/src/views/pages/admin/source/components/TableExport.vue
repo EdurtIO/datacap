@@ -38,8 +38,6 @@
 <script lang="ts">
 import { defineComponent } from 'vue'
 import { StructureModel } from '@/model/structure.ts'
-import TableService from '@/services/table'
-import { TableExportModel, TableExportRequest } from '@/model/table'
 
 export default defineComponent({
   name: 'TableExport',

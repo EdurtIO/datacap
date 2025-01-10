@@ -27,6 +27,7 @@ public class SqlBody
     private List<SqlColumn> where;
     private SqlType type;
     // Currently, only autoincrement columns can be reset
-    private String value;
+    private Object value;
     private String condition;
+    private boolean preview;
 }

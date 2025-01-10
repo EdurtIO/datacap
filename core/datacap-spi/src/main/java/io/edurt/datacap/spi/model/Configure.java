@@ -21,6 +21,7 @@ import java.util.Optional;
 @SuppressFBWarnings(value = {"EI_EXPOSE_REP", "EI_EXPOSE_REP2", "RCN_REDUNDANT_NULLCHECK_OF_NONNULL_VALUE", "CT_CONSTRUCTOR_THROW",
         "NP_NONNULL_FIELD_NOT_INITIALIZED_IN_CONSTRUCTOR"})
 public class Configure
+        implements Cloneable
 {
     @NonNull
     private Plugin plugin;
@@ -65,4 +66,15 @@ public class Configure
 
     @Builder.Default
     private Boolean isAppendChar = Boolean.TRUE;
+
+    @Override
+    public Configure clone()
+    {
+        try {
+            return (Configure) super.clone();
+        }
+        catch (CloneNotSupportedException e) {
+            throw new AssertionError();
+        }
+    }
 }

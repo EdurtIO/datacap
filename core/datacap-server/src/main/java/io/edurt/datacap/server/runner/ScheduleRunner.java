@@ -9,7 +9,6 @@ import io.edurt.datacap.service.repository.ScheduledRepository;
 import io.edurt.datacap.service.repository.SourceRepository;
 import io.edurt.datacap.service.service.SourceService;
 import io.edurt.datacap.service.source.CheckScheduledRunnable;
-import io.edurt.datacap.service.source.SyncMetadataScheduledRunnable;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Service;
@@ -59,15 +58,6 @@ public class ScheduleRunner
     private Map<ScheduledType, Function<String, Runnable>> initializeTaskFactories()
     {
         Map<ScheduledType, Function<String, Runnable>> factories = new EnumMap<>(ScheduledType.class);
-
-        factories.put(ScheduledType.SOURCE_SYNCHRONIZE,
-                taskName -> new SyncMetadataScheduledRunnable(
-                        taskName,
-                        pluginManager,
-                        sourceRepository,
-                        sourceService
-                )
-        );
 
         factories.put(ScheduledType.SOURCE_CHECK,
                 taskName -> new CheckScheduledRunnable(

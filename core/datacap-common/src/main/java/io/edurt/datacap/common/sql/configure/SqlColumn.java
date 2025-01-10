@@ -18,7 +18,7 @@ import java.util.Properties;
 public class SqlColumn
 {
     private String column;
-    private String value;
+    private Object value;
     private String expression;
     private String alias;
     private SqlOperator operator;

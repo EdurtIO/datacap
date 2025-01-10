@@ -15,7 +15,7 @@
       <RouterView/>
     </ShadcnTabItem>
 
-    <ShadcnTabItem value="structure">
+    <ShadcnTabItem value="structure" :disabled="!originalTable">
       <template #label>
         <div class="flex items-center space-x-2">
           <ShadcnIcon icon="LayoutPanelTop"/>
@@ -26,7 +26,7 @@
       <RouterView/>
     </ShadcnTabItem>
 
-    <ShadcnTabItem value="data">
+    <ShadcnTabItem value="data" :disabled="!originalTable">
       <template #label>
         <div class="flex items-center space-x-2">
           <ShadcnIcon icon="Table"/>
@@ -37,7 +37,7 @@
       <RouterView/>
     </ShadcnTabItem>
 
-    <ShadcnTabItem value="statement">
+    <ShadcnTabItem value="statement" :disabled="!originalTable">
       <template #label>
         <div class="flex items-center space-x-2">
           <ShadcnIcon icon="SatelliteDish"/>
@@ -48,7 +48,7 @@
       <RouterView/>
     </ShadcnTabItem>
 
-    <ShadcnTabItem value="erDiagram">
+    <ShadcnTabItem value="erDiagram" :disabled="!originalTable">
       <template #label>
         <div class="flex items-center space-x-2">
           <ShadcdnIcon icon="Wind"/>

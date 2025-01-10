@@ -40,6 +40,7 @@ public class JdbcAdapter
         Response response = jdbcConnection.getResponse();
         Connection connection = (Connection) jdbcConnection.getConnection();
         Configure configure = jdbcConnection.getConfigure();
+        log.debug("Execute sql \n{}", content);
         if (response.getIsConnected()) {
             try (Statement statement = connection.createStatement()) {
                 List<String> headers = new ArrayList<>();

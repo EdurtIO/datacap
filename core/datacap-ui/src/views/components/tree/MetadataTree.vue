@@ -21,7 +21,7 @@
 import { defineComponent, watch } from 'vue'
 import { StructureEnum, StructureModel } from '@/model/structure'
 
-import DatabaseService from '@/services/database'
+import DatabaseService from '@/services/metadata.ts'
 import TableService from '@/services/table'
 import ColumnService from '@/services/column'
 

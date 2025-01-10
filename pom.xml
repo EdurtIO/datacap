@@ -4,7 +4,7 @@
     <groupId>io.edurt.datacap</groupId>
     <artifactId>datacap</artifactId>
     <packaging>pom</packaging>
-    <version>2024.4.1</version>
+    <version>2025.1.0</version>
 
     <modules>
         <module>client/datacap-cli</module>

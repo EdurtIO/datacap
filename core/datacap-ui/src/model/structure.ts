@@ -28,6 +28,7 @@ export interface StructureModel
 
 export enum StructureEnum
 {
+    TYPE,
     CATALOG,
     DATABASE,
     TABLE,

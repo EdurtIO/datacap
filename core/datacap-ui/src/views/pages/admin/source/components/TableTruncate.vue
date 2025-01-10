@@ -14,7 +14,7 @@
     <div class="relative">
       <ShadcnSpin v-model="loading"/>
 
-      <AceEditor v-if="formState.statement"
+      <AceEditor v-if="!loading && formState.statement"
                  class="mt-2"
                  :value="formState.statement"
                  :read-only="true"/>
@@ -36,10 +36,8 @@
 
 <script lang="ts">
 import { defineComponent } from 'vue'
-import { StructureModel } from '@/model/structure.ts'
-import TableService from '@/services/table'
-import { SqlType, TableFilter, TableFilterRequest } from '@/model/table'
 import AceEditor from '@/views/components/editor/AceEditor.vue'
+import MetadataService from '@/services/metadata.ts'
 
 export default defineComponent({
   name: 'TableTruncate',
@@ -59,9 +57,6 @@ export default defineComponent({
   props: {
     isVisible: {
       type: Boolean
-    },
-    info: {
-      type: Object as () => StructureModel | null
     }
   },
   data()
@@ -70,59 +65,67 @@ export default defineComponent({
       loading: false,
       submitting: false,
       title: null as string | null,
-      formState: null as unknown as TableFilter
+      formState: null as any
     }
   },
   created()
   {
-    this.formState = TableFilterRequest.of()
-    this.formState.type = SqlType.TRUNCATE
-    if (this.info) {
-      this.title = this.$t('source.common.truncateTableInfo').replace('$VALUE', this.info.title as string)
+    this.formState = {
+      statement: null
+    }
+
+    const table = this.$route.params?.table
+    if (table) {
+      this.title = this.$t('source.common.truncateTable').replace('$VALUE', table)
+
       this.onSubmit(true)
     }
   },
   methods: {
     onSubmit(preview: boolean)
     {
-      if (this.info && this.formState) {
+      const code = this.$route.params?.source
+      const database = this.$route.params?.database
+      const table = this.$route.params?.table
+
+      if (code && database && table) {
         if (preview) {
           this.loading = true
         }
         else {
           this.submitting = true
         }
-        this.formState.preview = preview
-        TableService.getData(String(this.info.value), this.formState)
-                    .then(response => {
-                      if (response.status) {
-                        if (preview) {
-                          this.formState.statement = response.data.content
-                        }
-                        else {
-                          this.$Message.success({
-                            content: this.$t('source.tip.truncateTableSuccess').replace('$VALUE', String(this.info?.title)),
-                            showIcon: true
-                          })
 
-                          this.onCancel()
-                        }
-                      }
-                      else {
-                        this.$Message.error({
-                          content: response.message,
-                          showIcon: true
-                        })
-                      }
-                    })
-                    .finally(() => {
-                      if (preview) {
-                        this.loading = false
-                      }
-                      else {
-                        this.submitting = false
-                      }
-                    })
+        MetadataService.truncateTable(code, database, table, { preview })
+                       .then(response => {
+                         if (response.status) {
+                           if (preview) {
+                             this.formState.statement = response.data.content
+                           }
+                           else {
+                             this.$Message.success({
+                               content: this.$t('source.tip.truncateTableSuccess').replace('$VALUE', table),
+                               showIcon: true
+                             })
+
+                             this.onCancel()
+                           }
+                         }
+                         else {
+                           this.$Message.error({
+                             content: response.message,
+                             showIcon: true
+                           })
+                         }
+                       })
+                       .finally(() => {
+                         if (preview) {
+                           this.loading = false
+                         }
+                         else {
+                           this.submitting = false
+                         }
+                       })
       }
     },
     onCancel()

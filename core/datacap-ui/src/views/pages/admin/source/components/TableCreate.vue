@@ -1,10 +1,15 @@
 <template>
-  <ShadcnModal v-model="visible"
-               height="80%"
-               width="40%"
-               :title="$t('source.common.menuNewTable')"
-               @on-close="onCancel">
-    <ShadcnForm v-model="formState" v-if="formState" @on-submit="onSubmit">
+  <ShadcnDrawer v-model="visible"
+                height="80%"
+                width="40%"
+                :title="$t('source.common.menuNewTable')"
+                @on-close="onCancel">
+    <ShadcnSkeleton v-if="loading" animation/>
+
+    <ShadcnForm v-else-if="!loading && formState"
+                v-model="formState"
+                style="padding-bottom: 40px;"
+                @on-submit="onSubmit">
       <ShadcnRow gutter="16">
         <ShadcnCol span="6">
           <ShadcnFormItem name="name"
@@ -21,7 +26,15 @@
           <ShadcnFormItem name="engine"
                           :label="$t('source.common.engine')"
                           :rules="[{ required: true, message: $t('source.validator.tableEngine.required') }]">
-            <ShadcnInput v-model="formState.engine" name="engine" :placeholder="$t('source.placeholder.tableEngine')"/>
+            <ShadcnSelect v-model="formState.engine" name="engine" :placeholder="$t('source.placeholder.tableEngine')">
+              <template #options>
+                <ShadcnSelectOption v-for="engine in engines"
+                                    :key="engine"
+                                    :value="engine"
+                                    :label="engine">
+                </ShadcnSelectOption>
+              </template>
+            </ShadcnSelect>
           </ShadcnFormItem>
         </ShadcnCol>
 
@@ -68,7 +81,15 @@
               <ShadcnFormItem :name="`columns[${index}].type`"
                               :label="$t('source.common.columnType')"
                               :rules="[{ required: true, message: $t('source.validator.columnType.required') }]">
-                <ShadcnInput v-model="formState.columns[index].type" :placeholder="$t('source.placeholder.columnType')" :name="`columns[${index}].type`"/>
+                <ShadcnSelect v-model="formState.columns[index].type" :placeholder="$t('source.placeholder.columnType')" :name="`columns[${index}].type`">
+                  <template #options>
+                    <ShadcnSelectOption v-for="dataType in dataTypes"
+                                        :key="dataType"
+                                        :value="dataType"
+                                        :label="dataType">
+                    </ShadcnSelectOption>
+                  </template>
+                </ShadcnSelect>
               </ShadcnFormItem>
             </ShadcnCol>
 
@@ -123,23 +144,21 @@
         </ShadcnCol>
       </ShadcnRow>
 
-      <ShadcnSpace>
+      <ShadcnSpace class="fixed bottom-0 left-0 right-0 border-t bg-white p-2 flex justify-end gap-4 shadow-lg">
         <ShadcnButton type="default" @click="onCancel">{{ $t('common.cancel') }}</ShadcnButton>
 
-        <ShadcnButton submit :loading="loading" :disabled="loading">
+        <ShadcnButton submit :loading="saving" :disabled="saving">
           {{ $t('common.save') }}
         </ShadcnButton>
       </ShadcnSpace>
     </ShadcnForm>
-  </ShadcnModal>
+  </ShadcnDrawer>
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue'
-import { StructureModel } from '@/model/structure'
-import { TableModel, TableRequest } from '@/model/table'
-import TableService from '@/services/table'
-import { ColumnRequest } from '@/model/column'
+import MetadataService from '@/services/metadata'
+import HttpUtils from '@/utils/http'
 
 export default defineComponent({
   name: 'TableCreate',
@@ -158,65 +177,79 @@ export default defineComponent({
   props: {
     isVisible: {
       type: Boolean
-    },
-    info: {
-      type: Object as () => StructureModel | null
     }
   },
   data()
   {
     return {
       loading: false,
-      formState: null as unknown as TableModel
+      saving: false,
+      engines: [],
+      dataTypes: [],
+      formState: null as any
     }
   },
   created()
   {
-    this.formState = TableRequest.of()
+    const code = this.$route.params.source
+
+    this.formState = {
+      columns: []
+    }
+
+    this.loading = true
+    HttpUtils.all([MetadataService.getEngines(code), MetadataService.getDataTypes(code)])
+             .then(HttpUtils.spread((...responses) => {
+               const [engines, dataTypes] = responses
+
+               if (engines.status && engines.data && engines.data.isSuccessful) {
+                 this.engines = engines.data.columns
+               }
+
+               if (dataTypes.status && dataTypes.data && dataTypes.data.isSuccessful) {
+                 this.dataTypes = dataTypes.data.columns
+               }
+             }))
+             .finally(() => this.loading = false)
+
     this.onAdd()
   },
   methods: {
     onSubmit()
     {
-      if (this.info) {
-        this.loading = true
-        TableService.createTable(Number(this.info.databaseId), this.formState)
-                    .then(response => {
-                      if (response.status) {
-                        if (response.data.isSuccessful) {
-                          this.$Message.success({
-                            content: this.$t('source.tip.createTableSuccess').replace('$VALUE', String(this.formState.name)),
-                            showIcon: true
-                          })
+      this.saving = true
 
-                          this.onCancel()
-                        }
-                        else {
-                          this.$Message.error({
-                            content: response.data.message,
-                            showIcon: true
-                          })
-                        }
-                      }
-                      else {
-                        this.$Message.error({
-                          content: response.message,
-                          showIcon: true
-                        })
-                      }
-                    })
-                    .finally(() => this.loading = false)
-      }
+      const code = this.$route.params.source
+      const database = this.$route.params.database
+
+      MetadataService.createTable(code, database, this.formState)
+                     .then(response => {
+                       if (response.status && response.data && response.data.isSuccessful) {
+                         this.$Message.success({
+                           content: this.$t('source.tip.createTableSuccess').replace('$VALUE', String(this.formState.name)),
+                           showIcon: true
+                         })
+
+                         this.onCancel()
+                       }
+                       else {
+                         this.$Message.error({
+                           content: response.data.message,
+                           showIcon: true
+                         })
+                       }
+                     })
+                     .finally(() => this.saving = false)
     },
     onAdd()
     {
-      if (this.formState.columns) {
-        const newColumn = ColumnRequest.of()
-        if (this.formState.columns.length === 0) {
-          newColumn.removed = true
-        }
-        this.formState.columns.push(newColumn)
+      const newColumn = {
+        removed: false
       }
+      if (this.formState.columns.length === 0) {
+        newColumn.removed = true
+      }
+      this.formState.columns.push(newColumn)
     },
     onRemove(index: number)
     {
