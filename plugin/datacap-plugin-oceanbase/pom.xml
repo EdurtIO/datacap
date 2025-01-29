@@ -14,7 +14,7 @@
     <description>DataCap - Plugin - OceanBase</description>
 
     <properties>
-        <oceanbase.version>2.4.5</oceanbase.version>
+        <oceanbase.version>2.4.13</oceanbase.version>
     </properties>
 
     <dependencies>
