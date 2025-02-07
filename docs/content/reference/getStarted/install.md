@@ -8,26 +8,30 @@ DataCap 是支持用户将服务部署到自主机中。通过本文档用户可
 
 ---
 
-!!! warning
+!!! warning "注意"
 
     该软件的二进制包基于以下系统进行编译和测试。它尚未在其他版本上进行测试，理论上受支持。
 
     如果有不支持的系统，请使用源码编译方法主动编译二进制文件。
 
-| 系统    | 版本    |
-|-------|-------|
-| JDK   | `11`  |
-| MySQL | `8.x` |
+!!!
+
+| System | Version    |
+|--------|------------|
+| JDK    | `\>=11`    |
+| MySQL  | `\>=5.6.x` |
 
 ### 准备安装包
 
 ---
 
-!!! note
+!!! info "提示"
 
     从以下地址下载相应系统的二进制软件包进行安装。如果您需要使用源码安装请前往查看开发者文档模块。
 
-1.[下载最新发布版本](../../download.md)
+!!!
+
+1.下载最新发布版本
 
 2.将二进制文件下载到本地后运行以下命令
 
@@ -47,9 +51,11 @@ cd datacap-<VERSION>
 
 对于软件的首次安装，您需要将 `schema/datacap.sql` 文件中的sql脚本导入MySQL服务器。注意需要导入的脚本根据下载的软件包进行匹配
 
-!!! danger
+!!! danger "注意"
 
     如果您是通过其他版本升级，请执行 `schema/<VERSION>/schema.sql`
+
+!!!
 
 datacap 软件中的所有配置均在 `configure/application.properties` 文件中。
 
@@ -89,9 +95,11 @@ spring.web.resources.add-mappings=true
 
 #### 数据库配置
 
-!!! danger
+!!! danger "注意"
 
     如果版本 `>=8.x`，请设置 `allowPublicKeyRetrieval=true`
+
+!!!
 
 ```properties
 spring.datasource.url=jdbc:mysql://localhost:3306/datacap?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull&allowMultiQueries=true&useSSL=false&useOldAliasMetadataBehavior=true&jdbcCompliantTruncation=false&allowPublicKeyRetrieval=true
@@ -103,9 +111,11 @@ spring.datasource.password=12345678
 - `spring.datasource.username`: 用于配置数据库用户名
 - `spring.datasource.password`: 用于配置数据库密码
 
-!!! note
+!!! info "提示"
 
     支持所有 Spring Data 的配置参数
+
+!!!
 
 #### 执行器配置
 
@@ -127,39 +137,39 @@ datacap.executor.seatunnel.home=/opt/lib/seatunnel
 
 ##### Apache Seatunnel
 
-=== "Spark 引擎配置"
+::: tabs
+    === "Spark 引擎配置"
 
-    ```properties
-    datacap.executor.data=
-    datacap.executor.way=LOCAL
-    datacap.executor.mode=CLIENT
-    datacap.executor.engine=SPARK
-    datacap.executor.startScript=start-seatunnel-spark-connector-v2.sh
-    datacap.executor.seatunnel.home=/opt/lib/seatunnel
-    ```
-
-=== "Flink 引擎配置"
+        ```properties
+        datacap.executor.data=
+        datacap.executor.way=LOCAL
+        datacap.executor.mode=CLIENT
+        datacap.executor.engine=SPARK
+        datacap.executor.startScript=start-seatunnel-spark-connector-v2.sh
+        datacap.executor.seatunnel.home=/opt/lib/seatunnel
+        ```
     
-    ```properties
-     datacap.executor.data=
-     datacap.executor.way=LOCAL
-     datacap.executor.mode=CLIENT
-     datacap.executor.engine=FLINK
-     datacap.executor.startScript=start-seatunnel-flink-13-connector-v2.sh
-     datacap.executor.seatunnel.home=/opt/lib/seatunnel
-    ```
-
-=== "Seatunnel 引擎配置"
-
-    ```properties
-     datacap.executor.data=
-    # Only support LOCAL
-     datacap.executor.way=LOCAL
-     datacap.executor.mode=CLIENT
-     datacap.executor.engine=SEATUNNEL
-     datacap.executor.startScript=seatunnel.sh
-     datacap.executor.seatunnel.home=/opt/lib/seatunnel
-    ```
+    === "Flink 引擎配置"
+        ```properties
+         datacap.executor.data=
+         datacap.executor.way=LOCAL
+         datacap.executor.mode=CLIENT
+         datacap.executor.engine=FLINK
+         datacap.executor.startScript=start-seatunnel-flink-13-connector-v2.sh
+         datacap.executor.seatunnel.home=/opt/lib/seatunnel
+        ```
+    
+    === "Seatunnel 引擎配置"
+        ```properties
+         datacap.executor.data=
+         # Only support LOCAL
+         datacap.executor.way=LOCAL
+         datacap.executor.mode=CLIENT
+         datacap.executor.engine=SEATUNNEL
+         datacap.executor.startScript=seatunnel.sh
+         datacap.executor.seatunnel.home=/opt/lib/seatunnel
+        ```
+:::
 
 #### 上传配置
 
@@ -273,15 +283,19 @@ datacap.experimental.avatarPath={username}/avatar/
 
 #### 日志配置
 
-!!! warning
+!!! warning "警告"
 
     如果需要修改日志配置，只需修改 `configure/logback.xml` 配置文件即可
 
+!!!
+
 #### JVM 配置
 
-!!! warning
+!!! warning "警告"
 
     如果您需要定制化 JVM 配置，只需修改 `configure/jvm.conf` 配置文件即可
+
+!!!
 
 #### 插件管理器配置
 
@@ -315,6 +329,8 @@ DataCap服务启动非常简单，执行以下脚本
 
 #### 调试服务
 
-!!! note
+!!! info "提示"
 
     如果要调试系统，可以使用 `./bin/debug.sh` 启动服务，但关闭窗口时它将停止
+
+!!!

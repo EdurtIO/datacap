@@ -1,0 +1,138 @@
+site:
+  title: DataCap
+  hiddenTitle: true
+  description: DataCap is integrated software for data transformation, integration, and visualization. Support a variety of data sources, file types, big data related database, relational database, NoSQL database, etc. Through the software can realize the management of multiple data sources, the data under the source of various operations conversion ...
+  keywords: datacap,database,mysql,postgresql,clickhouse,oracle,sqlserver,sqlserver2008,sqlserver2012,sqlserver2014,sqlserver2016,sqlserver2017,sqlserver2019,sqlserver2022,hive,spark,mysql,postgresql,clickhouse,oracle,sqlserver,sqlserver2008,sqlserver2012,sqlserver2014,sqlserver2016,sqlserver2017,sqlserver2019,sqlserver2022,hive,spark
+  logo: /assets/logo.png
+  favicon: assets/logo.png
+  baseUrl: https://datacap.devlive.org
+
+repo:
+  owner: devlive-community
+  name: datacap
+  url: https://github.com/devlive-community/datacap
+  branch: dev
+
+banner:
+  content: 💗 <a href="https://afdian.com/a/devlive-community" target="_blank">DataCap 2024.4.1 is released, 如果喜欢我们的软件，请点击这里支持我们</a> ❤️
+
+feature:
+  lucide:
+    enable: true
+  i18n:
+    enable: true
+  issues:
+    enable: true
+  tooltip:
+    enable: true
+  statistics:
+    enable: true
+    content: |
+      <script charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js"></script>
+      <script>LA.init({id:"JxKUXhE7gGiOPZNN",ck:"JxKUXhE7gGiOPZNN",autoTrack:true,hashMode:true,screenRecord:true})</script>
+      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5403546756695673"
+           crossorigin="anonymous"></script>
+      <ins class="adsbygoogle"
+           style="display:block; text-align:center;"
+           data-ad-layout="in-article"
+           data-ad-format="fluid"
+           data-ad-client="ca-pub-5403546756695673"
+           data-ad-slot="7720669116"></ins>
+      <script>
+           (adsbygoogle = window.adsbygoogle || []).push({});
+      </script>
+  edit:
+    enable: true
+  view:
+    enable: true
+  revision:
+    enable: true
+  contributors:
+    enable: true
+  backTop:
+    enable: true
+  mermaid:
+    enable: true
+  diff:
+    enable: true
+  button:
+    enable: true
+  share:
+    enable: true
+    options:
+      qq: true
+      wechat: true
+      weibo: true
+  sitemap:
+    enable: true
+  fontSize:
+    enable: true
+  comment:
+    enable: true
+    content: |
+      <script src="https://giscus.app/client.js"
+          data-repo="devlive-community/datacap"
+          data-repo-id="R_kgDOIAzx4g"
+          data-category="Q&A"
+          data-category-id="DIC_kwDOIAzx4s4CRfmA"
+          data-mapping="pathname"
+          data-strict="0"
+          data-reactions-enabled="1"
+          data-emit-metadata="0"
+          data-input-position="bottom"
+          data-theme="preferred_color_scheme"
+          data-lang="zh-CN"
+          data-loading="lazy"
+          crossorigin="anonymous"
+          async>
+      </script>
+  search:
+    enable: true
+  tabs:
+    enable: true
+
+i18n:
+  default: zh-CN
+  en:
+    name: English
+    flag: 🇬🇧
+    translations:
+      NavDocumentation: Documentation
+  zh-CN:
+    name: 中文
+    flag: 🇨🇳
+    translations:
+      NavDocumentation: 文档
+
+footer:
+  copyright: © 2024 DataCap All Rights Reserved.
+  social:
+    github:
+      title: GitHub
+      href: https://github.com/devlive-community/datacap
+  links:
+    - 社区资源:
+        - title: GitHub
+          href: https://github.com/devlive-community/datacap/discussions
+        - title: Discord
+          href: https://discord.gg/datacap
+        - title: Community
+          href: https://community.devlive.org
+    - 开源项目:
+        - title: 服务调用框架 LightCall
+          href: https://github.com/devlive-community/lightcall
+        - title: 网站构建 PageForge
+          href: https://github.com/devlive-community/pageforge
+        - title: 前端框架 View Shadcn UI
+          href: https://github.com/devlive-community/view-shadcn-ui
+    - 关于我们:
+        - title: 关于我们
+          href: https://github.com/devlive-community/datacap/blob/dev/README.md
+        - title: 联系我们
+          href: https://github.com/devlive-community/datacap/issues
+        - title: 隐私政策
+          href: https://github.com/devlive-community/datacap/blob/dev/LICENSE
+
+nav:
+  - NavDocumentation:
+    - /reference/getStarted/install

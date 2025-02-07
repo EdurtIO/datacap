@@ -1,19 +1,34 @@
 name: Publish docs via GitHub Pages
 
 on:
-  release:
-    types: [ published ]
+  push:
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-python@v2
-        with:
-          python-version: 3.x
-      - run: cd docs/ && pip install -r requirements.txt
-      - run: cd docs/ && mkdocs gh-deploy --force
+    strategy:
+      matrix:
+        node-version: [ 18.x ]
 
-env:
-  GH_TOKEN: ${{ secrets.GH_TOKEN }}
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node-version }}
+
+      - name: Install dependencies
+        run: npm install pageforge -g
+
+      - name: Build
+        run: |
+          cd docs
+          pageforge build
+          echo 'datacap.devlive.org' > dist/CNAME
+
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GH_TOKEN }}
+          publish_dir: docs/dist

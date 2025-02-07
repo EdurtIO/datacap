@@ -8,24 +8,28 @@ DataCap enables users to deploy services to their own machines. This document al
 
 ---
 
-!!! warning
+!!! warning "Warning"
 
     The binary package of the software is compiled and tested based on the following system. It has not been tested on other versions and is theoretically supported.
 
     If you have an unsupported system, use the source code compilation method to actively compile the binary file.
 
-| System | Version   |
-|--------|-----------|
-| JDK    | `>=11`    |
-| MySQL  | `>=5.6.x` |
+!!!
+
+| System | Version    |
+|--------|------------|
+| JDK    | `\>=11`    |
+| MySQL  | `\>=5.6.x` |
 
 ### Prepare the installation package
 
 ---
 
-!!! note
+!!! info "Info"
 
     Download the binary package of the corresponding system from the following address and install it. If you need to install using source code, go to the Developer Documentation module.
+
+!!!
 
 1. [Download the latest release version](../../download.md)
 
@@ -44,9 +48,11 @@ cd datacap
 
 For the first installation of the software, you need to import the sql script from the `schema/datacap.sql` file into the MySQL server. Note: The scripts that need to be imported are matched based on the downloaded package
 
-!!! danger
+!!! danger "Warning"
 
     If you are upgrading from another version, run `schema/VERSION/schema.sql`
+
+!!!
 
 All configurations in the DataCap software are in the `configure/application.properties` file.
 
@@ -89,9 +95,11 @@ spring.web.resources.add-mappings=true
 
 #### Database configuration
 
-!!! danger
+!!! danger "Warning"
 
     If version `>=8.x`, set `allowPublicKeyRetrieval=true`
+
+!!!
 
 ```properties
 spring.datasource.url=jdbc:mysql://localhost:3306/datacap?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull&allowMultiQueries=true&useSSL=false&useOldAliasMetadataBehavior=true&jdbcCompliantTruncation=false&allowPublicKeyRetrieval=true
@@ -103,9 +111,11 @@ spring.datasource.password=12345678
 - `spring.datasource.username`: Lets you configure the database username
 - `spring.datasource.password`: Used to configure the database password
 
-!!! note
+!!! info "Info"
 
     All Spring Data configuration parameters are supported
+
+!!!
 
 #### Actuator configuration
 
@@ -243,9 +253,11 @@ datacap.experimental.avatarPath={username}/avatar/
 
 #### JVM configuration
 
-!!! warning
+!!! warning "Warning"
 
     If you need to customize the JVM configuration, you can simply modify the `configure/jvm.conf` configuration file
+
+!!!
 
 ### Software startup
 
@@ -271,6 +283,8 @@ Stop the service and execute the following script
 
 #### Debug the service
 
-!!! note
+!!! info "Info"
 
     If you want to debug the system, you can start the service with `./bin/debug.sh`, but it stops when you close the window
+
+!!!
