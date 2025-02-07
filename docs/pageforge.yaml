@@ -138,3 +138,5 @@ footer:
 nav:
   - NavDocumentation:
     - /reference/getStarted/install
+  - /useCases
+  - /partners
