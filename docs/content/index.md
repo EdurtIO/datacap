@@ -11,8 +11,8 @@ hero:
   title: 开源数据中台 DataCap
   description: DataCap 是用于数据转换、集成和可视化的集成软件。支持多种数据源、文件类型、大数据相关数据库、关系数据库、NoSQL数据库等。通过软件可以实现多数据源的管理，对源下的数据进行各种操作转换、制作数据图表、监控数据源和其他功能。
   primaryCta:
-    url: /<%= pageData.language %>/reference/getStarted/install.html
-    text: 开始使用
+    url: /<%= pageData.language %>/reference/download.html
+    text: 下载使用
   secondaryCta:
     url: /<%= pageData.language %>/reference/getStarted/install.html
     text: 了解更多

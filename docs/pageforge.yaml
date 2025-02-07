@@ -90,6 +90,8 @@ feature:
     enable: true
   tabs:
     enable: true
+  grid:
+    enable: true
 
 i18n:
   default: zh-CN
