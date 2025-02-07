@@ -11,7 +11,7 @@ hero:
   title: Open Source Data Platform DataCap
   description: DataCap is an integrated software for data conversion, integration and visualization. It supports multiple data sources, file types, big data related databases, relational databases, NoSQL databases, etc. The software can be used to manage multiple data sources, perform various operations on the data under the source, make data charts, monitor data sources and other functions.
   primaryCta:
-    url: /<%= pageData.language %>/reference/download.html
+    url: /<%= pageData.language %>/download.html
     text: Download and use
   secondaryCta:
     url: /<%= pageData.language %>/reference/getStarted/install.html

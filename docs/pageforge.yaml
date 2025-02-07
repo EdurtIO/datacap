@@ -100,11 +100,13 @@ i18n:
     flag: 🇬🇧
     translations:
       NavDocumentation: Documentation
+      NavDeploy: Install Deploy
   zh-CN:
     name: 中文
     flag: 🇨🇳
     translations:
       NavDocumentation: 文档
+      NavDeploy: 安装部署
 
 footer:
   copyright: © 2024 DataCap All Rights Reserved.
@@ -137,6 +139,11 @@ footer:
 
 nav:
   - NavDocumentation:
-    - /reference/getStarted/install
+    - /reference/get-started/install
+    - /reference/get-started/installContainers
+    - /reference/get-started/installFromDockerCompose
+    - /reference/get-started/installRainbond
+    - /reference/get-started/query/home
+    - /reference/get-started/dashboard/home
   - /useCases
   - /partners

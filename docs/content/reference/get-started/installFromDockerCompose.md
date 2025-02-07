@@ -76,7 +76,7 @@ services:
       - ./configure/docker/application.properties:/opt/app/datacap/configure/application.properties
 ```
 
-!!! warning
+!!! warning "注意"
 
     需要同时下载一下多个文件：
 
@@ -84,6 +84,8 @@ services:
     - [application.properties](https://github.com/devlive-community/datacap/blob/dev/configure/docker/application.properties)
 
     下载完成后将他们放置到指定目录，也就是 `./configure/docker/` 和 `./configure/schema/` 如果需要自定义目录，可以修改 `docker-compose.yml` 文件中挂载的 `volumes` 配置即可。
+
+!!!
 
 ## 启动服务
 

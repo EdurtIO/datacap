@@ -76,7 +76,7 @@ services:
       - ./configure/docker/application.properties:/opt/app/datacap/configure/application.properties
 ```
 
-!!! warning
+!!! warning "Warning"
 
     You need to download multiple files at the same time:
 
@@ -84,6 +84,8 @@ services:
     - [application.properties](https://github.com/devlive-community/datacap/blob/dev/configure/docker/application.properties)
 
     After the download is completed, place them in the specified directory, that is, `./configure/docker/` and `./configure/schema/`. If you need to customize the directory, you can modify the ` mounted in the `docker-compose.yml` file. volumes` can be configured.
+
+!!!
 
 ## Start service
 
