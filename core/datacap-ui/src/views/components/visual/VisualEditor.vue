@@ -31,7 +31,7 @@
           <ShadcnSpin v-if="localLoading" fixed/>
 
           <div v-if="configuration" @click.stop.prevent>
-            <ShadcnToggleGroup v-model="configuration.type" @on-change="onChangeType">
+            <ShadcnToggleGroup v-model="configuration.type">
               <ShadcnSpace class="items-center" wrap>
                 <ShadcnToggle :disabled="configuration.headers.length === 0" :value="Type.TABLE">
                   <ShadcnTooltip :content="$t('dataset.common.visualTypeTable')">
@@ -288,12 +288,6 @@ export default defineComponent({
     }
   },
   methods: {
-    onChangeType(type: any[])
-    {
-      if (this.configuration) {
-        this.configuration.type = type[0]
-      }
-    },
     handlerCommit(value: any)
     {
       this.$emit('commitOptions', value)

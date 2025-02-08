@@ -15,9 +15,9 @@
         </template>
 
         <template #syncMode="{ row }">
-          <ShadcnBadge v-if="row?.syncMode === 'MANUAL'" :text=" $t('dataset.common.syncModeManual')"/>
-          <ShadcnBadge v-else-if="row?.syncMode === 'TIMING'" :text="$t('dataset.common.syncModeTiming')"/>
-          <ShadcnBadge v-else-if="row?.syncMode === 'OUT_SYNC'" :text="$t('dataset.common.syncModeOutSync')"/>
+          <ShadcnTag v-if="row?.syncMode === 'MANUAL'" :text=" $t('dataset.common.syncModeManual')"/>
+          <ShadcnTag v-else-if="row?.syncMode === 'TIMING'" :text="$t('dataset.common.syncModeTiming')"/>
+          <ShadcnTag v-else-if="row?.syncMode === 'OUT_SYNC'" :text="$t('dataset.common.syncModeOutSync')"/>
         </template>
 
         <template #state="{ row }">

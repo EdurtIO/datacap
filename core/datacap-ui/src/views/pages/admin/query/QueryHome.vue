@@ -96,8 +96,11 @@
               </div>
             </div>
 
-            <ShadcnTab v-else v-model="activeEditor as string" :closable="editors.size > 1" @on-tab-remove="onMinusEditor">
-              <ShadcnTabItem v-for="item in editors.values()" :label="item.title" :key="item.key" :value="item.key">
+            <ShadcnTab v-else v-model="activeEditor" :closable="Object.keys(editors).length > 1">
+              <ShadcnTabItem v-for="item in Object.values(editors)"
+                             :label="item.title"
+                             :key="item.key"
+                             :value="item.key">
                 <ShadcnCodeEditor v-model="item.content"
                                   :config="{language: 'sql', ...editorConfig}"
                                   :auto-complete-config="{
@@ -129,7 +132,7 @@
 
   <QueryHelp v-if="visibility.queryHelp"
              :is-visible="visibility.queryHelp"
-             :content="editors.get(activeEditor)?.content"
+             :content="editors[activeEditor]?.content"
              :help-type="queryConfigure.queryType"
              :engine="selectSource.engine as string"
              :message="responseConfigure.message as string"
@@ -204,7 +207,7 @@ export default defineComponent({
         code: null as string | null | undefined,
         full: null as string | null
       },
-      editors: new Map<string, EditorInstance>(),
+      editors: {} as Record<string, EditorInstance>,
       activeEditor: null as string | null,
       editorConfig: {
         fontSize: 12,
@@ -245,7 +248,7 @@ export default defineComponent({
             SnippetService.getByCode(code as string)
                           .then((response) => {
                             if (response.status && response.data?.code) {
-                              const activeEditor = this.editors.get(this.activeEditor)
+                              const activeEditor = this.editors[this.activeEditor]
                               activeEditor.content = response.data.context
                             }
                           })
@@ -257,7 +260,7 @@ export default defineComponent({
             AuditService.getByCode(code as string)
                         .then((response) => {
                           if (response.status && response.data) {
-                            const activeEditor = this.editors.get(this.activeEditor)
+                            const activeEditor = this.editors[this.activeEditor]
                             activeEditor.content = response.data.content
                             const full = `${ response.data.source.id }:${ response.data.source.type }:${ response.data.source.code }`
                             this.selectSource.full = full
@@ -282,23 +285,6 @@ export default defineComponent({
       this.responseConfigure.message = null
       this.createEditor()
     },
-    onMinusEditor(targetKey: string)
-    {
-      // 防止关闭最后一个标签
-      if (this.editors.size <= 1) {
-        return
-      }
-
-      const keys = Array.from(this.editors.keys())
-      const index = keys.indexOf(targetKey)
-
-      // 切换到前一个标签
-      if (this.activeEditor === targetKey) {
-        this.activeEditor = keys[Math.max(0, index - 1)]
-      }
-
-      this.editors.delete(targetKey)
-    },
     onRun()
     {
       this.responseConfigure.gridConfigure = null
@@ -307,7 +293,7 @@ export default defineComponent({
       this.queryConfigure.queryType = [HelpType.ANALYSIS, HelpType.OPTIMIZE]
       this.queryConfigure.cancelToken = axios.CancelToken.source()
       this.queryConfigure.configure.name = this.selectSource.code as string
-      const editor = this.editors.get(this.activeEditor)
+      const editor = this.editors[this.activeEditor]
       this.queryConfigure.configure.content = editor.content
       const editorContainer: HTMLElement = this.$refs.editorContainer as HTMLElement
 
@@ -349,7 +335,7 @@ export default defineComponent({
     {
       this.loading.formatting = true
 
-      const activeEditor = this.editors.get(this.activeEditor)
+      const activeEditor = this.editors[this.activeEditor]
       const configure = { sql: activeEditor.content }
       FormatService.formatSql(configure)
                    .then((response) => {
@@ -371,10 +357,10 @@ export default defineComponent({
     },
     visibleSnippet(opened: boolean)
     {
-      const editorInstance = this.selectEditor.editorInstance
+      const activeEditor = this.editors[this.activeEditor]
       this.dataInfoVisible = opened
-      if (editorInstance) {
-        const content = this.selectEditor.isSelection ? editorInstance.instance?.getSelectedText() : editorInstance.instance?.getValue()
+      if (activeEditor) {
+        const content = activeEditor.content
         this.dataInfo = SnippetRequest.of()
         this.dataInfo.context = content as string
       }
@@ -382,13 +368,16 @@ export default defineComponent({
     createEditor()
     {
       const newEditor: EditorInstance = {
-        title: `Query ${ this.editors.size + 1 }`,
+        title: `Query`,
         key: `editor-${ Date.now() }`,
         content: ''
       }
 
       this.activeEditor = newEditor.key
-      this.editors.set(newEditor.key, newEditor)
+      this.editors = {
+        ...this.editors,
+        [newEditor.key]: newEditor
+      }
     }
   }
 })

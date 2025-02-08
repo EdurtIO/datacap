@@ -8,3 +8,5 @@ DROP TABLE IF EXISTS `datacap_metadata_database`;
 DROP TABLE IF EXISTS `datacap_metadata_column_table_relation`;
 DROP TABLE IF EXISTS `datacap_metadata_column`;
 DROP TABLE IF EXISTS `datacap_template`;
+
+DELETE FROM `datacap_menu` WHERE id = 11;
