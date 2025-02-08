@@ -17,7 +17,7 @@
 
       <ShadcnTable size="small" :columns="headers" :data="data">
         <template #role="{row}">
-          <ShadcnBadge v-for="role in row.roles" class="mt-1" :text="role.name"/>
+          <ShadcnTag v-for="role in row.roles" :text="role.name"/>
         </template>
 
         <template #action="{row}">

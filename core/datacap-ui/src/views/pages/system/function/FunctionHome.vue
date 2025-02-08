@@ -26,7 +26,7 @@
 
       <ShadcnTable size="small" :columns="headers" :data="data">
         <template #type="{ row }">
-          <ShadcnBadge :text="$t('function.common.' + row.type.toLowerCase())"/>
+          <ShadcnTag :text="$t('function.common.' + row.type.toLowerCase())"/>
         </template>
 
         <template #plugin="{ row }">
