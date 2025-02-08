@@ -5,14 +5,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>合作伙伴 - DataCap</title>
+    <title>Deploying in Rainbond - DataCap</title>
     <!-- 基础 SEO meta 标签 -->
-<meta name="description" content="宽而广的使用团体，让我们的系统更加的善美。">
+<meta name="description" content="DataCap is integrated software for data transformation, integration, and visualization. Support a variety of data sources, file types, big data related database, relational database, NoSQL database, etc. Through the software can realize the management of multiple data sources, the data under the source of various operations conversion ...">
 <meta name="keywords" content="datacap,database,mysql,postgresql,clickhouse,oracle,sqlserver,sqlserver2008,sqlserver2012,sqlserver2014,sqlserver2016,sqlserver2017,sqlserver2019,sqlserver2022,hive,spark,mysql,postgresql,clickhouse,oracle,sqlserver,sqlserver2008,sqlserver2012,sqlserver2014,sqlserver2016,sqlserver2017,sqlserver2019,sqlserver2022,hive,spark">
 <meta name="author" content="PageForge">
 
-    <title>合作伙伴 - DataCap</title>
-    <link rel="icon" href="../assets/logo.png" type="image/x-icon">
+    <title>Deploying in Rainbond - DataCap</title>
+    <link rel="icon" href="../../../assets/logo.png" type="image/x-icon">
 
     <!-- 基础样式文件 -->
     <link rel="stylesheet" href="/assets/pageforge.min.css">
@@ -116,7 +116,7 @@
                     <div class="flex items-center space-x-4 shrink-0 lg:mr-8">
     
         <a href="/en" class="flex items-center">
-            <img src="..//assets/logo.png"
+            <img src="../../..//assets/logo.png"
                  alt="DataCap"
                  class="h-10 w-auto object-contain transition-transform hover:scale-105">
         </a>
@@ -134,7 +134,7 @@
             <a href="/en/reference/get-started/install.html"
                class="inline-flex items-center rounded-lg justify-center px-4 py-3
                                           text-sm font-medium leading-none 
-                                          hover:text-gray-900  hover:bg-gray-50 ">
+                                          text-blue-600  bg-blue-50/80  font-medium">
                 Documentation
             </a>
         </li>
@@ -152,7 +152,7 @@
             <a href="/en/partners.html"
                class="inline-flex items-center rounded-lg justify-center px-4 py-3
                                           text-sm font-medium leading-none 
-                                          text-blue-600  bg-blue-50/80  font-medium">
+                                          hover:text-gray-900  hover:bg-gray-50 ">
                 合作伙伴
             </a>
         </li>
@@ -256,14 +256,14 @@
         <div id="language-menu"
              class="hidden absolute right-0 mt-2 py-2 w-36 space-y-1 bg-white dark:bg-gray-800 rounded-lg shadow-lg ring-1 ring-black ring-opacity-5">
             
-                <a href="/en/partners.html"
+                <a href="/en/reference/get-started/installRainbond.html"
                    class="flex items-center gap-2 px-4 py-2 text-sm text-gray-700 dark:text-gray-200 hover:bg-gray-50 dark:hover:bg-gray-700
                                     bg-gray-50 dark:bg-gray-700">
                     <span>🇬🇧</span>
                     <span>English</span>
                 </a>
             
-                <a href="/zh-CN/partners.html"
+                <a href="/zh-CN/reference/get-started/installRainbond.html"
                    class="flex items-center gap-2 px-4 py-2 text-sm text-gray-700 dark:text-gray-200 hover:bg-gray-50 dark:hover:bg-gray-700
                                     ">
                     <span>🇨🇳</span>
@@ -398,7 +398,7 @@
                 
                     <a href="/en/reference/get-started/install.html"
                        class="block px-3 py-2 rounded-md text-base font-medium
-                              text-gray-700  hover:text-gray-900  hover:bg-gray-50 ">
+                              text-blue-600  bg-blue-50/80 ">
                         Documentation
                     </a>
                 
@@ -410,7 +410,7 @@
                 
                     <a href="/en/partners.html"
                        class="block px-3 py-2 rounded-md text-base font-medium
-                              text-blue-600  bg-blue-50/80 ">
+                              text-gray-700  hover:text-gray-900  hover:bg-gray-50 ">
                         合作伙伴
                     </a>
                 
@@ -419,14 +419,14 @@
                 
                     <div class="px-3 py-2 space-y-1 border-t dark:border-gray-700">
     
-        <a href="/en/partners.html"
+        <a href="/en/reference/get-started/installRainbond.html"
            class="flex items-center gap-2 px-4 py-2 text-sm text-gray-700 dark:text-gray-200 hover:bg-gray-50 dark:hover:bg-gray-700
                                 bg-gray-50 dark:bg-gray-700">
             <span>🇬🇧</span>
             <span>English</span>
         </a>
     
-        <a href="/zh-CN/partners.html"
+        <a href="/zh-CN/reference/get-started/installRainbond.html"
            class="flex items-center gap-2 px-4 py-2 text-sm text-gray-700 dark:text-gray-200 hover:bg-gray-50 dark:hover:bg-gray-700
                                 ">
             <span>🇨🇳</span>
@@ -566,198 +566,880 @@
 
     <!-- 移动端菜单按钮 -->
     
+        <button class="md:hidden fixed left-4 bottom-4 z-20 bg-white dark:bg-gray-800 p-2 rounded-full shadow-lg"
+                onclick="document.getElementById('sidebar-menu').classList.remove('-translate-x-full');
+                         document.getElementById('sidebar-overlay').classList.remove('hidden');">
+            <svg class="w-6 h-6 text-gray-600 dark:text-gray-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+            </svg>
+        </button>
+    
 
     <div class="pt-[--header-height] w-full">
         <div class="container mx-auto px-4 py-4 md:py-8 flex-grow flex flex-col md:flex-row">
             <!-- 左侧列表 - 移动端隐藏，可通过菜单触发显示 -->
+            
+                <aside class="fixed md:relative md:w-56 lg:w-64 flex-shrink-0 md:pr-4 lg:pr-8
+                         inset-y-0 left-0 transform -translate-x-full md:translate-x-0
+                         transition duration-200 ease-in-out
+                         md:block z-30 bg-white dark:bg-gray-900 md:bg-transparent
+                         w-3/4 sm:w-64"
+                       id="sidebar-menu">
+                    <div class="h-16 md:hidden flex items-center justify-end px-4 border-b dark:border-gray-800">
+                        <button class="text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-100"
+                                onclick="document.getElementById('sidebar-menu').classList.add('-translate-x-full');
+                                     document.getElementById('sidebar-overlay').classList.add('hidden');">
+                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+                            </svg>
+                        </button>
+                    </div>
+                    <nav class="md:sticky p-4 md:p-0">
+                        <div class="space-y-4">
+                            
+
+
+
+
+
+
+    <div class="text-[0.9375rem] text-gray-600 dark:text-gray-300 overflow-y-auto max-h-[calc(100vh-4rem)] pageforge-scrollbar
+                sm:max-h-screen md:h-auto lg:max-h-[calc(100vh-2rem)]">
+        <div class="mb-6 overflow-x-auto min-w-0">
+            <div class="min-w-fit">
+                
+    <ul class="space-y-1.5">
+        
+            <li class="relative">
+                
+                    <a href="/en/reference/get-started/install.html"
+                       class="group block">
+                        
+                        <div class="relative flex items-center px-2 sm:px-3 md:px-4 py-1.5 sm:py-2
+                                hover:text-gray-900 dark:hover:text-gray-200 hover:bg-gray-50 dark:hover:bg-gray-800/40
+                               rounded-md transition-all duration-200 ease-in-out">
+
+                            
+
+                            <span class="flex flex-grow items-center space-x-4 text-sm sm:text-base whitespace-nowrap">
+                                <span>自主机部署</span>
+                                
+
+
+                            </span>
+
+                            
+                        </div>
+                        
+                    </a>
+                
+            </li>
+        
+            <li class="relative">
+                
+                    <a href="/en/reference/get-started/installContainers.html"
+                       class="group block">
+                        
+                        <div class="relative flex items-center px-2 sm:px-3 md:px-4 py-1.5 sm:py-2
+                                hover:text-gray-900 dark:hover:text-gray-200 hover:bg-gray-50 dark:hover:bg-gray-800/40
+                               rounded-md transition-all duration-200 ease-in-out">
+
+                            
+
+                            <span class="flex flex-grow items-center space-x-4 text-sm sm:text-base whitespace-nowrap">
+                                <span>Docker 部署</span>
+                                
+
+
+                            </span>
+
+                            
+                        </div>
+                        
+                    </a>
+                
+            </li>
+        
+            <li class="relative">
+                
+                    <a href="/en/reference/get-started/installFromDockerCompose.html"
+                       class="group block">
+                        
+                        <div class="relative flex items-center px-2 sm:px-3 md:px-4 py-1.5 sm:py-2
+                                hover:text-gray-900 dark:hover:text-gray-200 hover:bg-gray-50 dark:hover:bg-gray-800/40
+                               rounded-md transition-all duration-200 ease-in-out">
+
+                            
+
+                            <span class="flex flex-grow items-center space-x-4 text-sm sm:text-base whitespace-nowrap">
+                                <span>Docker Compose 部署</span>
+                                
+
+
+                            </span>
+
+                            
+                        </div>
+                        
+                    </a>
+                
+            </li>
+        
+            <li class="relative">
+                
+                    <a href="/en/reference/get-started/installRainbond.html"
+                       class="group block">
+                        
+                        <div class="relative flex items-center px-2 sm:px-3 md:px-4 py-1.5 sm:py-2
+                                text-blue-600 dark:text-blue-400 bg-blue-50/80 dark:bg-blue-900/20 font-medium
+                               rounded-md transition-all duration-200 ease-in-out">
+
+                            
+
+                            <span class="flex flex-grow items-center space-x-4 text-sm sm:text-base whitespace-nowrap">
+                                <span>Rainbond 部署</span>
+                                
+
+
+                            </span>
+
+                            
+                        </div>
+                        
+                    </a>
+                
+            </li>
+        
+            <li class="relative">
+                
+                    <a href="/en/reference/get-started/query/home.html"
+                       class="group block">
+                        
+                        <div class="relative flex items-center px-2 sm:px-3 md:px-4 py-1.5 sm:py-2
+                                hover:text-gray-900 dark:hover:text-gray-200 hover:bg-gray-50 dark:hover:bg-gray-800/40
+                               rounded-md transition-all duration-200 ease-in-out">
+
+                            
+
+                            <span class="flex flex-grow items-center space-x-4 text-sm sm:text-base whitespace-nowrap">
+                                <span>即席查询</span>
+                                
+
+
+                            </span>
+
+                            
+                        </div>
+                        
+                    </a>
+                
+            </li>
+        
+            <li class="relative">
+                
+                    <a href="/en/reference/get-started/dashboard/home.html"
+                       class="group block">
+                        
+                        <div class="relative flex items-center px-2 sm:px-3 md:px-4 py-1.5 sm:py-2
+                                hover:text-gray-900 dark:hover:text-gray-200 hover:bg-gray-50 dark:hover:bg-gray-800/40
+                               rounded-md transition-all duration-200 ease-in-out">
+
+                            
+
+                            <span class="flex flex-grow items-center space-x-4 text-sm sm:text-base whitespace-nowrap">
+                                <span>仪表盘</span>
+                                
+
+
+                            </span>
+
+                            
+                        </div>
+                        
+                    </a>
+                
+            </li>
+        
+            <li class="relative">
+                
+                <button type="button"
+                        class="group block w-full text-left"
+                        onclick="toggleSubmenu(this)">
+                    
+                        <div class="relative flex items-center px-2 sm:px-3 md:px-4 py-1.5 sm:py-2
+                                hover:text-gray-900 dark:hover:text-gray-200 hover:bg-gray-50 dark:hover:bg-gray-800/40
+                               rounded-md transition-all duration-200 ease-in-out">
+
+                            
+
+                            <span class="flex flex-grow items-center space-x-4 text-sm sm:text-base whitespace-nowrap">
+                                <span>Dataset</span>
+                                
+
+
+                            </span>
+
+                            
+                                <svg xmlns="http://www.w3.org/2000/svg"
+                                     class="h-3 w-3 sm:h-4 sm:w-4 ml-1 sm:ml-2 text-gray-400 transform transition-transform duration-200 ease-in-out
+                                        group-hover:text-gray-600 dark:group-hover:text-gray-300"
+                                     viewBox="0 0 20 20"
+                                     fill="currentColor">
+                                    <path fill-rule="evenodd"
+                                          d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
+                                          clip-rule="evenodd"/>
+                                </svg>
+                            
+                        </div>
+                        
+                </button>
+                <div class="overflow-hidden transition-all duration-200 ease-in-out
+                               max-h-0 opacity-0">
+                    
+    <ul class="mt-1 mb-2 ml-2 sm:ml-3 md:ml-4 pl-2 sm:pl-3 md:pl-4 border-l border-gray-200 dark:border-gray-700 space-y-1.5">
+        
+            <li class="relative">
+                
+                    <a href="/en/reference/get-started/dataset/create/home.html"
+                       class="group block">
+                        
+                        <div class="relative flex items-center px-2 sm:px-3 md:px-4 py-1.5 sm:py-2
+                                hover:text-gray-900 dark:hover:text-gray-200 hover:bg-gray-50 dark:hover:bg-gray-800/40
+                               rounded-md transition-all duration-200 ease-in-out">
+
+                            
+
+                            <span class="flex flex-grow items-center space-x-4 text-xs sm:text-sm md:text-base whitespace-nowrap">
+                                <span>新建 &amp; 编辑</span>
+                                
+
+
+                            </span>
+
+                            
+                        </div>
+                        
+                    </a>
+                
+            </li>
+        
+    </ul>
+
+                </div>
+                
+            </li>
+        
+    </ul>
+
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function toggleSubmenu(button) {
+            const submenu = button.nextElementSibling;
+            const arrow = button.querySelector('svg');
+
+            // 切换子菜单的类
+            if (submenu.classList.contains('max-h-0')) {
+                submenu.classList.remove('max-h-0', 'opacity-0');
+                submenu.classList.add('max-h-96', 'opacity-100');
+                arrow.classList.add('rotate-90');
+            } else {
+                submenu.classList.add('max-h-0', 'opacity-0');
+                submenu.classList.remove('max-h-96', 'opacity-100');
+                arrow.classList.remove('rotate-90');
+            }
+        }
+    </script>
+
+                        </div>
+                    </nav>
+                </aside>
             
 
             <!-- 中间内容 -->
             <main class="flex-grow w-full md:w-2">
                 <article class="prose dark:prose-invert lg:prose-lg mx-auto
                           max-w-none md:max-w-2xl lg:max-w-full">
-                    <section class="bg-white dark:bg-gray-900">
-    <div class="mx-auto max-w-7xl px-6 lg:px-8">
-        <div class="mx-auto max-w-2xl text-center">
-            <h2 class="text-3xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-4xl">
-                合作伙伴
-            </h2>
-            <p class="mt-6 text-lg leading-8 text-gray-600 dark:text-gray-300">
-                宽而广的使用团体，让我们的系统更加的善美。
-            </p>
-        </div>
+                    <!-- 页面容器 -->
+<div class="relative lg:flex lg:gap-8">
+    <!-- 主要内容区域 -->
+    <div class="min-w-0 flex-1">
+        <!-- 页面标题部分 -->
+        <div class="mb-8">
+            
+    <div class="flex items-center justify-between">
+        <h1 class="text-3xl font-bold tracking-tight text-gray-900 dark:text-gray-100 sm:text-3xl lg:text-3xl">
+            Deploying in Rainbond
+        </h1>
 
-        <div class="mx-auto mt-16 max-w-7xl">
-            <ul role="list" class="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
-                
-                    <li class="group relative">
-                        <div class="flex flex-col items-center p-6 bg-white dark:bg-gray-800 rounded-xl shadow-sm ring-1 ring-gray-200/70 dark:ring-gray-700/50 hover:shadow-xl hover:scale-105 hover:bg-gray-50 dark:hover:bg-gray-700 transition-all duration-300 ease-in-out">
-                            <div class="relative w-24 h-24 mb-4 transform group-hover:-rotate-6 transition-transform duration-300">
-                                <img class="w-full h-full rounded-full object-cover ring-2 ring-transparent group-hover:ring-indigo-500 transition-all duration-300"
-                                     src="https://view-shadcn-ui.devlive.org/logo.svg"
-                                     alt="View Shadcn UI's avatar"
-                                     loading="lazy">
-                                
-                            </div>
+        <div class="flex items-center gap-4">
+            <!-- 字体大小控制按钮 -->
+            
+    <div class="flex items-center gap-2 p-0.5 bg-white dark:bg-gray-800 rounded-lg dark:border-gray-700 not-prose">
+        <button id="decrease-font" class="p-1 hover:bg-gray-100 dark:hover:bg-gray-700 rounded" title="减小字体">
+            <svg class="w-4 h-4" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd" d="M5 10a1 1 0 011-1h8a1 1 0 110 2H6a1 1 0 01-1-1z" clip-rule="evenodd"/>
+            </svg>
+        </button>
+        <button id="reset-font" class="p-1 hover:bg-gray-100 dark:hover:bg-gray-700 rounded text-sm" title="重置字体">A</button>
+        <button id="increase-font" class="p-1 hover:bg-gray-100 dark:hover:bg-gray-700 rounded" title="增大字体">
+            <svg class="w-4 h-4" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd" d="M10 5a1 1 0 011 1v3h3a1 1 0 110 2h-3v3a1 1 0 11-2 0v-3H6a1 1 0 110-2h3V6a1 1 0 011-1z" clip-rule="evenodd"/>
+            </svg>
+        </button>
+    </div>
 
-                            <h3 class="text-lg font-semibold text-gray-900 dark:text-white group-hover:text-indigo-600 dark:group-hover:text-indigo-400 transition-colors duration-300">
-                                View Shadcn UI
-                            </h3>
 
-                            <p class="mt-2 text-sm text-gray-500 dark:text-gray-400 capitalize">
-                                
-                            </p>
+            <!-- 分享按钮 -->
+            
+    <button type="button" id="share-btn" class="text-gray-400 hover:text-blue-700 dark:text-gray-400 dark:hover:text-gray-300">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+             stroke-linejoin="round" class="w-4 h-4">
+            <path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"/>
+            <polyline points="16 6 12 2 8 6"/>
+            <line x1="12" y1="2" x2="12" y2="15"/>
+        </svg>
+    </button>
 
-                            <div class="mt-4 transform translate-y-0 opacity-100 group-hover:translate-y-1 group-hover:opacity-90 transition-all duration-300">
-                                <a href="https://view-shadcn-ui.devlive.org"
-                                   target="_blank"
-                                   rel="noopener noreferrer"
-                                   class="inline-flex items-center text-sm font-medium text-indigo-600 hover:text-indigo-800 dark:text-indigo-400 dark:hover:text-indigo-300">
-                                    访问
-                                    <svg class="ml-1 w-4 h-4 transform group-hover:translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
-                                    </svg>
-                                </a>
-                            </div>
-                        </div>
-                    </li>
-                
-                    <li class="group relative">
-                        <div class="flex flex-col items-center p-6 bg-white dark:bg-gray-800 rounded-xl shadow-sm ring-1 ring-gray-200/70 dark:ring-gray-700/50 hover:shadow-xl hover:scale-105 hover:bg-gray-50 dark:hover:bg-gray-700 transition-all duration-300 ease-in-out">
-                            <div class="relative w-24 h-24 mb-4 transform group-hover:-rotate-6 transition-transform duration-300">
-                                <img class="w-full h-full rounded-full object-cover ring-2 ring-transparent group-hover:ring-indigo-500 transition-all duration-300"
-                                     src="https://github.com/VisActor/.github/raw/main/profile/logo_500_200_light.svg"
-                                     alt="VTable 方格艺术家's avatar"
-                                     loading="lazy">
-                                
-                            </div>
-
-                            <h3 class="text-lg font-semibold text-gray-900 dark:text-white group-hover:text-indigo-600 dark:group-hover:text-indigo-400 transition-colors duration-300">
-                                VTable 方格艺术家
-                            </h3>
-
-                            <p class="mt-2 text-sm text-gray-500 dark:text-gray-400 capitalize">
-                                
-                            </p>
-
-                            <div class="mt-4 transform translate-y-0 opacity-100 group-hover:translate-y-1 group-hover:opacity-90 transition-all duration-300">
-                                <a href="https://visactor.io/vtable"
-                                   target="_blank"
-                                   rel="noopener noreferrer"
-                                   class="inline-flex items-center text-sm font-medium text-indigo-600 hover:text-indigo-800 dark:text-indigo-400 dark:hover:text-indigo-300">
-                                    访问
-                                    <svg class="ml-1 w-4 h-4 transform group-hover:translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
-                                    </svg>
-                                </a>
-                            </div>
-                        </div>
-                    </li>
-                
-                    <li class="group relative">
-                        <div class="flex flex-col items-center p-6 bg-white dark:bg-gray-800 rounded-xl shadow-sm ring-1 ring-gray-200/70 dark:ring-gray-700/50 hover:shadow-xl hover:scale-105 hover:bg-gray-50 dark:hover:bg-gray-700 transition-all duration-300 ease-in-out">
-                            <div class="relative w-24 h-24 mb-4 transform group-hover:-rotate-6 transition-transform duration-300">
-                                <img class="w-full h-full rounded-full object-cover ring-2 ring-transparent group-hover:ring-indigo-500 transition-all duration-300"
-                                     src="https://github.com/VisActor/.github/raw/main/profile/logo_500_200_light.svg"
-                                     alt="VChart 故事讲述者's avatar"
-                                     loading="lazy">
-                                
-                            </div>
-
-                            <h3 class="text-lg font-semibold text-gray-900 dark:text-white group-hover:text-indigo-600 dark:group-hover:text-indigo-400 transition-colors duration-300">
-                                VChart 故事讲述者
-                            </h3>
-
-                            <p class="mt-2 text-sm text-gray-500 dark:text-gray-400 capitalize">
-                                
-                            </p>
-
-                            <div class="mt-4 transform translate-y-0 opacity-100 group-hover:translate-y-1 group-hover:opacity-90 transition-all duration-300">
-                                <a href="https://visactor.io/vchart"
-                                   target="_blank"
-                                   rel="noopener noreferrer"
-                                   class="inline-flex items-center text-sm font-medium text-indigo-600 hover:text-indigo-800 dark:text-indigo-400 dark:hover:text-indigo-300">
-                                    访问
-                                    <svg class="ml-1 w-4 h-4 transform group-hover:translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
-                                    </svg>
-                                </a>
-                            </div>
-                        </div>
-                    </li>
-                
-                    <li class="group relative">
-                        <div class="flex flex-col items-center p-6 bg-white dark:bg-gray-800 rounded-xl shadow-sm ring-1 ring-gray-200/70 dark:ring-gray-700/50 hover:shadow-xl hover:scale-105 hover:bg-gray-50 dark:hover:bg-gray-700 transition-all duration-300 ease-in-out">
-                            <div class="relative w-24 h-24 mb-4 transform group-hover:-rotate-6 transition-transform duration-300">
-                                <img class="w-full h-full rounded-full object-cover ring-2 ring-transparent group-hover:ring-indigo-500 transition-all duration-300"
-                                     src="https://avatars.githubusercontent.com/u/6128107?s=200&amp;v=4"
-                                     alt="Vue.js's avatar"
-                                     loading="lazy">
-                                
-                            </div>
-
-                            <h3 class="text-lg font-semibold text-gray-900 dark:text-white group-hover:text-indigo-600 dark:group-hover:text-indigo-400 transition-colors duration-300">
-                                Vue.js
-                            </h3>
-
-                            <p class="mt-2 text-sm text-gray-500 dark:text-gray-400 capitalize">
-                                
-                            </p>
-
-                            <div class="mt-4 transform translate-y-0 opacity-100 group-hover:translate-y-1 group-hover:opacity-90 transition-all duration-300">
-                                <a href="https://vuejs.org"
-                                   target="_blank"
-                                   rel="noopener noreferrer"
-                                   class="inline-flex items-center text-sm font-medium text-indigo-600 hover:text-indigo-800 dark:text-indigo-400 dark:hover:text-indigo-300">
-                                    访问
-                                    <svg class="ml-1 w-4 h-4 transform group-hover:translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
-                                    </svg>
-                                </a>
-                            </div>
-                        </div>
-                    </li>
-                
-                    <li class="group relative">
-                        <div class="flex flex-col items-center p-6 bg-white dark:bg-gray-800 rounded-xl shadow-sm ring-1 ring-gray-200/70 dark:ring-gray-700/50 hover:shadow-xl hover:scale-105 hover:bg-gray-50 dark:hover:bg-gray-700 transition-all duration-300 ease-in-out">
-                            <div class="relative w-24 h-24 mb-4 transform group-hover:-rotate-6 transition-transform duration-300">
-                                <img class="w-full h-full rounded-full object-cover ring-2 ring-transparent group-hover:ring-indigo-500 transition-all duration-300"
-                                     src="https://avatars.githubusercontent.com/u/19199542?s=48&amp;v=4"
-                                     alt="X6 图编辑引擎's avatar"
-                                     loading="lazy">
-                                
-                            </div>
-
-                            <h3 class="text-lg font-semibold text-gray-900 dark:text-white group-hover:text-indigo-600 dark:group-hover:text-indigo-400 transition-colors duration-300">
-                                X6 图编辑引擎
-                            </h3>
-
-                            <p class="mt-2 text-sm text-gray-500 dark:text-gray-400 capitalize">
-                                
-                            </p>
-
-                            <div class="mt-4 transform translate-y-0 opacity-100 group-hover:translate-y-1 group-hover:opacity-90 transition-all duration-300">
-                                <a href="https://x6.antv.vision"
-                                   target="_blank"
-                                   rel="noopener noreferrer"
-                                   class="inline-flex items-center text-sm font-medium text-indigo-600 hover:text-indigo-800 dark:text-indigo-400 dark:hover:text-indigo-300">
-                                    访问
-                                    <svg class="ml-1 w-4 h-4 transform group-hover:translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
-                                    </svg>
-                                </a>
-                            </div>
-                        </div>
-                    </li>
-                
-            </ul>
+    <div id="share-popup" class="hidden fixed inset-0 z-50" onclick="handleClickOutside(event)">
+        <div class="absolute inset-0 bg-gray-500 bg-opacity-75 dark:bg-gray-900 dark:bg-opacity-75"></div>
+        <div class="relative z-10 flex items-end sm:items-center justify-center min-h-full p-4 text-center sm:p-0">
+            <div class="relative transform overflow-visible rounded-lg bg-white dark:bg-gray-800 px-4 pb-4 pt-5 text-left shadow-xl transition-all sm:my-8 w-fit">
+                <div class="social-share text-center"
+                     data-sites="qq,wechat,weibo"
+                     data-mobile-sites="qq,wechat,weibo"
+                     data-wechat-qrcode-title="微信扫一扫：分享"
+                     data-wechat-qrcode-helper="微信扫一扫后点击右上角分享">
+                </div>
+            </div>
         </div>
     </div>
-</section>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/social-share.js/1.0.16/css/share.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/social-share.js/1.0.16/js/social-share.min.js"></script>
+
+    <style>
+        /* 修复微信二维码显示被遮挡的问题 */
+        .social-share .wechat-qrcode {
+            z-index: 9999;
+            width: fit-content;
+        }
+    </style>
+
+    <script>
+        document.getElementById('share-btn')?.addEventListener('click', function () {
+            document.getElementById('share-popup')?.classList.remove('hidden');
+            document.body.style.overflow = 'hidden';
+        });
+
+        function handleClickOutside(event) {
+            const sharePopup = document.getElementById('share-popup');
+            const shareContent = sharePopup?.querySelector('.transform');
+
+            // 如果点击的是弹窗内容之外的区域
+            if (event.target === sharePopup || !shareContent?.contains(event.target)) {
+                hideSharePopup();
+            }
+        }
+
+        function hideSharePopup() {
+            document.getElementById('share-popup')?.classList.add('hidden');
+            document.body.style.overflow = '';
+        }
+
+        // 处理 ESC 键关闭
+        document.addEventListener('keydown', function (e) {
+            if (e.key === 'Escape') {
+                hideSharePopup();
+            }
+        });
+
+        document.addEventListener('DOMContentLoaded', function () {
+            // 初始化 social share
+            socialShare('.social-share', {
+                wechatQrcodeTitle: '微信扫一扫：分享',
+                wechatQrcodeHelper: '微信扫一扫后点击右上角分享',
+                url: window.location.href,
+                source: document.title,
+                wechat: function (elem, data) {
+                    // 自定义微信点击行为
+                    if (elem.classList.contains('icon-wechat')) {
+                        return false;  // 阻止默认跳转
+                    }
+                }
+            });
+
+            // 防止微信图标点击跳转
+            document.querySelector('.icon-wechat')?.addEventListener('click', function (e) {
+                e.preventDefault();
+                e.stopPropagation();
+                return false;
+            }, true);
+        });
+    </script>
+
+
+            <!-- 编辑源码 -->
+            
+    <a href="https://github.com/devlive-community/datacap/edit/dev/docs/content//reference/get-started/installRainbond.en.md"
+       target="_blank"
+       rel="noopener noreferrer"
+       class="text-gray-400 hover:text-blue-700 dark:text-gray-400 dark:hover:text-gray-300">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+             stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-edit w-4 h-4">
+            <path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"/>
+            <path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"/>
+        </svg>
+    </a>
+
+
+            <!-- 查看源码 -->
+            
+    <a href="https://github.com/devlive-community/datacap/blob/dev/docs/content//reference/get-started/installRainbond.en.md"
+       target="_blank"
+       rel="noopener noreferrer"
+       class="text-gray-400 hover:text-blue-700 dark:text-gray-400 dark:hover:text-gray-300">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+             stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-code w-4 h-4">
+            <polyline points="16 18 22 12 16 6"/>
+            <polyline points="8 6 2 12 8 18"/>
+        </svg>
+    </a>
+
+        </div>
+    </div>
+    
+
+        </div>
+
+        <!-- 主要内容部分 -->
+        <div class="prose prose-gray dark:prose-invert max-w-none text-base">
+            
+        <div class="space-y-4"></div>
+    <span class="inline-block my-1 mx-auto">If you are unfamiliar with Kubernetes, and want to install DataCap in Kubernetes, you can use Rainbond to deploy. 
+        <a class="text-blue-600 hover:text-blue-800 hover:underline transition-colors duration-200 cursor-pointer"
+           href="http://www.rainbond.com/"
+           target="_self"
+           title="">
+            Rainbond
+        </a>
+     is a cloud-native application management platform built on Kubernetes and simplifies the application deployment to Kubernetes.</span>
+        <div class="space-y-4"></div>
+    
+        <div class="text-2xl sm:text-3xl font-bold tracking-tight text-gray-900 dark:text-white my-3 [&_span]:!font-inherit [&_span]:!text-inherit [&_code]:!text-inherit [&_span]:!text-2xl [&_span]:sm:!text-3xl">
+            <div id="Prerequisite" class="inline-flex items-center">
+        <span class="text-base text-gray-700 leading-7 my-2">Prerequisite</span>
+    </div>
+        </div>
+    <span class="inline-block my-1 mx-auto">To install Rainbond, please refer to 
+        <a class="text-blue-600 hover:text-blue-800 hover:underline transition-colors duration-200 cursor-pointer"
+           href="https://rainbond.com/docs/quick-start/quick-install"
+           target="_self"
+           title="">
+            Rainbond Quick Install
+        </a>
+    .</span>
+        <div class="space-y-4"></div>
+    
+        <div class="text-2xl sm:text-3xl font-bold tracking-tight text-gray-900 dark:text-white my-3 [&_span]:!font-inherit [&_span]:!text-inherit [&_code]:!text-inherit [&_span]:!text-2xl [&_span]:sm:!text-3xl">
+            <div id="DeployDataCap" class="inline-flex items-center">
+        <span class="text-base text-gray-700 leading-7 my-2">Deploy DataCap</span>
+    </div>
+        </div>
+    
+        <span class="text-base text-gray-700 leading-7 my-2">DataCap has been released to the Rainbond Open Source App Store, DataCap can be deployed with one click through the Rainbond Open Source App Store.</span>
+    
+        <div class="space-y-4"></div>
+    
+        <span class="text-base text-gray-700 leading-7 my-2">Go to the Rainbond Console's </span>
+    
+        <code class="bg-gray-100 text-gray-900 px-1.5 py-0.5 rounded text-sm font-mono mx-1 inline-block max-w-full break-all whitespace-pre-wrap overflow-wrap-anywhere">Platform Management -> App Marketplace -> Open Source App Store</code>
+    
+        <span class="text-base text-gray-700 leading-7 my-2"> and search for </span>
+    
+        <code class="bg-gray-100 text-gray-900 px-1.5 py-0.5 rounded text-sm font-mono mx-1 inline-block max-w-full break-all whitespace-pre-wrap overflow-wrap-anywhere">datacap</code>
+    
+        <span class="text-base text-gray-700 leading-7 my-2"> and install it.</span>
+    
+        <div class="space-y-4"></div>
+    
+        <div class="w-full h-full relative">
+            <style>
+                @keyframes loading-spin {
+                    0% { transform: rotate(0deg); }
+                    100% { transform: rotate(360deg); }
+                }
+                .loading-flower {
+                    width: 20px;
+                    height: 20px;
+                    border: 2px solid #e5e7eb;
+                    border-top-color: #6b7280;
+                    border-radius: 50%;
+                    animation: loading-spin 0.8s linear infinite;
+                }
+                .dark .loading-flower {
+                    border-color: #4b5563;
+                    border-top-color: #9ca3af;
+                }
+            </style>
+            
+            <!-- 加载动画 -->
+            <div class="loading-indicator absolute inset-0 flex items-center justify-center">
+                <div class="loading-flower"></div>
+            </div>
+            
+            <!-- 图片 -->
+            <img src="https://static.goodrain.com/wechat/datacap/datacap-store-en.png" 
+                 alt="" class="max-w-full h-auto"
+                 style="opacity: 0; "
+                 onload="this.style.opacity = 1; this.previousElementSibling.style.display = 'none'"
+                 onerror="this.parentElement.innerHTML = '<div class='text-red-500 dark:text-red-400'>图片加载失败</div>'"
+                 class="transition-opacity duration-300 max-w-full h-auto"/>
+        </div>
+    
+        <div class="space-y-4"></div>
+    
+        <span class="text-base text-gray-700 leading-7 my-2">Fill in the following information, and click </span>
+    
+        <code class="bg-gray-100 text-gray-900 px-1.5 py-0.5 rounded text-sm font-mono mx-1 inline-block max-w-full break-all whitespace-pre-wrap overflow-wrap-anywhere">Confirm</code>
+    
+        <span class="text-base text-gray-700 leading-7 my-2"> button to install.</span>
+    
+        <div class="space-y-4"></div>
+    
+        <ul class="my-4 pl-4 list-inside list-disc">
+            
+            <li class="mb-2 grid grid-cols-[1em_1fr] gap-2 text-gray-700 leading-relaxed hover:text-gray-900">
+                <span class="text-gray-600 text-xl select-none">•</span>
+                <span>
+        <span class="text-base text-gray-700 leading-7 my-2">Team: select a team or create a new team</span>
+    </span>
+            </li>
+            <li class="mb-2 grid grid-cols-[1em_1fr] gap-2 text-gray-700 leading-relaxed hover:text-gray-900">
+                <span class="text-gray-600 text-xl select-none">•</span>
+                <span>
+        <span class="text-base text-gray-700 leading-7 my-2">Cluster: select a cluster</span>
+    </span>
+            </li>
+            <li class="mb-2 grid grid-cols-[1em_1fr] gap-2 text-gray-700 leading-relaxed hover:text-gray-900">
+                <span class="text-gray-600 text-xl select-none">•</span>
+                <span>
+        <span class="text-base text-gray-700 leading-7 my-2">Application: select an application or create a new application</span>
+    </span>
+            </li>
+            <li class="mb-2 grid grid-cols-[1em_1fr] gap-2 text-gray-700 leading-relaxed hover:text-gray-900">
+                <span class="text-gray-600 text-xl select-none">•</span>
+                <span>
+        <span class="text-base text-gray-700 leading-7 my-2">Version: select a version</span>
+    </span>
+            </li>
+        </ul>
+    
+        <div class="space-y-4"></div>
+    
+        <span class="text-base text-gray-700 leading-7 my-2">After installation, DataCap can be accessed through the default domain name provided by Rainbond, Default user password </span>
+    
+        <code class="bg-gray-100 text-gray-900 px-1.5 py-0.5 rounded text-sm font-mono mx-1 inline-block max-w-full break-all whitespace-pre-wrap overflow-wrap-anywhere">admin/12345678</code>
+    
+        <div class="space-y-4"></div>
+    
+        <div class="w-full h-full relative">
+            <style>
+                @keyframes loading-spin {
+                    0% { transform: rotate(0deg); }
+                    100% { transform: rotate(360deg); }
+                }
+                .loading-flower {
+                    width: 20px;
+                    height: 20px;
+                    border: 2px solid #e5e7eb;
+                    border-top-color: #6b7280;
+                    border-radius: 50%;
+                    animation: loading-spin 0.8s linear infinite;
+                }
+                .dark .loading-flower {
+                    border-color: #4b5563;
+                    border-top-color: #9ca3af;
+                }
+            </style>
+            
+            <!-- 加载动画 -->
+            <div class="loading-indicator absolute inset-0 flex items-center justify-center">
+                <div class="loading-flower"></div>
+            </div>
+            
+            <!-- 图片 -->
+            <img src="https://static.goodrain.com/wechat/datacap/topology-datacap-en.png" 
+                 alt="" class="max-w-full h-auto"
+                 style="opacity: 0; "
+                 onload="this.style.opacity = 1; this.previousElementSibling.style.display = 'none'"
+                 onerror="this.parentElement.innerHTML = '<div class='text-red-500 dark:text-red-400'>图片加载失败</div>'"
+                 class="transition-opacity duration-300 max-w-full h-auto"/>
+        </div>
+    
+        </div>
+
+        <div class="clear-both"></div>
+
+        <!-- Git 信息部分 -->
+        
+            <div class="mt-4 pt-4 border-t border-dashed border-gray-200 dark:border-gray-700 not-prose">
+    <!-- 时间和提交信息 -->
+    <div class="space-x-6 text-sm text-gray-500 dark:text-gray-400 grid grid-cols-2 md:grid-cols-4 mb-4 gap-y-3 md:gap-y-0">
+        <!-- 首次提交时间 -->
+        <div class="flex items-center gap-2">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                 stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                 class="w-4 h-4">
+                <circle cx="12" cy="12" r="3"/>
+                <line x1="3" y1="12" y2="12" x2="9"/>
+                <line x1="15" y1="12" y2="12" x2="21"/>
+            </svg>
+            <span>提交于 2025年2月8日 04:22</span>
+        </div>
+
+        <!-- 最后修改时间 -->
+        <div class="flex items-center gap-2">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                 stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                 class="w-4 h-4">
+                <path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"/>
+                <path d="M3 3v5h5"/>
+                <path d="M12 7v5l4 2"/>
+            </svg>
+            <span>修改于 2025年2月8日 04:22</span>
+        </div>
+
+        <!-- Hash 链接 -->
+        
+            <!-- 首次提交 -->
+            <div class="flex items-center gap-2">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                     stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                     class="w-4 h-4">
+                    <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/>
+                    <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/>
+                </svg>
+                <a href="https://github.com/devlive-community/datacap/commit/b5eb59cfc2ea7c3d67c359c24735ddd3bf759e4d"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   class="hover:text-blue-600 dark:hover:text-blue-400">
+                    首次提交 (b5eb59cf)
+                </a>
+            </div>
+
+            <!-- 末次提交 -->
+            <div class="flex items-center gap-2">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                     stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                     class="w-4 h-4">
+                    <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/>
+                    <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/>
+                </svg>
+                <a href="https://github.com/devlive-community/datacap/commit/b5eb59cfc2ea7c3d67c359c24735ddd3bf759e4d"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   class="hover:text-blue-600 dark:hover:text-blue-400">
+                    末次提交 (b5eb59cf)
+                </a>
+            </div>
+        
+    </div>
+</div>
+        
+
+        <!-- 贡献者信息 -->
+        
+            <div class="mt-4 pt-4 border-t border-dashed border-gray-200 dark:border-gray-700 not-prose">
+    <div class="flex items-center gap-2 mb-3 text-sm text-gray-600 dark:text-gray-300">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+             stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+             class="w-4 h-4">
+            <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/>
+            <circle cx="9" cy="7" r="4"/>
+            <path d="M22 21v-2a4 4 0 0 0-3-3.87"/>
+            <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+        </svg>
+        <span>贡献者</span>
+    </div>
+    <div class="flex flex-wrap gap-4">
+        
+            <a href="https://github.com/qianmoQ"
+               target="_blank"
+               rel="noopener noreferrer"
+               class="flex items-center gap-2 group">
+                <div class="relative w-8 h-8">
+                    <!-- 骨架屏加载效果 -->
+                    <div class="absolute inset-0 rounded-full bg-gray-200 dark:bg-gray-700 animate-pulse"></div>
+
+                    <!-- 头像图片 -->
+                    <img src="https://github.com/qianmoQ.png?size=40"
+                         alt="qianmoQ"
+                         class="relative w-8 h-8 rounded-full"
+                         loading="lazy"
+                         onload="this.style.opacity='1'; this.previousElementSibling.style.display='none'"
+                         onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'; this.previousElementSibling.style.display='none'"
+                         style="opacity: 0; transition: opacity 0.2s;">
+
+                    <!-- 首字母占位符 -->
+                    <div class="hidden w-full h-full rounded-full bg-gray-200 dark:bg-gray-700 text-gray-600 dark:text-gray-300
+                                font-medium text-sm flex items-center justify-center uppercase">
+                        q
+                    </div>
+                </div>
+                <div class="text-sm">
+                    <div class="text-gray-900 dark:text-gray-100 group-hover:text-blue-600 dark:group-hover:text-blue-400">
+                        qianmoQ
+                    </div>
+                    <div class="text-gray-500 dark:text-gray-400">
+                        1 次提交
+                    </div>
+                </div>
+            </a>
+        
+    </div>
+</div>
+        
+
+        <!-- 评论部分 -->
+        
+            <div class="mt-8">
+                <script src="https://giscus.app/client.js"
+    data-repo="devlive-community/datacap"
+    data-repo-id="R_kgDOIAzx4g"
+    data-category="Q&A"
+    data-category-id="DIC_kwDOIAzx4s4CRfmA"
+    data-mapping="pathname"
+    data-strict="0"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="bottom"
+    data-theme="preferred_color_scheme"
+    data-lang="zh-CN"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+
+            </div>
+        
+    </div>
+</div>
                 </article>
             </main>
 
             <!-- 右侧目录 -->
+            
+                <!-- 桌面端目录 -->
+<div class="hidden lg:block flex-none w-64 pl-8 mr-8">
+    <div class="sticky" style="top: calc(var(--header-height) + 1rem)">
+        <div class="text-sm font-medium text-gray-900 dark:text-gray-100 mb-4">目录</div>
+        <nav class="overflow-y-auto pr-4 -mr-4 space-y-1 pageforge-scrollbar"
+             style="max-height: calc(100vh - var(--header-height) - 8rem);"
+             id="table-of-contents">
+            
+            
+                
+                    <div class="pl-4">
+                        <a href="#Prerequisite"
+                           class="block px-3 py-1 text-sm text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-200 hover:bg-gray-50 dark:hover:bg-gray-800 rounded-md transition-colors duration-150 toc-link"
+                           data-slug="Prerequisite">
+                            
+        <span class="text-base text-gray-700 leading-7 my-2">Prerequisite</span>
+    
+                        </a>
+                    </div>
+                    
+                
+                    <div class="pl-4">
+                        <a href="#DeployDataCap"
+                           class="block px-3 py-1 text-sm text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-200 hover:bg-gray-50 dark:hover:bg-gray-800 rounded-md transition-colors duration-150 toc-link"
+                           data-slug="DeployDataCap">
+                            
+        <span class="text-base text-gray-700 leading-7 my-2">Deploy DataCap</span>
+    
+                        </a>
+                    </div>
+                    
+                
+            
+        </nav>
+    </div>
+</div>
+
+<!-- 移动端目录按钮 -->
+<button id="toc-mobile-trigger"
+        class="lg:hidden fixed right-4 bottom-4 z-20 bg-white dark:bg-gray-800 p-2 rounded-full shadow-lg"
+        onclick="document.getElementById('toc-mobile').classList.toggle('translate-y-full')">
+    <svg class="w-6 h-6 text-gray-600 dark:text-gray-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7"></path>
+    </svg>
+</button>
+
+<!-- 移动端目录 -->
+<div id="toc-mobile"
+     class="lg:hidden fixed bottom-0 inset-x-0 z-30 bg-white dark:bg-gray-800
+                transform translate-y-full transition duration-200 ease-in-out
+                p-4 rounded-t-2xl shadow-lg">
+    <div class="flex justify-between items-center mb-4">
+        <h3 class="text-lg font-semibold">目录</h3>
+        <button onclick="document.getElementById('toc-mobile').classList.add('translate-y-full')"
+                class="text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-100">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+            </svg>
+        </button>
+    </div>
+    <nav class="overflow-y-auto space-y-1"
+         style="max-height: calc(60vh - var(--header-height));">
+        
+        
+            
+                <div class="pl-4">
+                    <a href="#Prerequisite"
+                       class="block px-3 py-1 text-sm text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-200 hover:bg-gray-50 dark:hover:bg-gray-800 rounded-md transition-colors duration-150 toc-link"
+                       data-slug="Prerequisite">
+                        
+        <span class="text-base text-gray-700 leading-7 my-2">Prerequisite</span>
+    
+                    </a>
+                </div>
+                
+            
+                <div class="pl-4">
+                    <a href="#DeployDataCap"
+                       class="block px-3 py-1 text-sm text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-200 hover:bg-gray-50 dark:hover:bg-gray-800 rounded-md transition-colors duration-150 toc-link"
+                       data-slug="DeployDataCap">
+                        
+        <span class="text-base text-gray-700 leading-7 my-2">Deploy DataCap</span>
+    
+                    </a>
+                </div>
+                
+            
+        
+    </nav>
+</div>
+
+<!-- 控制脚本 -->
+<script>
+    const tocMobile = document.getElementById('toc-mobile');
+    const tocMobileTrigger = document.getElementById('toc-mobile-trigger');
+
+    tocMobileTrigger.addEventListener('click', () => {
+        tocMobile.classList.remove('translate-y-full');
+    });
+
+    document.addEventListener('click', (e) => {
+        if (!tocMobile.contains(e.target) &&
+            !tocMobileTrigger.contains(e.target) &&
+            !tocMobile.classList.contains('translate-y-full')) {
+            tocMobile.classList.add('translate-y-full');
+        }
+    });
+</script>
             
         </div>
     </div>
@@ -771,7 +1453,7 @@
                 
                     <div class="flex flex-col sm:flex-row items-start sm:items-center gap-3">
                         <a href="/en" class="flex items-center">
-                            <img src="..//assets/logo.png"
+                            <img src="../../..//assets/logo.png"
                                  alt="DataCap"
                                  class="h-12">
                         </a>
@@ -958,6 +1640,12 @@
 
 
 <!-- 遮罩层 - 移动端菜单打开时显示 -->
+
+    <div class="md:hidden fixed inset-0 bg-gray-900 bg-opacity-50 z-20 hidden"
+         id="sidebar-overlay"
+         onclick="document.getElementById('sidebar-menu').classList.add('-translate-x-full');
+                  this.classList.add('hidden');">
+    </div>
 
 </body>
 
