@@ -1,6 +1,5 @@
 package io.edurt.datacap.service.service.impl;
 
-import static com.google.common.base.Preconditions.checkArgument;
 import com.google.common.collect.Lists;
 import com.google.common.collect.Sets;
 import edu.umd.cs.findbugs.annotations.SuppressFBWarnings;
@@ -24,7 +23,6 @@ import io.edurt.datacap.service.repository.BaseRepository;
 import io.edurt.datacap.service.repository.WorkflowRepository;
 import io.edurt.datacap.service.security.UserDetailsService;
 import io.edurt.datacap.service.service.WorkflowService;
-import static java.util.Objects.requireNonNull;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.collections.MapUtils;
 import org.apache.commons.io.FileUtils;
@@ -42,6 +40,9 @@ import java.sql.Timestamp;
 import java.util.List;
 import java.util.Optional;
 import java.util.concurrent.Executors;
+
+import static com.google.common.base.Preconditions.checkArgument;
+import static java.util.Objects.requireNonNull;
 
 @Slf4j
 @Service

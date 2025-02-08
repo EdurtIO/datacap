@@ -14,7 +14,7 @@ repo:
   branch: dev
 
 banner:
-  content: 💗 <a href="https://afdian.com/a/devlive-community" target="_blank">DataCap 2024.4.1 is released, 如果喜欢我们的软件，请点击这里支持我们</a> ❤️
+  content: 💗 <a href="https://afdian.com/a/devlive-community" target="_blank">DataCap 2024.4.1 is released, 如果喜欢我们的软件，请点击这里支持我们</a> ❤️  <span class="text-red-500">文档重构中，可能有偏差，会实时更新</span>
 
 feature:
   lucide:
@@ -101,12 +101,14 @@ i18n:
     translations:
       NavDocumentation: Documentation
       NavDeploy: Install Deploy
+      NavDataset: Dataset
   zh-CN:
     name: 中文
     flag: 🇨🇳
     translations:
       NavDocumentation: 文档
       NavDeploy: 安装部署
+      NavDataset: 数据集
 
 footer:
   copyright: © 2024 DataCap All Rights Reserved.
@@ -145,5 +147,7 @@ nav:
     - /reference/get-started/installRainbond
     - /reference/get-started/query/home
     - /reference/get-started/dashboard/home
+    - NavDataset:
+      - /reference/get-started/dataset/create/home
   - /useCases
   - /partners
