@@ -1,5 +1,6 @@
 package io.edurt.datacap.service.service.impl;
 
+import static com.google.common.base.Preconditions.checkArgument;
 import com.google.common.collect.Lists;
 import com.google.common.collect.Sets;
 import edu.umd.cs.findbugs.annotations.SuppressFBWarnings;
@@ -23,6 +24,7 @@ import io.edurt.datacap.service.repository.BaseRepository;
 import io.edurt.datacap.service.repository.WorkflowRepository;
 import io.edurt.datacap.service.security.UserDetailsService;
 import io.edurt.datacap.service.service.WorkflowService;
+import static java.util.Objects.requireNonNull;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.collections.MapUtils;
 import org.apache.commons.io.FileUtils;
@@ -40,9 +42,6 @@ import java.sql.Timestamp;
 import java.util.List;
 import java.util.Optional;
 import java.util.concurrent.Executors;
-
-import static com.google.common.base.Preconditions.checkArgument;
-import static java.util.Objects.requireNonNull;
 
 @Slf4j
 @Service
@@ -125,8 +124,6 @@ public class WorkflowServiceImpl
                                         .stream()
                                         .filter(v -> v.getCategory().equalsIgnoreCase("transform"))
                                         .findFirst();
-                                checkArgument(transformNode.isPresent(), "Transform node must not be null");
-                                log.debug("Found transform node: {}", transformNode.get().getKey());
 
                                 ExecutorConfigure form = new ExecutorConfigure(
                                         inputNode.get().getKey(),
@@ -134,11 +131,14 @@ public class WorkflowServiceImpl
                                         Sets.newHashSet()
                                 );
 
-                                ExecutorConfigure transform = new ExecutorConfigure(
-                                        transformNode.get().getKey(),
-                                        MapUtils.toProperties(transformNode.get().getData()),
-                                        Sets.newHashSet()
-                                );
+                                ExecutorConfigure transform = null;
+                                if (transformNode.isPresent()) {
+                                    transform = new ExecutorConfigure(
+                                            transformNode.get().getKey(),
+                                            MapUtils.toProperties(transformNode.get().getData()),
+                                            Sets.newHashSet()
+                                    );
+                                }
 
                                 ExecutorConfigure to = new ExecutorConfigure(
                                         outputNode.get().getKey(),
@@ -277,6 +277,10 @@ public class WorkflowServiceImpl
     {
         return repository.findByCode(code)
                 .map(entity -> {
+                    if (entity.getState().equals(RunState.RUNNING)) {
+                        return CommonResponse.<String>failure(String.format("Workflow [ %s ] is already running", entity.getName()));
+                    }
+
                     repository.delete(entity);
                     try {
                         FileUtils.deleteDirectory(new File(entity.getWork()));
