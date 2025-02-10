@@ -36,6 +36,26 @@
         <priority>0.5</priority>
     </url>
     <url>
+        <loc>https://datacap.devlive.org/en/reference/get-started/dataset/adhoc/home.html</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://datacap.devlive.org/en/reference/get-started/dataset/sync/home.html</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://datacap.devlive.org/en/reference/get-started/dataset/history/home.html</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://datacap.devlive.org/en/reference/get-started/dataset/clear/home.html</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
         <loc>https://datacap.devlive.org/en/useCases.html</loc>
         <changefreq>weekly</changefreq>
         <priority>0.5</priority>
@@ -77,6 +97,26 @@
     </url>
     <url>
         <loc>https://datacap.devlive.org/zh-CN/reference/get-started/dataset/create/home.html</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://datacap.devlive.org/zh-CN/reference/get-started/dataset/adhoc/home.html</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://datacap.devlive.org/zh-CN/reference/get-started/dataset/sync/home.html</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://datacap.devlive.org/zh-CN/reference/get-started/dataset/history/home.html</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://datacap.devlive.org/zh-CN/reference/get-started/dataset/clear/home.html</loc>
         <changefreq>weekly</changefreq>
         <priority>0.5</priority>
     </url>
