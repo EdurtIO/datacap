@@ -150,5 +150,8 @@ nav:
     - NavDataset:
       - /reference/get-started/dataset/create/home
       - /reference/get-started/dataset/adhoc/home
+      - /reference/get-started/dataset/sync/home
+      - /reference/get-started/dataset/history/home
+      - /reference/get-started/dataset/clear/home
   - /useCases
   - /partners
