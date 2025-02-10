@@ -1,0 +1,49 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+    <!-- Background -->
+    <!-- 背景 -->
+    <circle cx="100" cy="100" r="100" fill="#DC322F" />
+
+    <!-- Distributed nodes representation -->
+    <!-- 分布式节点表示 -->
+    <g transform="translate(40, 20)">
+        <!-- Central node -->
+        <!-- 中心节点 -->
+        <circle cx="60" cy="60" r="25"
+                fill="white" stroke="#DC322F" stroke-width="2" />
+
+        <!-- Surrounding nodes -->
+        <!-- 周围节点 -->
+        <circle cx="20" cy="30" r="15" fill="white" />
+        <circle cx="100" cy="30" r="15" fill="white" />
+        <circle cx="20" cy="90" r="15" fill="white" />
+        <circle cx="100" cy="90" r="15" fill="white" />
+
+        <!-- Connecting lines -->
+        <!-- 连接线 -->
+        <line x1="30" y1="37" x2="45" y2="48" stroke="white" stroke-width="3" />
+        <line x1="90" y1="37" x2="75" y2="48" stroke="white" stroke-width="3" />
+        <line x1="30" y1="83" x2="45" y2="72" stroke="white" stroke-width="3" />
+        <line x1="90" y1="83" x2="75" y2="72" stroke="white" stroke-width="3" />
+    </g>
+
+    <!-- HDFS Text -->
+    <!-- HDFS文本 -->
+    <text x="100" y="150"
+          font-family="Arial, sans-serif"
+          font-weight="bold"
+          font-size="28"
+          fill="white"
+          text-anchor="middle">
+        HDFS
+    </text>
+
+    <!-- Apache Text -->
+    <!-- Apache文本 -->
+    <text x="100" y="170"
+          font-family="Arial, sans-serif"
+          font-size="14"
+          fill="white"
+          text-anchor="middle">
+        Apache
+    </text>
+</svg>
