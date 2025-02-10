@@ -102,6 +102,25 @@ i18n:
       NavDocumentation: Documentation
       NavDeploy: Install Deploy
       NavDataset: Dataset
+      NavWorkflow: Workflow
+      NavManager: Manager
+      NavSystem: System
+      NavClient: Client
+      NavConnectors: Connectors
+      NavFileSystem: File System
+      NavDeveloper: Developer
+      NavDeveloperSpecification: Specification
+      NavDeveloperPlugin: Plugin
+      NavDeveloperPluginKotlin: Plugin (Kotlin)
+      NavReleaseNote: Release Note
+      ApiHome: Open API
+      ApiUser: User API
+      ApiPlugin: Plugin API
+      ApiDashboard: Dashboard API
+      ApiMenu: Menu API
+      ApiPipeline: Pipeline API
+      ApiWorkflow: Workflow API
+      NavDriver: Driver
   zh-CN:
     name: 中文
     flag: 🇨🇳
@@ -109,6 +128,25 @@ i18n:
       NavDocumentation: 文档
       NavDeploy: 安装部署
       NavDataset: 数据集
+      NavWorkflow: 工作流
+      NavManager: 管理
+      NavSystem: 系统
+      NavClient: 客户端
+      NavConnectors: 连接器
+      NavFileSystem: 文件系统
+      NavDeveloper: 开发
+      NavDeveloperSpecification: 开发规范
+      NavDeveloperPlugin: 插件
+      NavDeveloperPluginKotlin: 插件 (Kotlin)
+      NavReleaseNote: 更新日志
+      ApiHome: 开放 API
+      ApiUser: 用户 API
+      ApiPlugin: 插件 API
+      ApiDashboard: 仪表盘 API
+      ApiMenu: 菜单 API
+      ApiPipeline: 流水线 API
+      ApiWorkflow: 工作流 API
+      NavDriver: 驱动
 
 footer:
   copyright: © 2024 DataCap All Rights Reserved.
@@ -153,5 +191,148 @@ nav:
       - /reference/get-started/dataset/sync/home
       - /reference/get-started/dataset/history/home
       - /reference/get-started/dataset/clear/home
+    - NavWorkflow:
+        - /reference/get-started/workflow/create/home
+        - /reference/get-started/workflow/error/home
+        - /reference/get-started/workflow/stop/home
+        - /reference/get-started/workflow/restart/home
+        - /reference/get-started/workflow/logger/home
+        - /reference/get-started/workflow/delete/home
+        - /reference/get-started/workflow/dag/home
+    - NavClient:
+        - /reference/clients/cli.md
+    - NavManager:
+        - /reference/manager/profile/home
+        - /reference/manager/datasource/home
+        - /reference/manager/snippet/home
+        - /reference/manager/history/query/home
+        - /reference/manager/pipeline/home
+        - /reference/manager/report/home
+    - NavSystem:
+        - /reference/system/functions/home.md
+        - /reference/system/sql/home.md
+        - /reference/system/menu/home.md
+    - NavConnectors:
+      - /reference/connectors/influxdb/home.md
+      - /reference/connectors/solr/home.md
+      - /reference/connectors/timescale/home.md
+      - /reference/connectors/paradedb/home.md
+      - /reference/connectors/scylladb/home.md
+      - /reference/connectors/matrixone/home.md
+      - /reference/connectors/clickhouse/home.md
+      - /reference/connectors/mysql/home.md
+      - /reference/connectors/redis/home.md
+      - /reference/connectors/h2/home.md
+      - /reference/connectors/snowflake/home.md
+      - /reference/connectors/ydb/home.md
+      - /reference/connectors/zookeeper/home.md
+      - /reference/connectors/duckdb/home.md
+      - /reference/connectors/alioss/home.md
+      - Apache Kafka:
+          - /reference/connectors/kafka/home.md
+          - /reference/sql-syntax/connectors/kafka/show_topics.md
+          - /reference/sql-syntax/connectors/kafka/show_consumers.md
+          - /reference/sql-syntax/connectors/kafka/show_databases.md
+          - /reference/sql-syntax/connectors/kafka/show_tables.md
+      - /reference/connectors/ceresdb/home.md
+      - /reference/connectors/greptimedb/home.md
+      - /reference/connectors/questdb/home.md
+      - /reference/connectors/doris/home.md
+      - /reference/connectors/starrocks/home.md
+      - /reference/connectors/hologres/home.md
+      - /reference/connectors/hdfs/home.md
+      - /reference/connectors/pinot/home.md
+      - /reference/connectors/cassandra/home.md
+    - NavFileSystem:
+      - /reference/filesystem/local/home.md
+      - /reference/filesystem/aliyun/home.md
+      - /reference/filesystem/qiniu/home.md
+      - /reference/filesystem/cos/home.md
+      - /reference/filesystem/s3/home.md
+      - /reference/filesystem/minio/home.md
+  - NavReleaseNote:
+    - /release/latest.md
+    - /release/2024.4.0.md
+    - /release/2024.3.11.md
+    - /release/2024.3.10.md
+    - /release/2024.03.9.md
+    - /release/2024.03.8.md
+    - /release/2024.03.7.md
+    - /release/2024.03.6.md
+    - /release/2024.03.5.md
+    - /release/2024.03.4.md
+    - /release/2024.03.3.md
+    - /release/2024.03.2.md
+    - /release/2024.03.1.md
+    - /release/2024.02.1.md
+    - /release/2024.01.1.md
+    - /release/1.18.0.md
+    - /release/1.17.0.md
+    - /release/1.16.0.md
+    - /release/1.15.0.md
+    - /release/1.14.0.md
+    - /release/1.13.0.md
+    - /release/1.12.0.md
+    - /release/1.11.0.md
+    - /release/1.10.0.md
+    - /release/1.9.0.md
+    - /release/1.8.0.md
+    - /release/1.7.0.md
+    - /release/1.6.0.md
+    - /release/1.5.0.md
+    - /release/1.4.0.md
+    - /release/1.3.0.md
+    - /release/1.2.0.md
+    - /release/1.1.0.20221115.md
+    - /release/1.0.0.20221015.md
+  - NavDeveloper:
+    - /developer/specification/home.md
+    - /developer/server/home.md
+    - /developer/web/home.md
+    - /developer/doc/home.md
+    - /developer/sdk/home.md
+    - /developer/feature/home.md
+    - NavDeveloperPlugin:
+        - /developer/plugin/java/home.md
+    - NavDeveloperPluginKotlin:
+        - /developer/plugin/kotlin/home.md
+        - /developer/filesystem/home.md
+        - /developer/file/kotlin/home.md
+        - /developer/notify/kotlin/home.md
+    - Other:
+        - /developer/pipeline/home.md
+  - ApiHome:
+    - /api/common/response.md
+    - /api/common/page.md
+    - ApiUser:
+        - /api/user/register.md
+        - /api/user/login.md
+        - /api/user/info.md
+        - /api/user/menu.md
+        - /api/user/list.md
+    - ApiPlugin:
+        - /api/plugin/plugin.md
+        - /api/plugin/install.md
+        - /api/plugin/uninstall.md
+    - ApiDashboard:
+        - /api/dashboard/list.md
+        - /api/dashboard/save.md
+        - /api/dashboard/edit.md
+        - /api/dashboard/get.md
+        - /api/dashboard/delete.md
+    - ApiMenu:
+        - /api/menu/list.md
+        - /api/menu/save.md
+        - /api/menu/edit.md
+    - ApiWorkflow:
+        - /api/workflow/list.md
+        - /api/workflow/save.md
+        - /api/workflow/edit.md
+        - /api/workflow/get.md
+        - /api/workflow/delete.md
+        - /api/workflow/log.md
+        - /api/workflow/restart.md
+  - NavDriver:
+      - /driver/mongodb.md
   - /useCases
   - /partners

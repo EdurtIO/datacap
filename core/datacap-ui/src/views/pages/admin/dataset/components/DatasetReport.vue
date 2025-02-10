@@ -62,7 +62,7 @@ const onSubmit = () => {
     type: 'DATASET',
     configure: JSON.stringify(props.commitOptions),
     dataset: {
-      id: obj.dataset.id
+      code: obj.dataset.code
     },
     query: JSON.stringify(props.configure),
     description: formState.value.description
