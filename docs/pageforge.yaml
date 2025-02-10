@@ -226,10 +226,10 @@ nav:
       - /reference/connectors/alioss/home.md
       - Apache Kafka:
           - /reference/connectors/kafka/home.md
-          - SHOW TOPICS: /reference/sqlSyntax/connectors/kafka/show_topics.md
-          - SHOW CONSUMERS: /reference/sqlSyntax/connectors/kafka/show_consumers.md
-          - SHOW DATABASES: /reference/sqlSyntax/connectors/kafka/show_databases.md
-          - SHOW TABLES: /reference/sqlSyntax/connectors/kafka/show_tables.md
+          - /reference/sql-syntax/connectors/kafka/show_topics.md
+          - /reference/sql-syntax/connectors/kafka/show_consumers.md
+          - /reference/sql-syntax/connectors/kafka/show_databases.md
+          - /reference/sql-syntax/connectors/kafka/show_tables.md
       - /reference/connectors/ceresdb/home.md
       - /reference/connectors/greptimedb/home.md
       - /reference/connectors/questdb/home.md
