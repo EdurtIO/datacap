@@ -149,5 +149,6 @@ nav:
     - /reference/get-started/dashboard/home
     - NavDataset:
       - /reference/get-started/dataset/create/home
+      - /reference/get-started/dataset/adhoc/home
   - /useCases
   - /partners

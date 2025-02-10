@@ -204,7 +204,7 @@ export default defineComponent({
     },
     onChangeToggle(value: any)
     {
-      this.formState.order = value[0]
+      this.formState.order = value
     },
     onCancel()
     {
