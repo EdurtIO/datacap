@@ -304,34 +304,34 @@ nav:
   - ApiHome:
     - /api/common/response.md
     - /api/common/page.md
-    - apiUser:
+    - ApiUser:
         - /api/user/register.md
         - /api/user/login.md
         - /api/user/info.md
         - /api/user/menu.md
         - /api/user/list.md
-    - apiPlugin:
+    - ApiPlugin:
         - /api/plugin/plugin.md
         - /api/plugin/install.md
         - /api/plugin/uninstall.md
-    - apiDashboard:
+    - ApiDashboard:
         - /api/dashboard/list.md
         - /api/dashboard/save.md
         - /api/dashboard/edit.md
         - /api/dashboard/get.md
         - /api/dashboard/delete.md
-    - apiMenu:
+    - ApiMenu:
         - /api/menu/list.md
         - /api/menu/save.md
         - /api/menu/edit.md
-    - apiWorkflow:
-          - /api/workflow/list.md
-          - /api/workflow/save.md
-          - /api/workflow/edit.md
-          - /api/workflow/get.md
-          - /api/workflow/delete.md
-          - /api/workflow/log.md
-          - /api/workflow/restart.md
+    - ApiWorkflow:
+        - /api/workflow/list.md
+        - /api/workflow/save.md
+        - /api/workflow/edit.md
+        - /api/workflow/get.md
+        - /api/workflow/delete.md
+        - /api/workflow/log.md
+        - /api/workflow/restart.md
   - NavDriver:
       - /driver/mongodb.md
   - /useCases

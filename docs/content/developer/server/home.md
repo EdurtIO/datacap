@@ -1,6 +1,5 @@
 ---
 title: 服务端
-icon: material/server-outline
 ---
 
 本文章主要用来介绍我们如何来贡献 datacap 服务端源码。
@@ -18,6 +17,7 @@ git clone https://github.com/devlive-community/datacap.git
 !!! note
 
     如果您已经 fork 源码到您的账户中，请将 `devlive-community` 替换为您的 github 账户的 ID
+!!!
 
 **重要** 以下是基本的环境配置
 
@@ -30,6 +30,7 @@ git clone https://github.com/devlive-community/datacap.git
 !!! note
 
     在本文中我们使用的是 `IDEA` 编辑器环境，用户可以根据自己喜好更换相应编辑器。
+!!!
 
 ### 编译项目
 
@@ -50,6 +51,7 @@ git clone https://github.com/devlive-community/datacap.git
 !!! note
 
     不同的 IDEA 版本，各个按钮的所在位置可能不相同。
+!!!
 
 点击红框指出的菜单，选择 datacap 源码的根目录，点击打开即可，此时会进入源码的页面，加载完成后窗口如下
 
@@ -117,5 +119,6 @@ git clone https://github.com/devlive-community/datacap.git
 !!! danger
 
     注意 `conf` 后必须增加 `/` 否则配置会不生效
+!!!
 
 完成后点击 `OK` 按钮，即可启动服务，访问 `http://localhost:9096/` 成功后，表示服务启动成功。

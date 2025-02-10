@@ -1,6 +1,5 @@
 ---
 title: 开发规范
-icon: material/speaker
 ---
 
 本文档主要用来介绍 DataCap 服务端和 UI 端的开发规范。
@@ -8,6 +7,7 @@ icon: material/speaker
 !!! danger
 
     请仔细阅读该开发规范，并且遵守该规范，否则可能导致服务端和 UI 端的代码提交无法审核通过。
+!!!
 
 ## 代码提交规范
 
@@ -53,6 +53,7 @@ close (#123)
 !!! warning
 
     所有的 **组件** | **字段名** 必须都以驼峰命名法命名
+!!!
 
 ``` vue title="正确示例"
 export default defineComponent({
@@ -75,6 +76,7 @@ const showname = ref(false)
 !!! warning
 
     组件命名必须以 `Shadcn` 开头，如 `ShadcnButton`、`ShadcnInput`、`ShadcnSpace`
+!!!
 
 ``` vue title="正确示例"
 <ShadcnButton size="small" circle @click="handlerChangeInfo(true, row)">
@@ -91,6 +93,7 @@ const showname = ref(false)
 !!! warning
 
     属性命名首字母必须小写，如 `size`，多个单词必须已驼峰命名法命名，如 `showName`
+!!!
 
 ``` vue title="正确示例"
 const size = ref('small')
@@ -108,6 +111,7 @@ const show-name = ref(false)
 !!! warning
 
     函数名必须符合以下规范
+!!!
 
 - 处理函数必须以 `handle` 开头，如 `handleChangeInfo`
 - 回调函数必须以 `on` 开头，如 `onChange`
@@ -134,6 +138,7 @@ const aaaInfo = () => {}
 !!! note
 
     多个组件内必须以新行分割
+!!!
 
 ``` vue title="正确示例"
 <ShadcnSpace>
@@ -171,6 +176,7 @@ const aaaInfo = () => {}
 !!! warning
 
     请保证属性的顺序，以便于后续的维护
+!!!
 
 多属性的正常顺序是
 
@@ -192,6 +198,7 @@ const aaaInfo = () => {}
 !!! warning
 
     多个属性且超过 3 个必须以新行分割
+!!!
 
 ``` vue title="正确示例"
 <ShadcnPagination v-model="pageIndex" show-total @on-change="onPageChange"/>

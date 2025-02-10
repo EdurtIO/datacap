@@ -1,6 +1,5 @@
 ---
 title: Pipeline
-status: 1.14.0
 ---
 
 In the DataCap system, users can configure the pipeline function at will and adjust it arbitrarily according to the version of the low-level executor. The system will automatically identify and compile the final configuration according to the configuration and send it to the executor.
@@ -25,3 +24,4 @@ The configurations we can provide are:
 !!! danger
 
     We do not recommend users to modify the above configurations by themselves. If there are any configuration abnormalities, the plug-in will not be able to use this function.
+!!!

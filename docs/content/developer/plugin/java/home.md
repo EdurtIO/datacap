@@ -7,6 +7,7 @@ DataCap 支持自定义插件，使用者可以编写自己的插件集成到系
 !!! note
 
     本文使用集成基于 HTTP 协议的 QuestDB 数据存储系统来演示。
+!!!
 
 ### `pom.xml` 依赖
 
@@ -45,6 +46,7 @@ DataCap 支持自定义插件，使用者可以编写自己的插件集成到系
 !!! warning
 
     需要注意的是如果您是单独开启的项目需要指定各个依赖的版本号。
+!!!
 
 ### 插件加载器
 
@@ -84,6 +86,7 @@ public class QuestDBPluginModule
 !!! note
 
     需要注意的是，需要覆盖父类中的 `configure()` 方法，并将插件绑定到系统中。
+!!!
 
 ### 插件执行器
 
@@ -245,6 +248,7 @@ public class QuestDBAdapter
 !!! warning
 
     `services` 在 `resources` 目录中需要
+!!!
 
 创建 `io.edurt.datacap.spi.PluginModule` 文件，内容如下
 
@@ -257,3 +261,4 @@ io.edurt.datacap.plugin.http.questdb.QuestDBPluginModule
 !!! warning
 
     插件的单元测试可以参考已经发布的插件进行测试
+!!!

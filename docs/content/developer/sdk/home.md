@@ -1,6 +1,5 @@
 ---
 title: SDK 集成
-icon: material/desk
 ---
 
 本文章主要用来介绍如何集成 datacap 提供的 plugin 插件快速访问对应数据源。在本文中我们使用 `datacap-jdbc-mysql` SDK 来访问 MySQL 数据源。
@@ -30,6 +29,7 @@ implementation group: 'io.edurt.datacap', name: 'datacap-jdbc-mysql', version: '
 !!! danger
 
     请将 `VERSION` 替换为对应的版本号
+!!!
 
 ### 使用插件
 
@@ -59,3 +59,4 @@ response.columns.forEach(item -> {
 !!! note
 
     请注意 `datacap-jdbc-mysql` 插件仅支持 MySQL 数据源，如果需要其他 SDK 请使用其他的插件。
+!!!

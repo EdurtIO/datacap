@@ -1,6 +1,5 @@
 ---
 title: 自定义功能
-icon: material/new-box
 ---
 
 本文章主要用来介绍如何集成在 datacap 中开发新的功能。我们这里以 github 中的 [issues-481](https://github.com/devlive-community/datacap/issues/481) 为例来讲解。
@@ -18,6 +17,7 @@ git clone https://github.com/devlive-community/datacap.git
 !!! note
 
     如果您已经 fork 源码到您的账户中，请将 `devlive-community` 替换为您的 github 账户的 ID
+!!!
 
 **重要** 以下是基本的环境配置
 
@@ -30,6 +30,8 @@ git clone https://github.com/devlive-community/datacap.git
 !!! note
 
     在本文中我们使用的是 `IDEA` 编辑器环境，用户可以根据自己喜好更换相应编辑器。
+
+!!!
 
 可参考 [服务端](../server/home.md) 文档中的 `加载源码到 IDEA` 部分。
 
@@ -123,6 +125,7 @@ public class ReportEntity
 !!! warning
 
     代码中的 `@SuperBuilder` 一定要添加，不然我们无法使用父类提供的 builder 方法。
+!!!
 
 `@Table(name = "datacap_report")` 这里我们需要修改表名，格式为 `datacap_${表名}`。
 
@@ -196,6 +199,7 @@ public class ReportServiceImpl
 !!! note
 
     如果没有特殊的需求，实现类可以不添加。
+!!!
 
 #### 添加 `controller`
 
@@ -243,6 +247,7 @@ public class ReportController
 !!! danger
 
     一定要将自定义 controller 的构造函数中的参数修改为相关的具体类。
+!!!
 
 #### 添加 `sql`
 
@@ -251,6 +256,7 @@ public class ReportController
 !!! note
 
     如果没有新增 SQL 相关可以忽略此步骤。
+!!!
 
 通过以上步骤已经提供了 API，底层处理相关类，剩下的需要我们添加对于功能实现的相关 SQL 语句。
 
@@ -282,6 +288,7 @@ CREATE TABLE `datacap_report_user_relation`
 !!! note
 
     如果是新版本开发的话，需要在 `core/datacap-server/src/main/schema` 目录下新建 `版本号` 文件夹，在该文件夹下创建 `schema.sql` 文件。并将内容添加到 `schema.sql` 文件中。
+!!!
 
 ### UI 端
 
@@ -300,6 +307,7 @@ UI 端的源码大致可以分为以下部分：
 
     如果构建的功能不支持菜单，可以忽略此步骤。此操作需要登录管理员权限。
 
+!!!
 构建菜单可以参考 [管理菜单](../../reference/manager/menu/home.md)。
 
 该功能的配置如下

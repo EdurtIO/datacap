@@ -6,6 +6,7 @@ DataCap supports custom plug-ins, and users can write their own plug-ins and int
 !!! note
 
     This article demonstrates by integrating the StarRocks data storage system based on the JDBC protocol.
+!!!
 
 ### `pom.xml` Depend
 
@@ -44,6 +45,7 @@ The above configuration adds `datacap-spi` and `datacap-common` modules, and oth
 !!! warning
 
     It should be noted that if you open the project separately, you need to specify the version number of each dependency.
+!!!
 
 ### Plugin Loader
 
@@ -75,6 +77,7 @@ The loader needs to inherit the `AbstractPluginModule` class and implement the `
 !!! note
 
     It should be noted that you need to override the `configure()` method in the parent class and bind the plugin to the system.
+!!!
 
 ### Plugin Executor
 
@@ -156,6 +159,7 @@ Add `META-INF` and `services` directory under `resources` source directory
 !!! warning
 
     `services` needs to be in the `resources` directory
+!!!
 
 Create the `io.edurt.datacap.spi.PluginModule` file, as follows
 
@@ -168,3 +172,4 @@ The content of this file is the plugin loading module we defined.
 !!! warning
 
     The unit test of the plug-in can refer to the published plug-in for testing
+!!!

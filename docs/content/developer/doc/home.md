@@ -1,6 +1,5 @@
 ---
 title: 文档端
-icon: material/file-document
 ---
 
 本文章主要用来介绍我们如何来贡献 datacap UI 端源码。
@@ -18,6 +17,7 @@ git clone https://github.com/devlive-community/datacap.git
 !!! note
 
     如果您已经 fork 源码到您的账户中，请将 `devlive-community` 替换为您的 github 账户的 ID
+!!!
 
 **重要** 以下是基本的环境配置
 
@@ -30,6 +30,7 @@ git clone https://github.com/devlive-community/datacap.git
 !!! note
 
     在本文中我们使用的是 `IDEA` 编辑器环境，用户可以根据自己喜好更换相应编辑器。
+!!!
 
 可参考 [服务端](../server/home.md) 文档中的 `加载源码到 IDEA` 部分。
 
