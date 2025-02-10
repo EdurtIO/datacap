@@ -102,6 +102,7 @@ i18n:
       NavDocumentation: Documentation
       NavDeploy: Install Deploy
       NavDataset: Dataset
+      NavWorkflow: Workflow
   zh-CN:
     name: 中文
     flag: 🇨🇳
@@ -109,6 +110,7 @@ i18n:
       NavDocumentation: 文档
       NavDeploy: 安装部署
       NavDataset: 数据集
+      NavWorkflow: 工作流
 
 footer:
   copyright: © 2024 DataCap All Rights Reserved.
@@ -153,5 +155,13 @@ nav:
       - /reference/get-started/dataset/sync/home
       - /reference/get-started/dataset/history/home
       - /reference/get-started/dataset/clear/home
+    - NavWorkflow:
+        - /reference/get-started/workflow/create/home.md
+        - /reference/get-started/workflow/error/home.md
+        - /reference/get-started/workflow/stop/home.md
+        - /reference/get-started/workflow/restart/home.md
+        - /reference/get-started/workflow/logger/home.md
+        - /reference/get-started/workflow/delete/home.md
+        - /reference/get-started/workflow/dag/home.md
   - /useCases
   - /partners
