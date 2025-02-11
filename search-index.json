@@ -649,8 +649,164 @@
   },
   {
     "title": "流水线",
-    "content": "在 DataCap 系统中，流水线功能用户可以随意配置，根据低层执行器的版本可以任意调整，系统会根据配置自动识别并编译最终的配置并发送到执行器中。 我们可提供的配置有: | 字段 | 类型 | 描述 | |:---------------:|:-----------:|:------------------------------------------------------:| | field | String | 字段名 | | origin | String | 默认等于字段值，自定义列名使用, 如果是 host|port 格式，系统将会将字段通过 : 进行拼接 | | required | Boolean | 当值为 true 时，表示该字段为必填项 | | override | Boolean | 如果该标志为 true，则表示通过用户配置提取该字段，默认数据将被丢弃 | | input | Boolean | 是否为输入参数 | | width | Integer | 组件宽度, 默认 300 | | type | FieldType | 字段类型, 默认 INPUT | | tooltip | String | 提示信息 | | description | String | 描述信息 | | value | Object | 当前配置输入的结果 | | hidden | Boolean | 如果该配置项为 true，则前端不会显示，启用后才会显示。 | | defaultValues | Array | 如果类型为 SELECT ，则需要传入默认数据 | !!! danger 我们不建议用户自行修改以上配置，如有出现配置异常将会导致插件无法使用该功能 !!!",
+    "content": "在 DataCap 系统中，流水线功能用户可以随意配置，根据低层执行器的版本可以任意调整，系统会根据配置自动识别并编译最终的配置并发送到执行器中。 我们可提供的配置有: | 字段 | 类型 | 描述 | |:---------------:|:-----------:|:-------------------------------------------------------:| | field | String | 字段名 | | origin | String | 默认等于字段值，自定义列名使用, 如果是 host\\|port 格式，系统将会将字段通过 : 进行拼接 | | required | Boolean | 当值为 true 时，表示该字段为必填项 | | override | Boolean | 如果该标志为 true，则表示通过用户配置提取该字段，默认数据将被丢弃 | | input | Boolean | 是否为输入参数 | | width | Integer | 组件宽度, 默认 300 | | type | FieldType | 字段类型, 默认 INPUT | | tooltip | String | 提示信息 | | description | String | 描述信息 | | value | Object | 当前配置输入的结果 | | hidden | Boolean | 如果该配置项为 true，则前端不会显示，启用后才会显示。 | | defaultValues | Array | 如果类型为 SELECT ，则需要传入默认数据 | !!! danger 我们不建议用户自行修改以上配置，如有出现配置异常将会导致插件无法使用该功能 !!!",
     "url": "https://datacap.devlive.org/en/developer/pipeline/home.html",
+    "lang": "en"
+  },
+  {
+    "title": "通用实体",
+    "content": "本文档主要是用于描述通用配置，所有 API 都是基于该实体返回。 ::: tabs === \"请求成功示例\" json { \"status\": true, \"code\": 200, \"message\": \"Query successful\", \"data\": {} } === \"请求失败示例\" json { \"status\": true, \"code\": 400, \"message\": \"Query successful\", \"data\": null } === \"参数\" |参数|类型|描述| |---|---|---| |status|请求状态|请求状态，如果是 true 标记请求成功，false 请求出现异常。该异常是系统定制返回的不是开放性的| |code|编码|请求发送后返回的编码，不同编码有不同的含义| |message|异常信息|如果请求失败，这里会返回具体的异常信息| |data|数据|请求成功且未发生异常情况下，返回的具体数据| :::",
+    "url": "https://datacap.devlive.org/en/api/common/response.html",
+    "lang": "en"
+  },
+  {
+    "title": "分页实体",
+    "content": "本文档主要是用于描述分页配置，所有涉及到分页数据的 API 都是基于该实体返回。 ::: tabs === \"示例\" json { page: 1, size: 10 } === \"参数\" |参数|类型|描述|默认值| |---|---|---|---| |page|数值|当前页码|1| |size|数值|每页条数|10| ::: ::: tabs === \"示例\" json { \"page\": 1, \"size\": 12, \"total\": 3, \"totalPage\": 1, \"content\": [] } === \"参数\" |参数|类型|描述| |---|---|---| |page|数值|当前页码| |size|数值|每页条数| |total|数值|总条数| |totalPage|数值|总页数| |content|数组|当前页数据| :::",
+    "url": "https://datacap.devlive.org/en/api/common/page.html",
+    "lang": "en"
+  },
+  {
+    "title": "用户注册",
+    "content": "请求地址：/api/auth/signup 请求方式：POST ::: tabs === \"示例\" json { \"timestamp\": 1732183276000, \"username\": \"aaa\", \"password\": \"aaaaaaaa\", \"confirmPassword\": \"aaaaaaaa\", \"captcha\": \"5\" } === \"参数\" |名称|类型|必选项|描述|依赖| |---|---|---|---|---| |timestamp|数值|否|当前时间戳，也可以是自定义数值，启用 captcha 时，该值才会生效|captcha| |username|字符串|是|注册的用户名，需要是英文|-| |password|字符串|是|注册用户名的密码|-| |confirmPassword|字符串|是|注册用户名的密码|-| |captcha|数值|否|只有系统启用验证码的情况下才有效，该值是验证码的计算结果|timestamp| ::: ::: tabs === \"示例\" json { \"username\": \"a07\", \"chatConfigure\": null, \"editorConfigure\": null, \"avatarConfigure\": null } === \"参数\" | 名称 | 类型 | 描述 | |-------------------|-----|-------| | username | 字符串 | 用户名 | | chatConfigure | 字符串 | 对话配置 | | editorConfigure | 字符串 | 编辑器配置 | | avatarConfigure | 字符串 | 头像配置 | :::",
+    "url": "https://datacap.devlive.org/en/api/user/register.html",
+    "lang": "en"
+  },
+  {
+    "title": "用户登录",
+    "content": "请求地址：/api/auth/signin 请求方式：POST ::: tabs === \"示例\" json { \"timestamp\": 1732189045000, \"username\": \"xxxx\", \"password\": \"xxxx\", \"captcha\": \"1\" } === \"参数\" |名称|类型|必选项|描述|依赖| |---|---|---|---|---| |timestamp|数值|否|当前时间戳，也可以是自定义数值，启用 captcha 时，该值才会生效|captcha| |username|字符串|是|用户名，需要是英文|-| |password|字符串|是|用户名密码|-| |captcha|数值|否|只有系统启用验证码的情况下才有效，该值是验证码的计算结果|timestamp| ::: ::: tabs === \"示例\" json { \"type\": \"Bearer\", \"token\": \"ccc\", \"id\": 1, \"username\": \"admin\", \"roles\": [ \"1\" ], \"avatar\": \"\" } === \"参数\" | 名称 | 类型 | 描述 | |-------------------|-----|-----------------------| | type | 字符串 | 账号授权类型，目前仅支持 Bearer | | token | 字符串 | 登录成功后的授权密钥 | | id | 字符串 | 当前登录用户 ID | | username | 字符串 | 当前登录用户名 | |roles|字符串数组|权限列表| |avatar|字符串|用户头像 base64 编码| :::",
+    "url": "https://datacap.devlive.org/en/api/user/login.html",
+    "lang": "en"
+  },
+  {
+    "title": "用户信息",
+    "content": "请求地址: /api/v1/user 请求方式: GET ::: tabs === \"示例\" json { \"id\": 1, \"name\": null, \"code\": null, \"active\": true, \"createTime\": \"2023-07-04 21:47:24\", \"updateTime\": \"2024-11-03 19:38:47\", \"username\": \"admin\", \"chatConfigure\": \"{\\\"type\\\":\\\"ChatGPT\\\",\\\"host\\\":null,\\\"token\\\":null,\\\"timeout\\\":0,\\\"contentCount\\\":5}\", \"system\": false, \"editorConfigure\": {}, \"avatarConfigure\": { \"path\": \"\" }, \"roles\": [] } === \"参数\" | 参数名 | 类型 | 描述 | 依赖 | | --- |----| --- |---------| | id | 数值 | 用户ID | ADMIN | |name | 字符串 | 用户名 | | |code | 字符串 | 用户编码 | | |active | 布尔值 | 是否激活 | ADMIN | |createTime | 字符串 | 创建时间 | | |updateTime | 字符串 | 更新时间 | | |username | 字符串 | 用户名 | | |chatConfigure | 字符串 | 聊天配置 | | |system | 布尔值 | 是否为系统用户 | ADMIN | |editorConfigure | 字符串 | 编辑器配置 | | |avatarConfigure | 字符串 | 头像配置 | | |roles | 数组 | 用户角色 | | :::",
+    "url": "https://datacap.devlive.org/en/api/user/info.html",
+    "lang": "en"
+  },
+  {
+    "title": "用户菜单",
+    "content": "请求地址: /api/v1/user/menus 请求方式: GET ::: tabs === \"示例\" json [ { \"id\": 1, \"title\": \"全局 - 首页\", \"url\": \"/home\", \"sorted\": 1, \"code\": \"HOME\", \"i18nKey\": \"common.home\", \"icon\": \"Home\", \"isNew\": false, \"checked\": true, \"selected\": true, \"parent\": 0, \"new\": false } ] === \"参数\" | 参数名 | 类型 | 描述 | | --- |----| --- | | id | 数值 | ID | | title | 字符串 | 标题 | | url | 字符串 | URL | | sorted | 数值 | 排序 | | code | 字符串 | 代码 | | i18nKey | 字符串 | 国际化 | | icon | 字符串 | 图标 | | isNew | 布尔 | 是否新建 | | checked | 布尔 | 是否选中 | | selected | 布尔 | 是否选中 | | parent | 数值 | 父菜单 | | new | 布尔 | 是否新建| :::",
+    "url": "https://datacap.devlive.org/en/api/user/menu.html",
+    "lang": "en"
+  },
+  {
+    "title": "用户列表 (管理员)",
+    "content": "请求地址: /api/v1/user/list 请求方式: POST !!! note 该接口用于获取仪表盘列表，需要传递分页数据 page 和 size 作为参数，分页数据默认为 1，size 默认为 12。详细参考 分页实体 !!! ::: tabs === \"示例\" json { \"id\": 1, \"name\": null, \"code\": null, \"active\": true, \"createTime\": \"2023-07-04 21:47:24\", \"updateTime\": \"2024-11-03 19:38:47\", \"username\": \"admin\", \"chatConfigure\": \"{\\\"type\\\":\\\"ChatGPT\\\",\\\"host\\\":null,\\\"token\\\":null,\\\"timeout\\\":0,\\\"contentCount\\\":5}\", \"system\": false, \"editorConfigure\": {}, \"avatarConfigure\": { \"path\": \"\" }, \"roles\": [] } === \"参数\" | 参数名 | 类型 | 描述 | 依赖 | | --- |----| --- |---------| | id | 数值 | 用户ID | ADMIN | |name | 字符串 | 用户名 | | |code | 字符串 | 用户编码 | | |active | 布尔值 | 是否激活 | ADMIN | |createTime | 字符串 | 创建时间 | | |updateTime | 字符串 | 更新时间 | | |username | 字符串 | 用户名 | | |chatConfigure | 字符串 | 聊天配置 | | |system | 布尔值 | 是否为系统用户 | ADMIN | |editorConfigure | 字符串 | 编辑器配置 | | |avatarConfigure | 字符串 | 头像配置 | | |roles | 数组 | 用户角色 | | :::",
+    "url": "https://datacap.devlive.org/en/api/user/list.html",
+    "lang": "en"
+  },
+  {
+    "title": "插件列表",
+    "content": "请求地址：/api/v1/plugin 请求方式：GET ::: tabs === \"示例\" json [ { \"name\": \"TxtConvert\", \"version\": \"2024.4.0-SNAPSHOT\", \"state\": \"CREATED\", \"loadTimestamp\": 1732353263492, \"loadTime\": \"2024-11-23 17:14:23\", \"type\": \"CONVERT\", \"loaderName\": \"io.edurt.datacap.plugin.loader.PropertiesPluginLoader\" } ] === \"参数\" | 名称 | 类型 | 是否必须 | 描述 | | --- | --- | --- | --- | | name | String | 是 | 插件名称 | | version | String | 是 | 插件版本 | | state | String | 是 | 插件状态 | | loadTimestamp | Long | 是 | 插件加载时间戳 | | loadTime | String | 是 | 插件加载时间 | | type | String | 是 | 插件类型 | | loaderName | String | 是 | 插件加载器名称 | :::",
+    "url": "https://datacap.devlive.org/en/api/plugin/plugin.html",
+    "lang": "en"
+  },
+  {
+    "title": "安装插件",
+    "content": "请求地址：/api/v1/plugin/install 请求方式：POST ::: tabs === \"示例\" json { \"url\": \"https://cdn.north.devlive.org/applications/datacap/plugins/2024.4.0-SNAPSHOT/plugin/datacap-plugin-mysql-bin.tar.gz\", \"name\": \"datacap-plugin-mysql\" } === \"参数\" | 参数名 | 类型 | 是否必须 | 描述 | | --- | --- | --- | --- | | url | string | 是 | 插件下载地址 | | name | string | 是 | 插件名称 | ::: ::: tabs === \"示例\" json true === \"参数\" 如果返回 true 表示安装成功，否则安装失败。 :::",
+    "url": "https://datacap.devlive.org/en/api/plugin/install.html",
+    "lang": "en"
+  },
+  {
+    "title": "卸载插件",
+    "content": "请求地址：/api/v1/plugin/ininstall/{pluginName} 请求方式：DELETE ::: tabs === \"示例\" json /MySQL === \"参数\" | 参数名 | 类型 | 是否必须 | 描述 | | --- | --- | --- | --- | | pluginName | string | 是 | 插件名称 | ::: ::: tabs === \"示例\" json true === \"参数\" 如果返回 true 表示卸载成功，返回 false 表示卸载失败 :::",
+    "url": "https://datacap.devlive.org/en/api/plugin/uninstall.html",
+    "lang": "en"
+  },
+  {
+    "title": "仪表盘列表",
+    "content": "请求地址：/api/v1/dashboard/list 请求方式：GET !!! note 该接口用于获取仪表盘列表，需要传递分页数据 page 和 size 作为参数，分页数据默认为 1，size 默认为 12。详细参考 分页实体 !!! ::: tabs === \"示例\" json [ { \"id\": 1, \"name\": \"第一个仪表盘\", \"code\": \"8ee2171b5d014779a45901fb9c2428c9\", \"active\": true, \"createTime\": \"2024-11-17 14:33:29\", \"updateTime\": \"2024-11-18 16:41:53\", \"configure\": \"\", \"description\": \"\", \"avatar\": { \"path\": \"\" }, \"user\": {}, \"reports\": [] } ] === \"参数\" |参数|类型|描述|权限| |---|---|---|---| |id|Number|分页数据|Admin| |name|String|仪表盘名称|-| |code|String|仪表盘编码|-| |active|Boolean|是否激活|-| |createTime|String|创建时间|-| |updateTime|String|更新时间|-| |configure|String|仪表盘配置|-| |description|String|仪表盘描述|-| |avatar|Avatar|仪表盘头像|-| |user|User|创建人|Admin| |reports|Report[]|报表列表|-| :::",
+    "url": "https://datacap.devlive.org/en/api/dashboard/list.html",
+    "lang": "en"
+  },
+  {
+    "title": "保存仪表盘",
+    "content": "请求地址：/api/v1/dashboard 请求方式：POST ::: tabs === \"示例\" json { \"name\": \"M 1.0\", \"configure\": \"[...]\", \"version\": \"1.0\", \"description\": \"随意修改的仪表盘\", \"reports\": [ { \"code\": \"24f38722eb6d432a9ee574e675bd0509\" } ] } === \"参数\" |参数|类型| 描述 | |---|---|---------------------| |name|String| 仪表盘名称 | |configure|String| 仪表盘配置 | |version|String| 仪表盘版本 | |description|String| 仪表盘描述 | |reports|Array| 报表列表，结构 [{\"code\": \"24f38722eb6d432a9ee574e675bd0509\"}] | ::: ::: tabs === \"示例\" json { \"name\": \"M 1.0\", \"code\": \"9e78e83f55864da7a4802e0989ae1f33\", \"active\": true, \"createTime\": \"2024-11-25 13:48:27\", \"updateTime\": \"2024-11-25 13:48:27\", \"configure\": \"[...]\", \"description\": \"随意修改的仪表盘\", \"avatar\": {}, \"version\": \"1.0\", \"reports\": [ { \"name\": null, \"code\": \"24f38722eb6d432a9ee574e675bd0509\", \"active\": true, \"createTime\": null, \"updateTime\": null, \"configure\": null, \"realtime\": false, \"type\": null, \"query\": null, \"description\": null, \"source\": null, \"dataset\": null } ] } === \"参数\" |参数|类型| 描述 | |---|---|---------------------| |name|String| 仪表盘名称 | |code|String| 仪表盘编码 | |active|Boolean| 是否激活 | |createTime|String| 创建时间 | |updateTime|String| 更新时间 | |configure|String| 仪表盘配置 | |description|String| 仪表盘描述 | |avatar|Object| 仪表盘头像 | |version|String| 仪表盘版本 | |reports|Array| 报表列表详见报表 | :::",
+    "url": "https://datacap.devlive.org/en/api/dashboard/save.html",
+    "lang": "en"
+  },
+  {
+    "title": "修改仪表盘",
+    "content": "请求地址：/api/v1/dashboard 请求方式：PUT ::: tabs === \"示例\" json { \"code\": \"9e78e83f55864da7a4802e0989ae1f33\", \"name\": \"M 1.0\", \"configure\": \"[...]\", \"version\": \"1.0\", \"description\": \"随意修改的仪表盘\", \"reports\": [ { \"code\": \"24f38722eb6d432a9ee574e675bd0509\" } ] } === \"参数\" |参数|类型| 描述 | |---|---|---------------------| |code|String| 仪表盘编码 | |name|String| 仪表盘名称 | |configure|String| 仪表盘配置 | |version|String| 仪表盘版本 | |description|String| 仪表盘描述 | |reports|Array| 报表列表，结构 [{\"code\": \"24f38722eb6d432a9ee574e675bd0509\"}] | ::: ::: tabs === \"示例\" json { \"name\": \"M 1.0\", \"code\": \"9e78e83f55864da7a4802e0989ae1f33\", \"active\": true, \"createTime\": \"2024-11-25 13:48:27\", \"updateTime\": \"2024-11-25 13:48:27\", \"configure\": \"[...]\", \"description\": \"随意修改的仪表盘\", \"avatar\": {}, \"version\": \"1.0\", \"reports\": [ { \"name\": null, \"code\": \"24f38722eb6d432a9ee574e675bd0509\", \"active\": true, \"createTime\": null, \"updateTime\": null, \"configure\": null, \"realtime\": false, \"type\": null, \"query\": null, \"description\": null, \"source\": null, \"dataset\": null } ] } === \"参数\" |参数|类型| 描述 | |---|---|---------------------| |name|String| 仪表盘名称 | |code|String| 仪表盘编码 | |active|Boolean| 是否激活 | |createTime|String| 创建时间 | |updateTime|String| 更新时间 | |configure|String| 仪表盘配置 | |description|String| 仪表盘描述 | |avatar|Object| 仪表盘头像 | |version|String| 仪表盘版本 | |reports|Array| 报表列表详见报表 | :::",
+    "url": "https://datacap.devlive.org/en/api/dashboard/edit.html",
+    "lang": "en"
+  },
+  {
+    "title": "获取仪表盘",
+    "content": "请求地址：/api/v1/dashboard/info/{code} 请求方式：GET ::: tabs === \"示例\" json /api/v1/dashboard/info/8ee2171b5d014779a45901fb9c2428c9 === \"参数\" |参数|类型|描述| |---|---|---| |code|String|仪表盘编码| ::: ::: tabs === \"示例\" json { \"id\": 1, \"name\": \"第一个仪表盘\", \"code\": \"8ee2171b5d014779a45901fb9c2428c9\", \"active\": true, \"createTime\": \"2024-11-17 14:33:29\", \"updateTime\": \"2024-11-18 16:41:53\", \"configure\": \"\", \"description\": \"\", \"avatar\": { \"path\": \"\" }, \"user\": {}, \"reports\": [] } === \"参数\" |参数|类型|描述|权限| |---|---|---|---| |id|Number|分页数据|Admin| |name|String|仪表盘名称|-| |code|String|仪表盘编码|-| |active|Boolean|是否激活|-| |createTime|String|创建时间|-| |updateTime|String|更新时间|-| |configure|String|仪表盘配置|-| |description|String|仪表盘描述|-| |avatar|Avatar|仪表盘头像|-| |user|User|创建人|Admin| |reports|Report[]|报表列表|-| :::",
+    "url": "https://datacap.devlive.org/en/api/dashboard/get.html",
+    "lang": "en"
+  },
+  {
+    "title": "删除仪表盘",
+    "content": "请求地址：/api/v1/dashboard/{code} 请求方式：DELETE ::: tabs === \"示例\" json /api/v1/dashboard/8ee2171b5d014779a45901fb9c2428c9 === \"参数\" |参数|类型|描述| |---|---|---| |code|String|仪表盘编码| ::: ::: tabs === \"示例\" json 8ee2171b5d014779a45901fb9c2428c9 === \"参数\" 删除成功后返回仪表盘编码。 :::",
+    "url": "https://datacap.devlive.org/en/api/dashboard/delete.html",
+    "lang": "en"
+  },
+  {
+    "title": "菜单列表 (管理员)",
+    "content": "请求地址: /api/v1/menu/list 请求方式: POST !!! note 该接口用于获取菜单列表，需要传递分页数据 page 和 size 作为参数，分页数据默认为 1，size 默认为 10。详细参考 分页实体 !!! ::: tabs === \"示例\" json [ { \"id\": 1, \"title\": \"全局 - 首页\", \"url\": \"/home\", \"sorted\": 1, \"code\": \"HOME\", \"i18nKey\": \"common.home\", \"icon\": \"Home\", \"isNew\": false, \"checked\": true, \"selected\": true, \"parent\": 0, \"new\": false } ] === \"参数\" | 参数名 | 类型 | 描述 | | --- |----| --- | | id | 数值 | ID | | title | 字符串 | 标题 | | url | 字符串 | URL | | sorted | 数值 | 排序 | | code | 字符串 | 代码 | | i18nKey | 字符串 | 国际化 | | icon | 字符串 | 图标 | | isNew | 布尔 | 是否新建 | | checked | 布尔 | 是否选中 | | selected | 布尔 | 是否选中 | | parent | 数值 | 父菜单 | | new | 布尔 | 是否新建| :::",
+    "url": "https://datacap.devlive.org/en/api/menu/list.html",
+    "lang": "en"
+  },
+  {
+    "title": "保存菜单 (管理员)",
+    "content": "请求地址：/api/v1/menu 请求方式：POST ::: tabs === \"示例\" json { \"name\": \"测试菜单\", \"description\": \"\", \"url\": \"/test\", \"sorted\": \"01\", \"type\": \"VIEW\", \"active\": true, \"i18nKey\": \"common.home\", \"icon\": \"\", \"new\": false } === \"参数\" |参数|类型| 描述 | |---|---|---------------------| |name|String| 菜单名称 | |description|String| 菜单描述 | |url|String| 菜单路径 | |sorted|String| 菜单排序 | |type|String| 菜单类型 | |active|Boolean| 是否激活 | |i18nKey|String| 国际化key | |icon|String| 图标 | |new|Boolean| 是否为新菜单 | ::: ::: tabs === \"示例\" json { \"name\": \"测试菜单\", \"code\": \"10ae626195704b96b353d00aeb6ab1e5\", \"createTime\": null, \"updateTime\": \"2024-11-25 20:32:53\", \"description\": \"\", \"url\": \"/test\", \"group\": null, \"sorted\": 1, \"type\": \"VIEW\", \"parent\": 0, \"i18nKey\": \"common.home\", \"icon\": \"\", \"redirect\": 0, \"isNew\": false, \"new\": false } === \"参数\" |参数|类型| 描述 | |---|---|---------------------| |name|String| 菜单名称 | |code|String| 菜单code | |createTime|String| 创建时间 | |updateTime|String| 更新时间 | |description|String| 菜单描述 | |url|String| 菜单路径 | |group|String| 菜单分组 | |sorted|Number| 菜单排序 | |type|String| 菜单类型 | |parent|Number| 父菜单 | |i18nKey|String| 国际化key | |icon|String| 图标 | |redirect|Number| 跳转地址 | |isNew|Boolean| 是否为新菜单 | :::",
+    "url": "https://datacap.devlive.org/en/api/menu/save.html",
+    "lang": "en"
+  },
+  {
+    "title": "修改菜单 (管理员)",
+    "content": "请求地址：/api/v1/menu 请求方式：PUT ::: tabs === \"示例\" json { \"code\": \"10ae626195704b96b353d00aeb6ab1e5\", \"name\": \"测试菜单\", \"description\": \"\", \"url\": \"/test\", \"sorted\": \"01\", \"type\": \"VIEW\", \"active\": true, \"i18nKey\": \"common.home\", \"icon\": \"\", \"new\": false } === \"参数\" |参数|类型| 描述 | |---|---|---------------------| |code|String| 菜单code | |name|String| 菜单名称 | |description|String| 菜单描述 | |url|String| 菜单路径 | |sorted|String| 菜单排序 | |type|String| 菜单类型 | |active|Boolean| 是否激活 | |i18nKey|String| 国际化key | |icon|String| 图标 | |new|Boolean| 是否为新菜单 | ::: ::: tabs === \"示例\" json { \"name\": \"测试菜单\", \"code\": \"10ae626195704b96b353d00aeb6ab1e5\", \"createTime\": null, \"updateTime\": \"2024-11-25 20:32:53\", \"description\": \"\", \"url\": \"/test\", \"group\": null, \"sorted\": 1, \"type\": \"VIEW\", \"parent\": 0, \"i18nKey\": \"common.home\", \"icon\": \"\", \"redirect\": 0, \"isNew\": false, \"new\": false } === \"参数\" |参数|类型| 描述 | |---|---|---------------------| |name|String| 菜单名称 | |code|String| 菜单code | |createTime|String| 创建时间 | |updateTime|String| 更新时间 | |description|String| 菜单描述 | |url|String| 菜单路径 | |group|String| 菜单分组 | |sorted|Number| 菜单排序 | |type|String| 菜单类型 | |parent|Number| 父菜单 | |i18nKey|String| 国际化key | |icon|String| 图标 | |redirect|Number| 跳转地址 | |isNew|Boolean| 是否为新菜单 | :::",
+    "url": "https://datacap.devlive.org/en/api/menu/edit.html",
+    "lang": "en"
+  },
+  {
+    "title": "工作流列表",
+    "content": "请求地址: /api/v1/workflow/list 请求方式: POST !!! note 该接口用于获取菜单列表，需要传递分页数据 page 和 size 作为参数，分页数据默认为 1，size 默认为 10。详细参考 分页实体 !!! ::: tabs === \"示例\" json [ { \"name\": \"sss\", \"code\": \"c1ff398243994338a79730f8a1d4f55f\", \"active\": true, \"createTime\": \"2024-12-19 22:19:30\", \"updateTime\": \"2024-12-19 22:19:31\", \"state\": \"FAILURE\", \"message\": \"/bin/sh: null/bin/start-seatunnel-spark-connector-v2.sh: No such file or directory\", \"work\": \"...\", \"elapsed\": 492, \"executor\": \"SeatunnelExecutor\", \"configure\": { ... }, \"user\": { ... } } ] === \"参数\" | 参数名 | 类型 | 描述 | | --- |----| --- | | code | 字符串 | 工作流编码 | | name | 字符串 | 名称 | | executor | 字符串 | 执行器 | | active | 布尔值 | 是否启用 | |createTime|字符串|创建时间| |updateTime|字符串|更新时间| |state|字符串|状态| |message|字符串|消息| |work|字符串|工作目录| |elapsed|整数|耗时| |executor|字符串|执行器| |configure|对象|配置| |user|对象|用户| :::",
+    "url": "https://datacap.devlive.org/en/api/workflow/list.html",
+    "lang": "en"
+  },
+  {
+    "title": "提交工作流",
+    "content": "请求地址：/api/v1/workflow 请求方式：POST ::: tabs === \"示例\" json { \"executor\": \"LocalExecutor\", \"name\": \"dsf\", \"configure\": { \"nodes\": [ { \"id\": \"52c6222f-e49a-4afc-9201-35e296201a33\", \"tid\": \"jdbc-source\", \"category\": \"source\", \"position\": { \"x\": 137, \"y\": 95 }, \"key\": \"Jdbc\", \"data\": { ... } } ], \"connections\": [ { \"id\": \"668a7830-5c48-433e-9688-c6f8c9341ff7\", \"source\": \"52c6222f-e49a-4afc-9201-35e296201a33-output\", \"target\": \"f2f8b63e-902a-4467-acdf-32c0a7ed4074-input\" } ] } } === \"参数\" | 参数 |类型| 描述 | |-------------|---|----------------------------------------------------------| | name |String| 工作流名称 | | configure |String| 工作流配置 | | executor |String| 执行器 | > configure 参数请参考组件：https://view-shadcn-ui.devlive.org/components/workflow.html#workflow-props ::: ::: tabs === \"示例\" json { \"name\": \"sss\", \"code\": \"c1ff398243994338a79730f8a1d4f55f\", \"active\": true, \"createTime\": \"2024-12-19 22:19:30\", \"updateTime\": \"2024-12-19 22:19:31\", \"state\": \"FAILURE\", \"message\": \"/bin/sh: null/bin/start-seatunnel-spark-connector-v2.sh: No such file or directory\", \"work\": \"...\", \"elapsed\": 492, \"executor\": \"SeatunnelExecutor\", \"configure\": { ... }, \"user\": { ... } } :::",
+    "url": "https://datacap.devlive.org/en/api/workflow/save.html",
+    "lang": "en"
+  },
+  {
+    "title": "修改工作流",
+    "content": "请求地址：/api/v1/workflow 请求方式：PUT ::: tabs === \"示例\" json { \"code\": \"10ae626195704b96b353d00aeb6ab1e5\", \"executor\": \"LocalExecutor\", \"name\": \"dsf\", \"configure\": { \"nodes\": [ { \"id\": \"52c6222f-e49a-4afc-9201-35e296201a33\", \"tid\": \"jdbc-source\", \"category\": \"source\", \"position\": { \"x\": 137, \"y\": 95 }, \"key\": \"Jdbc\", \"data\": { ... } } ], \"connections\": [ { \"id\": \"668a7830-5c48-433e-9688-c6f8c9341ff7\", \"source\": \"52c6222f-e49a-4afc-9201-35e296201a33-output\", \"target\": \"f2f8b63e-902a-4467-acdf-32c0a7ed4074-input\" } ] } } === \"参数\" | 参数 |类型| 描述 | |-------------|---|----------------------------------------------------------| | code |String| 工作流编码 | | name |String| 工作流名称 | | configure |String| 工作流配置 | | executor |String| 执行器 | > configure 参数请参考组件：https://view-shadcn-ui.devlive.org/components/workflow.html#workflow-props ::: ::: tabs === \"示例\" json { \"name\": \"sss\", \"code\": \"c1ff398243994338a79730f8a1d4f55f\", \"active\": true, \"createTime\": \"2024-12-19 22:19:30\", \"updateTime\": \"2024-12-19 22:19:31\", \"state\": \"FAILURE\", \"message\": \"/bin/sh: null/bin/start-seatunnel-spark-connector-v2.sh: No such file or directory\", \"work\": \"...\", \"elapsed\": 492, \"executor\": \"SeatunnelExecutor\", \"configure\": { ... }, \"user\": { ... } } :::",
+    "url": "https://datacap.devlive.org/en/api/workflow/edit.html",
+    "lang": "en"
+  },
+  {
+    "title": "获取工作流",
+    "content": "请求地址: /api/v1/workflow/info/{code} 请求方式: GET ::: tabs === \"示例\" json { \"name\": \"sss\", \"code\": \"c1ff398243994338a79730f8a1d4f55f\", \"active\": true, \"createTime\": \"2024-12-19 22:19:30\", \"updateTime\": \"2024-12-19 22:19:31\", \"state\": \"FAILURE\", \"message\": \"/bin/sh: null/bin/start-seatunnel-spark-connector-v2.sh: No such file or directory\", \"work\": \"...\", \"elapsed\": 492, \"executor\": \"SeatunnelExecutor\", \"configure\": { ... }, \"user\": { ... } } === \"参数\" | 参数名 | 类型 | 描述 | | --- |----| --- | | code | 字符串 | 工作流编码 | | name | 字符串 | 名称 | | executor | 字符串 | 执行器 | | active | 布尔值 | 是否启用 | |createTime|字符串|创建时间| |updateTime|字符串|更新时间| |state|字符串|状态| |message|字符串|消息| |work|字符串|工作目录| |elapsed|整数|耗时| |executor|字符串|执行器| |configure|对象|配置| |user|对象|用户| :::",
+    "url": "https://datacap.devlive.org/en/api/workflow/get.html",
+    "lang": "en"
+  },
+  {
+    "title": "删除工作流",
+    "content": "请求地址：/api/v1/workflow/{code} 请求方式：DELETE ::: tabs === \"示例\" json /api/v1/workflow/8ee2171b5d014779a45901fb9c2428c9 === \"参数\" |参数|类型|描述| |---|---|---| |code|String|仪表盘编码| ::: ::: tabs === \"示例\" json 8ee2171b5d014779a45901fb9c2428c9 === \"参数\" 删除成功后返回仪表盘编码。 :::",
+    "url": "https://datacap.devlive.org/en/api/workflow/delete.html",
+    "lang": "en"
+  },
+  {
+    "title": "工作流日志",
+    "content": "请求地址：/api/v1/workflow/log/{code} 请求方式：GET ::: tabs === \"示例\" json /api/v1/workflow/log/8ee2171b5d014779a45901fb9c2428c9 === \"参数\" |参数|类型|描述| |---|---|---| |code|String|仪表盘编码| ::: ::: tabs === \"示例\" json \"2024-12-19 22:19:30,265 INFO [pool-5-thread-1] [ProcessBuilderCommander.java:39] Execute task on username [ admin ]\", \"2024-12-19 22:19:30,349 INFO [pool-5-thread-1] [ProcessBuilderCommander.java:50] Execute command /bin/sh -c null/bin/start-seatunnel-spark-connector-v2.sh --master local --deploy-mode client --config /Users/shicheng/Code/datacap/data/admin/20241219/workflow/seatunnelexecutor/c1ff398243994338a79730f8a1d4f55f/c1ff398243994338a79730f8a1d4f55f.configure --name c1ff398243994338a79730f8a1d4f55f\", === \"参数\" 工作流的日志信息。 :::",
+    "url": "https://datacap.devlive.org/en/api/workflow/log.html",
+    "lang": "en"
+  },
+  {
+    "title": "重启工作流",
+    "content": "请求地址：/api/v1/workflow/restart/{code} 请求方式：PUT ::: tabs === \"示例\" json /api/v1/workflow/restart/8ee2171b5d014779a45901fb9c2428c9 === \"参数\" |参数|类型|描述| |---|---|---| |code|String|仪表盘编码| ::: ::: tabs === \"示例\" json 8ee2171b5d014779a45901fb9c2428c9 === \"参数\" 删除成功后返回仪表盘编码。 :::",
+    "url": "https://datacap.devlive.org/en/api/workflow/restart.html",
+    "lang": "en"
+  },
+  {
+    "title": "MongoDB Driver",
+    "content": "DataCap MongoDB Driver 主要要用于在 DataCap 中连接和操作 MongoDB 数据库。该驱动支持以下语法: SHOW ... 语法 SELECT ... 语法 DataCap MongoDB Driver 适用于所有 DataCap 版本。 --- xml <dependency> <groupId>io.edurt.datacap</groupId> <artifactId>datacap-driver-mongodb</artifactId> <version>${VERSION}</version> <scope>test</scope> </dependency> VERSION 可以在 Maven 中央仓库中找到。 驱动名称：io.edurt.datacap.driver.MongoJdbcDriver 支持的连接语法： jdbc:mongodb: jdbc:mongo: jdbc:mongodb+srv: 授权用户 java Class.forName(\"io.edurt.datacap.driver.MongoJdbcDriver\"); Properties props = new Properties(); props.setProperty(\"database\", \"xxxx\"); props.setProperty(\"user\", \"xxxx\"); props.setProperty(\"password\", \"xxxx\"); String jdbcUrl = String.format(\"jdbc:mongodb://%s:%d\", \"127.0.0.1\", 27017); connection = DriverManager.getConnection(jdbcUrl, props); 非授权用户 java Class.forName(\"io.edurt.datacap.driver.MongoJdbcDriver\"); String jdbcUrl = String.format(\"jdbc:mongodb://%s:%d\", \"127.0.0.1\", 27017); connection = DriverManager.getConnection(jdbcUrl); DataCap MongoDB Driver 支持以下 SHOW 语法: SHOW DATABASES SHOW DATABASES LIKE ... SHOW TABLES SHOW TABLES FROM ... SHOW TABLES LIKE ... SHOW COLUMNS SHOW COLUMNS FROM ... SHOW COLUMNS FROM ... FROM ... SHOW COLUMNS FROM ... LIKE ... DataCap MongoDB Driver 支持以下 SELECT 语法: SELECT FROM ... SELECT ... FROM ... SELECT columnname AS aliasname FROM ... SELECT columnname AS aliasname, ... FROM ... SELECT columnname AS aliasname, ... FROM ... WHERE ... SELECT columnname AS aliasname, ... FROM ... WHERE ... ORDER BY ... SELECT columnname AS aliasname, ... FROM ... WHERE ... ORDER BY ... LIMIT ... SELECT columnname AS aliasname, ... FROM ... WHERE ... GROUP BY ... SELECT columnname AS aliasname, ... FROM ... WHERE ... GROUP BY ... LIMIT ... OFFSET ... SELECT columnname AS aliasname, SUM(columnName) ... FROM ... WHERE ... GROUP BY ... DataCap MongoDB Driver 支持以下聚合函数: COUNT() COUNT(columnName) SUM(columnName) AVG(columnName) MIN(columnName) MAX(columnName) DataCap MongoDB Driver 支持以下系统函数: SELECT VERSION()",
+    "url": "https://datacap.devlive.org/en/driver/mongodb.html",
     "lang": "en"
   },
   {
@@ -1315,8 +1471,164 @@
   },
   {
     "title": "流水线",
-    "content": "在 DataCap 系统中，流水线功能用户可以随意配置，根据低层执行器的版本可以任意调整，系统会根据配置自动识别并编译最终的配置并发送到执行器中。 我们可提供的配置有: | 字段 | 类型 | 描述 | |:---------------:|:-----------:|:------------------------------------------------------:| | field | String | 字段名 | | origin | String | 默认等于字段值，自定义列名使用, 如果是 host|port 格式，系统将会将字段通过 : 进行拼接 | | required | Boolean | 当值为 true 时，表示该字段为必填项 | | override | Boolean | 如果该标志为 true，则表示通过用户配置提取该字段，默认数据将被丢弃 | | input | Boolean | 是否为输入参数 | | width | Integer | 组件宽度, 默认 300 | | type | FieldType | 字段类型, 默认 INPUT | | tooltip | String | 提示信息 | | description | String | 描述信息 | | value | Object | 当前配置输入的结果 | | hidden | Boolean | 如果该配置项为 true，则前端不会显示，启用后才会显示。 | | defaultValues | Array | 如果类型为 SELECT ，则需要传入默认数据 | !!! danger 我们不建议用户自行修改以上配置，如有出现配置异常将会导致插件无法使用该功能 !!!",
+    "content": "在 DataCap 系统中，流水线功能用户可以随意配置，根据低层执行器的版本可以任意调整，系统会根据配置自动识别并编译最终的配置并发送到执行器中。 我们可提供的配置有: | 字段 | 类型 | 描述 | |:---------------:|:-----------:|:-------------------------------------------------------:| | field | String | 字段名 | | origin | String | 默认等于字段值，自定义列名使用, 如果是 host\\|port 格式，系统将会将字段通过 : 进行拼接 | | required | Boolean | 当值为 true 时，表示该字段为必填项 | | override | Boolean | 如果该标志为 true，则表示通过用户配置提取该字段，默认数据将被丢弃 | | input | Boolean | 是否为输入参数 | | width | Integer | 组件宽度, 默认 300 | | type | FieldType | 字段类型, 默认 INPUT | | tooltip | String | 提示信息 | | description | String | 描述信息 | | value | Object | 当前配置输入的结果 | | hidden | Boolean | 如果该配置项为 true，则前端不会显示，启用后才会显示。 | | defaultValues | Array | 如果类型为 SELECT ，则需要传入默认数据 | !!! danger 我们不建议用户自行修改以上配置，如有出现配置异常将会导致插件无法使用该功能 !!!",
     "url": "https://datacap.devlive.org/zh-CN/developer/pipeline/home.html",
+    "lang": "zh-CN"
+  },
+  {
+    "title": "通用实体",
+    "content": "本文档主要是用于描述通用配置，所有 API 都是基于该实体返回。 ::: tabs === \"请求成功示例\" json { \"status\": true, \"code\": 200, \"message\": \"Query successful\", \"data\": {} } === \"请求失败示例\" json { \"status\": true, \"code\": 400, \"message\": \"Query successful\", \"data\": null } === \"参数\" |参数|类型|描述| |---|---|---| |status|请求状态|请求状态，如果是 true 标记请求成功，false 请求出现异常。该异常是系统定制返回的不是开放性的| |code|编码|请求发送后返回的编码，不同编码有不同的含义| |message|异常信息|如果请求失败，这里会返回具体的异常信息| |data|数据|请求成功且未发生异常情况下，返回的具体数据| :::",
+    "url": "https://datacap.devlive.org/zh-CN/api/common/response.html",
+    "lang": "zh-CN"
+  },
+  {
+    "title": "分页实体",
+    "content": "本文档主要是用于描述分页配置，所有涉及到分页数据的 API 都是基于该实体返回。 ::: tabs === \"示例\" json { page: 1, size: 10 } === \"参数\" |参数|类型|描述|默认值| |---|---|---|---| |page|数值|当前页码|1| |size|数值|每页条数|10| ::: ::: tabs === \"示例\" json { \"page\": 1, \"size\": 12, \"total\": 3, \"totalPage\": 1, \"content\": [] } === \"参数\" |参数|类型|描述| |---|---|---| |page|数值|当前页码| |size|数值|每页条数| |total|数值|总条数| |totalPage|数值|总页数| |content|数组|当前页数据| :::",
+    "url": "https://datacap.devlive.org/zh-CN/api/common/page.html",
+    "lang": "zh-CN"
+  },
+  {
+    "title": "用户注册",
+    "content": "请求地址：/api/auth/signup 请求方式：POST ::: tabs === \"示例\" json { \"timestamp\": 1732183276000, \"username\": \"aaa\", \"password\": \"aaaaaaaa\", \"confirmPassword\": \"aaaaaaaa\", \"captcha\": \"5\" } === \"参数\" |名称|类型|必选项|描述|依赖| |---|---|---|---|---| |timestamp|数值|否|当前时间戳，也可以是自定义数值，启用 captcha 时，该值才会生效|captcha| |username|字符串|是|注册的用户名，需要是英文|-| |password|字符串|是|注册用户名的密码|-| |confirmPassword|字符串|是|注册用户名的密码|-| |captcha|数值|否|只有系统启用验证码的情况下才有效，该值是验证码的计算结果|timestamp| ::: ::: tabs === \"示例\" json { \"username\": \"a07\", \"chatConfigure\": null, \"editorConfigure\": null, \"avatarConfigure\": null } === \"参数\" | 名称 | 类型 | 描述 | |-------------------|-----|-------| | username | 字符串 | 用户名 | | chatConfigure | 字符串 | 对话配置 | | editorConfigure | 字符串 | 编辑器配置 | | avatarConfigure | 字符串 | 头像配置 | :::",
+    "url": "https://datacap.devlive.org/zh-CN/api/user/register.html",
+    "lang": "zh-CN"
+  },
+  {
+    "title": "用户登录",
+    "content": "请求地址：/api/auth/signin 请求方式：POST ::: tabs === \"示例\" json { \"timestamp\": 1732189045000, \"username\": \"xxxx\", \"password\": \"xxxx\", \"captcha\": \"1\" } === \"参数\" |名称|类型|必选项|描述|依赖| |---|---|---|---|---| |timestamp|数值|否|当前时间戳，也可以是自定义数值，启用 captcha 时，该值才会生效|captcha| |username|字符串|是|用户名，需要是英文|-| |password|字符串|是|用户名密码|-| |captcha|数值|否|只有系统启用验证码的情况下才有效，该值是验证码的计算结果|timestamp| ::: ::: tabs === \"示例\" json { \"type\": \"Bearer\", \"token\": \"ccc\", \"id\": 1, \"username\": \"admin\", \"roles\": [ \"1\" ], \"avatar\": \"\" } === \"参数\" | 名称 | 类型 | 描述 | |-------------------|-----|-----------------------| | type | 字符串 | 账号授权类型，目前仅支持 Bearer | | token | 字符串 | 登录成功后的授权密钥 | | id | 字符串 | 当前登录用户 ID | | username | 字符串 | 当前登录用户名 | |roles|字符串数组|权限列表| |avatar|字符串|用户头像 base64 编码| :::",
+    "url": "https://datacap.devlive.org/zh-CN/api/user/login.html",
+    "lang": "zh-CN"
+  },
+  {
+    "title": "用户信息",
+    "content": "请求地址: /api/v1/user 请求方式: GET ::: tabs === \"示例\" json { \"id\": 1, \"name\": null, \"code\": null, \"active\": true, \"createTime\": \"2023-07-04 21:47:24\", \"updateTime\": \"2024-11-03 19:38:47\", \"username\": \"admin\", \"chatConfigure\": \"{\\\"type\\\":\\\"ChatGPT\\\",\\\"host\\\":null,\\\"token\\\":null,\\\"timeout\\\":0,\\\"contentCount\\\":5}\", \"system\": false, \"editorConfigure\": {}, \"avatarConfigure\": { \"path\": \"\" }, \"roles\": [] } === \"参数\" | 参数名 | 类型 | 描述 | 依赖 | | --- |----| --- |---------| | id | 数值 | 用户ID | ADMIN | |name | 字符串 | 用户名 | | |code | 字符串 | 用户编码 | | |active | 布尔值 | 是否激活 | ADMIN | |createTime | 字符串 | 创建时间 | | |updateTime | 字符串 | 更新时间 | | |username | 字符串 | 用户名 | | |chatConfigure | 字符串 | 聊天配置 | | |system | 布尔值 | 是否为系统用户 | ADMIN | |editorConfigure | 字符串 | 编辑器配置 | | |avatarConfigure | 字符串 | 头像配置 | | |roles | 数组 | 用户角色 | | :::",
+    "url": "https://datacap.devlive.org/zh-CN/api/user/info.html",
+    "lang": "zh-CN"
+  },
+  {
+    "title": "用户菜单",
+    "content": "请求地址: /api/v1/user/menus 请求方式: GET ::: tabs === \"示例\" json [ { \"id\": 1, \"title\": \"全局 - 首页\", \"url\": \"/home\", \"sorted\": 1, \"code\": \"HOME\", \"i18nKey\": \"common.home\", \"icon\": \"Home\", \"isNew\": false, \"checked\": true, \"selected\": true, \"parent\": 0, \"new\": false } ] === \"参数\" | 参数名 | 类型 | 描述 | | --- |----| --- | | id | 数值 | ID | | title | 字符串 | 标题 | | url | 字符串 | URL | | sorted | 数值 | 排序 | | code | 字符串 | 代码 | | i18nKey | 字符串 | 国际化 | | icon | 字符串 | 图标 | | isNew | 布尔 | 是否新建 | | checked | 布尔 | 是否选中 | | selected | 布尔 | 是否选中 | | parent | 数值 | 父菜单 | | new | 布尔 | 是否新建| :::",
+    "url": "https://datacap.devlive.org/zh-CN/api/user/menu.html",
+    "lang": "zh-CN"
+  },
+  {
+    "title": "用户列表 (管理员)",
+    "content": "请求地址: /api/v1/user/list 请求方式: POST !!! note 该接口用于获取仪表盘列表，需要传递分页数据 page 和 size 作为参数，分页数据默认为 1，size 默认为 12。详细参考 分页实体 !!! ::: tabs === \"示例\" json { \"id\": 1, \"name\": null, \"code\": null, \"active\": true, \"createTime\": \"2023-07-04 21:47:24\", \"updateTime\": \"2024-11-03 19:38:47\", \"username\": \"admin\", \"chatConfigure\": \"{\\\"type\\\":\\\"ChatGPT\\\",\\\"host\\\":null,\\\"token\\\":null,\\\"timeout\\\":0,\\\"contentCount\\\":5}\", \"system\": false, \"editorConfigure\": {}, \"avatarConfigure\": { \"path\": \"\" }, \"roles\": [] } === \"参数\" | 参数名 | 类型 | 描述 | 依赖 | | --- |----| --- |---------| | id | 数值 | 用户ID | ADMIN | |name | 字符串 | 用户名 | | |code | 字符串 | 用户编码 | | |active | 布尔值 | 是否激活 | ADMIN | |createTime | 字符串 | 创建时间 | | |updateTime | 字符串 | 更新时间 | | |username | 字符串 | 用户名 | | |chatConfigure | 字符串 | 聊天配置 | | |system | 布尔值 | 是否为系统用户 | ADMIN | |editorConfigure | 字符串 | 编辑器配置 | | |avatarConfigure | 字符串 | 头像配置 | | |roles | 数组 | 用户角色 | | :::",
+    "url": "https://datacap.devlive.org/zh-CN/api/user/list.html",
+    "lang": "zh-CN"
+  },
+  {
+    "title": "插件列表",
+    "content": "请求地址：/api/v1/plugin 请求方式：GET ::: tabs === \"示例\" json [ { \"name\": \"TxtConvert\", \"version\": \"2024.4.0-SNAPSHOT\", \"state\": \"CREATED\", \"loadTimestamp\": 1732353263492, \"loadTime\": \"2024-11-23 17:14:23\", \"type\": \"CONVERT\", \"loaderName\": \"io.edurt.datacap.plugin.loader.PropertiesPluginLoader\" } ] === \"参数\" | 名称 | 类型 | 是否必须 | 描述 | | --- | --- | --- | --- | | name | String | 是 | 插件名称 | | version | String | 是 | 插件版本 | | state | String | 是 | 插件状态 | | loadTimestamp | Long | 是 | 插件加载时间戳 | | loadTime | String | 是 | 插件加载时间 | | type | String | 是 | 插件类型 | | loaderName | String | 是 | 插件加载器名称 | :::",
+    "url": "https://datacap.devlive.org/zh-CN/api/plugin/plugin.html",
+    "lang": "zh-CN"
+  },
+  {
+    "title": "安装插件",
+    "content": "请求地址：/api/v1/plugin/install 请求方式：POST ::: tabs === \"示例\" json { \"url\": \"https://cdn.north.devlive.org/applications/datacap/plugins/2024.4.0-SNAPSHOT/plugin/datacap-plugin-mysql-bin.tar.gz\", \"name\": \"datacap-plugin-mysql\" } === \"参数\" | 参数名 | 类型 | 是否必须 | 描述 | | --- | --- | --- | --- | | url | string | 是 | 插件下载地址 | | name | string | 是 | 插件名称 | ::: ::: tabs === \"示例\" json true === \"参数\" 如果返回 true 表示安装成功，否则安装失败。 :::",
+    "url": "https://datacap.devlive.org/zh-CN/api/plugin/install.html",
+    "lang": "zh-CN"
+  },
+  {
+    "title": "卸载插件",
+    "content": "请求地址：/api/v1/plugin/ininstall/{pluginName} 请求方式：DELETE ::: tabs === \"示例\" json /MySQL === \"参数\" | 参数名 | 类型 | 是否必须 | 描述 | | --- | --- | --- | --- | | pluginName | string | 是 | 插件名称 | ::: ::: tabs === \"示例\" json true === \"参数\" 如果返回 true 表示卸载成功，返回 false 表示卸载失败 :::",
+    "url": "https://datacap.devlive.org/zh-CN/api/plugin/uninstall.html",
+    "lang": "zh-CN"
+  },
+  {
+    "title": "仪表盘列表",
+    "content": "请求地址：/api/v1/dashboard/list 请求方式：GET !!! note 该接口用于获取仪表盘列表，需要传递分页数据 page 和 size 作为参数，分页数据默认为 1，size 默认为 12。详细参考 分页实体 !!! ::: tabs === \"示例\" json [ { \"id\": 1, \"name\": \"第一个仪表盘\", \"code\": \"8ee2171b5d014779a45901fb9c2428c9\", \"active\": true, \"createTime\": \"2024-11-17 14:33:29\", \"updateTime\": \"2024-11-18 16:41:53\", \"configure\": \"\", \"description\": \"\", \"avatar\": { \"path\": \"\" }, \"user\": {}, \"reports\": [] } ] === \"参数\" |参数|类型|描述|权限| |---|---|---|---| |id|Number|分页数据|Admin| |name|String|仪表盘名称|-| |code|String|仪表盘编码|-| |active|Boolean|是否激活|-| |createTime|String|创建时间|-| |updateTime|String|更新时间|-| |configure|String|仪表盘配置|-| |description|String|仪表盘描述|-| |avatar|Avatar|仪表盘头像|-| |user|User|创建人|Admin| |reports|Report[]|报表列表|-| :::",
+    "url": "https://datacap.devlive.org/zh-CN/api/dashboard/list.html",
+    "lang": "zh-CN"
+  },
+  {
+    "title": "保存仪表盘",
+    "content": "请求地址：/api/v1/dashboard 请求方式：POST ::: tabs === \"示例\" json { \"name\": \"M 1.0\", \"configure\": \"[...]\", \"version\": \"1.0\", \"description\": \"随意修改的仪表盘\", \"reports\": [ { \"code\": \"24f38722eb6d432a9ee574e675bd0509\" } ] } === \"参数\" |参数|类型| 描述 | |---|---|---------------------| |name|String| 仪表盘名称 | |configure|String| 仪表盘配置 | |version|String| 仪表盘版本 | |description|String| 仪表盘描述 | |reports|Array| 报表列表，结构 [{\"code\": \"24f38722eb6d432a9ee574e675bd0509\"}] | ::: ::: tabs === \"示例\" json { \"name\": \"M 1.0\", \"code\": \"9e78e83f55864da7a4802e0989ae1f33\", \"active\": true, \"createTime\": \"2024-11-25 13:48:27\", \"updateTime\": \"2024-11-25 13:48:27\", \"configure\": \"[...]\", \"description\": \"随意修改的仪表盘\", \"avatar\": {}, \"version\": \"1.0\", \"reports\": [ { \"name\": null, \"code\": \"24f38722eb6d432a9ee574e675bd0509\", \"active\": true, \"createTime\": null, \"updateTime\": null, \"configure\": null, \"realtime\": false, \"type\": null, \"query\": null, \"description\": null, \"source\": null, \"dataset\": null } ] } === \"参数\" |参数|类型| 描述 | |---|---|---------------------| |name|String| 仪表盘名称 | |code|String| 仪表盘编码 | |active|Boolean| 是否激活 | |createTime|String| 创建时间 | |updateTime|String| 更新时间 | |configure|String| 仪表盘配置 | |description|String| 仪表盘描述 | |avatar|Object| 仪表盘头像 | |version|String| 仪表盘版本 | |reports|Array| 报表列表详见报表 | :::",
+    "url": "https://datacap.devlive.org/zh-CN/api/dashboard/save.html",
+    "lang": "zh-CN"
+  },
+  {
+    "title": "修改仪表盘",
+    "content": "请求地址：/api/v1/dashboard 请求方式：PUT ::: tabs === \"示例\" json { \"code\": \"9e78e83f55864da7a4802e0989ae1f33\", \"name\": \"M 1.0\", \"configure\": \"[...]\", \"version\": \"1.0\", \"description\": \"随意修改的仪表盘\", \"reports\": [ { \"code\": \"24f38722eb6d432a9ee574e675bd0509\" } ] } === \"参数\" |参数|类型| 描述 | |---|---|---------------------| |code|String| 仪表盘编码 | |name|String| 仪表盘名称 | |configure|String| 仪表盘配置 | |version|String| 仪表盘版本 | |description|String| 仪表盘描述 | |reports|Array| 报表列表，结构 [{\"code\": \"24f38722eb6d432a9ee574e675bd0509\"}] | ::: ::: tabs === \"示例\" json { \"name\": \"M 1.0\", \"code\": \"9e78e83f55864da7a4802e0989ae1f33\", \"active\": true, \"createTime\": \"2024-11-25 13:48:27\", \"updateTime\": \"2024-11-25 13:48:27\", \"configure\": \"[...]\", \"description\": \"随意修改的仪表盘\", \"avatar\": {}, \"version\": \"1.0\", \"reports\": [ { \"name\": null, \"code\": \"24f38722eb6d432a9ee574e675bd0509\", \"active\": true, \"createTime\": null, \"updateTime\": null, \"configure\": null, \"realtime\": false, \"type\": null, \"query\": null, \"description\": null, \"source\": null, \"dataset\": null } ] } === \"参数\" |参数|类型| 描述 | |---|---|---------------------| |name|String| 仪表盘名称 | |code|String| 仪表盘编码 | |active|Boolean| 是否激活 | |createTime|String| 创建时间 | |updateTime|String| 更新时间 | |configure|String| 仪表盘配置 | |description|String| 仪表盘描述 | |avatar|Object| 仪表盘头像 | |version|String| 仪表盘版本 | |reports|Array| 报表列表详见报表 | :::",
+    "url": "https://datacap.devlive.org/zh-CN/api/dashboard/edit.html",
+    "lang": "zh-CN"
+  },
+  {
+    "title": "获取仪表盘",
+    "content": "请求地址：/api/v1/dashboard/info/{code} 请求方式：GET ::: tabs === \"示例\" json /api/v1/dashboard/info/8ee2171b5d014779a45901fb9c2428c9 === \"参数\" |参数|类型|描述| |---|---|---| |code|String|仪表盘编码| ::: ::: tabs === \"示例\" json { \"id\": 1, \"name\": \"第一个仪表盘\", \"code\": \"8ee2171b5d014779a45901fb9c2428c9\", \"active\": true, \"createTime\": \"2024-11-17 14:33:29\", \"updateTime\": \"2024-11-18 16:41:53\", \"configure\": \"\", \"description\": \"\", \"avatar\": { \"path\": \"\" }, \"user\": {}, \"reports\": [] } === \"参数\" |参数|类型|描述|权限| |---|---|---|---| |id|Number|分页数据|Admin| |name|String|仪表盘名称|-| |code|String|仪表盘编码|-| |active|Boolean|是否激活|-| |createTime|String|创建时间|-| |updateTime|String|更新时间|-| |configure|String|仪表盘配置|-| |description|String|仪表盘描述|-| |avatar|Avatar|仪表盘头像|-| |user|User|创建人|Admin| |reports|Report[]|报表列表|-| :::",
+    "url": "https://datacap.devlive.org/zh-CN/api/dashboard/get.html",
+    "lang": "zh-CN"
+  },
+  {
+    "title": "删除仪表盘",
+    "content": "请求地址：/api/v1/dashboard/{code} 请求方式：DELETE ::: tabs === \"示例\" json /api/v1/dashboard/8ee2171b5d014779a45901fb9c2428c9 === \"参数\" |参数|类型|描述| |---|---|---| |code|String|仪表盘编码| ::: ::: tabs === \"示例\" json 8ee2171b5d014779a45901fb9c2428c9 === \"参数\" 删除成功后返回仪表盘编码。 :::",
+    "url": "https://datacap.devlive.org/zh-CN/api/dashboard/delete.html",
+    "lang": "zh-CN"
+  },
+  {
+    "title": "菜单列表 (管理员)",
+    "content": "请求地址: /api/v1/menu/list 请求方式: POST !!! note 该接口用于获取菜单列表，需要传递分页数据 page 和 size 作为参数，分页数据默认为 1，size 默认为 10。详细参考 分页实体 !!! ::: tabs === \"示例\" json [ { \"id\": 1, \"title\": \"全局 - 首页\", \"url\": \"/home\", \"sorted\": 1, \"code\": \"HOME\", \"i18nKey\": \"common.home\", \"icon\": \"Home\", \"isNew\": false, \"checked\": true, \"selected\": true, \"parent\": 0, \"new\": false } ] === \"参数\" | 参数名 | 类型 | 描述 | | --- |----| --- | | id | 数值 | ID | | title | 字符串 | 标题 | | url | 字符串 | URL | | sorted | 数值 | 排序 | | code | 字符串 | 代码 | | i18nKey | 字符串 | 国际化 | | icon | 字符串 | 图标 | | isNew | 布尔 | 是否新建 | | checked | 布尔 | 是否选中 | | selected | 布尔 | 是否选中 | | parent | 数值 | 父菜单 | | new | 布尔 | 是否新建| :::",
+    "url": "https://datacap.devlive.org/zh-CN/api/menu/list.html",
+    "lang": "zh-CN"
+  },
+  {
+    "title": "保存菜单 (管理员)",
+    "content": "请求地址：/api/v1/menu 请求方式：POST ::: tabs === \"示例\" json { \"name\": \"测试菜单\", \"description\": \"\", \"url\": \"/test\", \"sorted\": \"01\", \"type\": \"VIEW\", \"active\": true, \"i18nKey\": \"common.home\", \"icon\": \"\", \"new\": false } === \"参数\" |参数|类型| 描述 | |---|---|---------------------| |name|String| 菜单名称 | |description|String| 菜单描述 | |url|String| 菜单路径 | |sorted|String| 菜单排序 | |type|String| 菜单类型 | |active|Boolean| 是否激活 | |i18nKey|String| 国际化key | |icon|String| 图标 | |new|Boolean| 是否为新菜单 | ::: ::: tabs === \"示例\" json { \"name\": \"测试菜单\", \"code\": \"10ae626195704b96b353d00aeb6ab1e5\", \"createTime\": null, \"updateTime\": \"2024-11-25 20:32:53\", \"description\": \"\", \"url\": \"/test\", \"group\": null, \"sorted\": 1, \"type\": \"VIEW\", \"parent\": 0, \"i18nKey\": \"common.home\", \"icon\": \"\", \"redirect\": 0, \"isNew\": false, \"new\": false } === \"参数\" |参数|类型| 描述 | |---|---|---------------------| |name|String| 菜单名称 | |code|String| 菜单code | |createTime|String| 创建时间 | |updateTime|String| 更新时间 | |description|String| 菜单描述 | |url|String| 菜单路径 | |group|String| 菜单分组 | |sorted|Number| 菜单排序 | |type|String| 菜单类型 | |parent|Number| 父菜单 | |i18nKey|String| 国际化key | |icon|String| 图标 | |redirect|Number| 跳转地址 | |isNew|Boolean| 是否为新菜单 | :::",
+    "url": "https://datacap.devlive.org/zh-CN/api/menu/save.html",
+    "lang": "zh-CN"
+  },
+  {
+    "title": "修改菜单 (管理员)",
+    "content": "请求地址：/api/v1/menu 请求方式：PUT ::: tabs === \"示例\" json { \"code\": \"10ae626195704b96b353d00aeb6ab1e5\", \"name\": \"测试菜单\", \"description\": \"\", \"url\": \"/test\", \"sorted\": \"01\", \"type\": \"VIEW\", \"active\": true, \"i18nKey\": \"common.home\", \"icon\": \"\", \"new\": false } === \"参数\" |参数|类型| 描述 | |---|---|---------------------| |code|String| 菜单code | |name|String| 菜单名称 | |description|String| 菜单描述 | |url|String| 菜单路径 | |sorted|String| 菜单排序 | |type|String| 菜单类型 | |active|Boolean| 是否激活 | |i18nKey|String| 国际化key | |icon|String| 图标 | |new|Boolean| 是否为新菜单 | ::: ::: tabs === \"示例\" json { \"name\": \"测试菜单\", \"code\": \"10ae626195704b96b353d00aeb6ab1e5\", \"createTime\": null, \"updateTime\": \"2024-11-25 20:32:53\", \"description\": \"\", \"url\": \"/test\", \"group\": null, \"sorted\": 1, \"type\": \"VIEW\", \"parent\": 0, \"i18nKey\": \"common.home\", \"icon\": \"\", \"redirect\": 0, \"isNew\": false, \"new\": false } === \"参数\" |参数|类型| 描述 | |---|---|---------------------| |name|String| 菜单名称 | |code|String| 菜单code | |createTime|String| 创建时间 | |updateTime|String| 更新时间 | |description|String| 菜单描述 | |url|String| 菜单路径 | |group|String| 菜单分组 | |sorted|Number| 菜单排序 | |type|String| 菜单类型 | |parent|Number| 父菜单 | |i18nKey|String| 国际化key | |icon|String| 图标 | |redirect|Number| 跳转地址 | |isNew|Boolean| 是否为新菜单 | :::",
+    "url": "https://datacap.devlive.org/zh-CN/api/menu/edit.html",
+    "lang": "zh-CN"
+  },
+  {
+    "title": "工作流列表",
+    "content": "请求地址: /api/v1/workflow/list 请求方式: POST !!! note 该接口用于获取菜单列表，需要传递分页数据 page 和 size 作为参数，分页数据默认为 1，size 默认为 10。详细参考 分页实体 !!! ::: tabs === \"示例\" json [ { \"name\": \"sss\", \"code\": \"c1ff398243994338a79730f8a1d4f55f\", \"active\": true, \"createTime\": \"2024-12-19 22:19:30\", \"updateTime\": \"2024-12-19 22:19:31\", \"state\": \"FAILURE\", \"message\": \"/bin/sh: null/bin/start-seatunnel-spark-connector-v2.sh: No such file or directory\", \"work\": \"...\", \"elapsed\": 492, \"executor\": \"SeatunnelExecutor\", \"configure\": { ... }, \"user\": { ... } } ] === \"参数\" | 参数名 | 类型 | 描述 | | --- |----| --- | | code | 字符串 | 工作流编码 | | name | 字符串 | 名称 | | executor | 字符串 | 执行器 | | active | 布尔值 | 是否启用 | |createTime|字符串|创建时间| |updateTime|字符串|更新时间| |state|字符串|状态| |message|字符串|消息| |work|字符串|工作目录| |elapsed|整数|耗时| |executor|字符串|执行器| |configure|对象|配置| |user|对象|用户| :::",
+    "url": "https://datacap.devlive.org/zh-CN/api/workflow/list.html",
+    "lang": "zh-CN"
+  },
+  {
+    "title": "提交工作流",
+    "content": "请求地址：/api/v1/workflow 请求方式：POST ::: tabs === \"示例\" json { \"executor\": \"LocalExecutor\", \"name\": \"dsf\", \"configure\": { \"nodes\": [ { \"id\": \"52c6222f-e49a-4afc-9201-35e296201a33\", \"tid\": \"jdbc-source\", \"category\": \"source\", \"position\": { \"x\": 137, \"y\": 95 }, \"key\": \"Jdbc\", \"data\": { ... } } ], \"connections\": [ { \"id\": \"668a7830-5c48-433e-9688-c6f8c9341ff7\", \"source\": \"52c6222f-e49a-4afc-9201-35e296201a33-output\", \"target\": \"f2f8b63e-902a-4467-acdf-32c0a7ed4074-input\" } ] } } === \"参数\" | 参数 |类型| 描述 | |-------------|---|----------------------------------------------------------| | name |String| 工作流名称 | | configure |String| 工作流配置 | | executor |String| 执行器 | > configure 参数请参考组件：https://view-shadcn-ui.devlive.org/components/workflow.html#workflow-props ::: ::: tabs === \"示例\" json { \"name\": \"sss\", \"code\": \"c1ff398243994338a79730f8a1d4f55f\", \"active\": true, \"createTime\": \"2024-12-19 22:19:30\", \"updateTime\": \"2024-12-19 22:19:31\", \"state\": \"FAILURE\", \"message\": \"/bin/sh: null/bin/start-seatunnel-spark-connector-v2.sh: No such file or directory\", \"work\": \"...\", \"elapsed\": 492, \"executor\": \"SeatunnelExecutor\", \"configure\": { ... }, \"user\": { ... } } :::",
+    "url": "https://datacap.devlive.org/zh-CN/api/workflow/save.html",
+    "lang": "zh-CN"
+  },
+  {
+    "title": "修改工作流",
+    "content": "请求地址：/api/v1/workflow 请求方式：PUT ::: tabs === \"示例\" json { \"code\": \"10ae626195704b96b353d00aeb6ab1e5\", \"executor\": \"LocalExecutor\", \"name\": \"dsf\", \"configure\": { \"nodes\": [ { \"id\": \"52c6222f-e49a-4afc-9201-35e296201a33\", \"tid\": \"jdbc-source\", \"category\": \"source\", \"position\": { \"x\": 137, \"y\": 95 }, \"key\": \"Jdbc\", \"data\": { ... } } ], \"connections\": [ { \"id\": \"668a7830-5c48-433e-9688-c6f8c9341ff7\", \"source\": \"52c6222f-e49a-4afc-9201-35e296201a33-output\", \"target\": \"f2f8b63e-902a-4467-acdf-32c0a7ed4074-input\" } ] } } === \"参数\" | 参数 |类型| 描述 | |-------------|---|----------------------------------------------------------| | code |String| 工作流编码 | | name |String| 工作流名称 | | configure |String| 工作流配置 | | executor |String| 执行器 | > configure 参数请参考组件：https://view-shadcn-ui.devlive.org/components/workflow.html#workflow-props ::: ::: tabs === \"示例\" json { \"name\": \"sss\", \"code\": \"c1ff398243994338a79730f8a1d4f55f\", \"active\": true, \"createTime\": \"2024-12-19 22:19:30\", \"updateTime\": \"2024-12-19 22:19:31\", \"state\": \"FAILURE\", \"message\": \"/bin/sh: null/bin/start-seatunnel-spark-connector-v2.sh: No such file or directory\", \"work\": \"...\", \"elapsed\": 492, \"executor\": \"SeatunnelExecutor\", \"configure\": { ... }, \"user\": { ... } } :::",
+    "url": "https://datacap.devlive.org/zh-CN/api/workflow/edit.html",
+    "lang": "zh-CN"
+  },
+  {
+    "title": "获取工作流",
+    "content": "请求地址: /api/v1/workflow/info/{code} 请求方式: GET ::: tabs === \"示例\" json { \"name\": \"sss\", \"code\": \"c1ff398243994338a79730f8a1d4f55f\", \"active\": true, \"createTime\": \"2024-12-19 22:19:30\", \"updateTime\": \"2024-12-19 22:19:31\", \"state\": \"FAILURE\", \"message\": \"/bin/sh: null/bin/start-seatunnel-spark-connector-v2.sh: No such file or directory\", \"work\": \"...\", \"elapsed\": 492, \"executor\": \"SeatunnelExecutor\", \"configure\": { ... }, \"user\": { ... } } === \"参数\" | 参数名 | 类型 | 描述 | | --- |----| --- | | code | 字符串 | 工作流编码 | | name | 字符串 | 名称 | | executor | 字符串 | 执行器 | | active | 布尔值 | 是否启用 | |createTime|字符串|创建时间| |updateTime|字符串|更新时间| |state|字符串|状态| |message|字符串|消息| |work|字符串|工作目录| |elapsed|整数|耗时| |executor|字符串|执行器| |configure|对象|配置| |user|对象|用户| :::",
+    "url": "https://datacap.devlive.org/zh-CN/api/workflow/get.html",
+    "lang": "zh-CN"
+  },
+  {
+    "title": "删除工作流",
+    "content": "请求地址：/api/v1/workflow/{code} 请求方式：DELETE ::: tabs === \"示例\" json /api/v1/workflow/8ee2171b5d014779a45901fb9c2428c9 === \"参数\" |参数|类型|描述| |---|---|---| |code|String|仪表盘编码| ::: ::: tabs === \"示例\" json 8ee2171b5d014779a45901fb9c2428c9 === \"参数\" 删除成功后返回仪表盘编码。 :::",
+    "url": "https://datacap.devlive.org/zh-CN/api/workflow/delete.html",
+    "lang": "zh-CN"
+  },
+  {
+    "title": "工作流日志",
+    "content": "请求地址：/api/v1/workflow/log/{code} 请求方式：GET ::: tabs === \"示例\" json /api/v1/workflow/log/8ee2171b5d014779a45901fb9c2428c9 === \"参数\" |参数|类型|描述| |---|---|---| |code|String|仪表盘编码| ::: ::: tabs === \"示例\" json \"2024-12-19 22:19:30,265 INFO [pool-5-thread-1] [ProcessBuilderCommander.java:39] Execute task on username [ admin ]\", \"2024-12-19 22:19:30,349 INFO [pool-5-thread-1] [ProcessBuilderCommander.java:50] Execute command /bin/sh -c null/bin/start-seatunnel-spark-connector-v2.sh --master local --deploy-mode client --config /Users/shicheng/Code/datacap/data/admin/20241219/workflow/seatunnelexecutor/c1ff398243994338a79730f8a1d4f55f/c1ff398243994338a79730f8a1d4f55f.configure --name c1ff398243994338a79730f8a1d4f55f\", === \"参数\" 工作流的日志信息。 :::",
+    "url": "https://datacap.devlive.org/zh-CN/api/workflow/log.html",
+    "lang": "zh-CN"
+  },
+  {
+    "title": "重启工作流",
+    "content": "请求地址：/api/v1/workflow/restart/{code} 请求方式：PUT ::: tabs === \"示例\" json /api/v1/workflow/restart/8ee2171b5d014779a45901fb9c2428c9 === \"参数\" |参数|类型|描述| |---|---|---| |code|String|仪表盘编码| ::: ::: tabs === \"示例\" json 8ee2171b5d014779a45901fb9c2428c9 === \"参数\" 删除成功后返回仪表盘编码。 :::",
+    "url": "https://datacap.devlive.org/zh-CN/api/workflow/restart.html",
+    "lang": "zh-CN"
+  },
+  {
+    "title": "MongoDB Driver",
+    "content": "DataCap MongoDB Driver 主要要用于在 DataCap 中连接和操作 MongoDB 数据库。该驱动支持以下语法: SHOW ... 语法 SELECT ... 语法 DataCap MongoDB Driver 适用于所有 DataCap 版本。 --- xml <dependency> <groupId>io.edurt.datacap</groupId> <artifactId>datacap-driver-mongodb</artifactId> <version>${VERSION}</version> <scope>test</scope> </dependency> VERSION 可以在 Maven 中央仓库中找到。 驱动名称：io.edurt.datacap.driver.MongoJdbcDriver 支持的连接语法： jdbc:mongodb: jdbc:mongo: jdbc:mongodb+srv: 授权用户 java Class.forName(\"io.edurt.datacap.driver.MongoJdbcDriver\"); Properties props = new Properties(); props.setProperty(\"database\", \"xxxx\"); props.setProperty(\"user\", \"xxxx\"); props.setProperty(\"password\", \"xxxx\"); String jdbcUrl = String.format(\"jdbc:mongodb://%s:%d\", \"127.0.0.1\", 27017); connection = DriverManager.getConnection(jdbcUrl, props); 非授权用户 java Class.forName(\"io.edurt.datacap.driver.MongoJdbcDriver\"); String jdbcUrl = String.format(\"jdbc:mongodb://%s:%d\", \"127.0.0.1\", 27017); connection = DriverManager.getConnection(jdbcUrl); DataCap MongoDB Driver 支持以下 SHOW 语法: SHOW DATABASES SHOW DATABASES LIKE ... SHOW TABLES SHOW TABLES FROM ... SHOW TABLES LIKE ... SHOW COLUMNS SHOW COLUMNS FROM ... SHOW COLUMNS FROM ... FROM ... SHOW COLUMNS FROM ... LIKE ... DataCap MongoDB Driver 支持以下 SELECT 语法: SELECT FROM ... SELECT ... FROM ... SELECT columnname AS aliasname FROM ... SELECT columnname AS aliasname, ... FROM ... SELECT columnname AS aliasname, ... FROM ... WHERE ... SELECT columnname AS aliasname, ... FROM ... WHERE ... ORDER BY ... SELECT columnname AS aliasname, ... FROM ... WHERE ... ORDER BY ... LIMIT ... SELECT columnname AS aliasname, ... FROM ... WHERE ... GROUP BY ... SELECT columnname AS aliasname, ... FROM ... WHERE ... GROUP BY ... LIMIT ... OFFSET ... SELECT columnname AS aliasname, SUM(columnName) ... FROM ... WHERE ... GROUP BY ... DataCap MongoDB Driver 支持以下聚合函数: COUNT() COUNT(columnName) SUM(columnName) AVG(columnName) MIN(columnName) MAX(columnName) DataCap MongoDB Driver 支持以下系统函数: SELECT VERSION()",
+    "url": "https://datacap.devlive.org/zh-CN/driver/mongodb.html",
     "lang": "zh-CN"
   },
   {
