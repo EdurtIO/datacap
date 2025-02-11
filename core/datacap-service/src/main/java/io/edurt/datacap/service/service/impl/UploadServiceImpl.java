@@ -55,7 +55,7 @@ public class UploadServiceImpl
                             FsResponse response = fsService.writer(fsRequest);
                             entity.setPath(response.getRemote());
                             entity.setLocal(response.getRemote());
-                            if (initializer.getFsConfigure().getType().equals("Local")) {
+                            if (initializer.getFsConfigure().getType().startsWith("Local")) {
                                 entity.setPath(getAccess(entity));
                             }
                         });
@@ -106,7 +106,7 @@ public class UploadServiceImpl
      */
     private String getHome(UploadBody configure)
     {
-        if (!initializer.getFsConfigure().getType().equals("Local")) {
+        if (!initializer.getFsConfigure().getType().startsWith("Local")) {
             return initializer.getFsConfigure().getEndpoint();
         }
         return String.join("/", initializer.getDataHome(),

@@ -158,6 +158,7 @@ export default defineComponent({
             configure: this.info.configure,
             version: this.info.version,
             description: this.info.description,
+            avatar: this.info.avatar,
             reports: this.info.reports?.map(report => ({ code: report.code })) || []
           }
           this.layouts = JSON.parse(String(this.info.configure))

@@ -8,15 +8,13 @@
   <div class="border-b">
     <div class="container">
       <div class="flex items-center">
-        <!-- Logo -->
-        <div class="mr-3">
-          <ShadcnLink link="/" class="w-fit mt-1">
+        <div class="flex items-center shrink-0 mt-1">
+          <ShadcnLink link="/" class="block">
             <ShadcnAvatar src="/static/images/logo.png" alt="DataCap Logo"/>
           </ShadcnLink>
         </div>
 
         <ShadcnLayoutHeader>
-          <!-- Menu -->
           <ShadcnMenu direction="horizontal">
             <div v-for="item in activeMenus" :key="item.id">
               <ShadcnMenuSub v-if="item.children" :name="item.id">
