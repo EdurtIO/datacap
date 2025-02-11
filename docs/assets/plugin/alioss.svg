@@ -1,0 +1,48 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+    <!-- Background -->
+    <!-- 背景 -->
+    <circle cx="100" cy="100" r="100" fill="#FF6A00" />
+
+    <!-- Cloud shape -->
+    <!-- 云形状 -->
+    <g transform="translate(0, 30)">
+        <!-- Main cloud body -->
+        <!-- 主要云体 -->
+        <path d="M60 30
+                 Q80 20 100 30
+                 Q120 10 140 30
+                 Q160 30 160 50
+                 Q160 70 140 80
+                 L60 80
+                 Q40 70 40 50
+                 Q40 30 60 30"
+              fill="white" />
+
+        <!-- Storage blocks -->
+        <!-- 存储块 -->
+        <rect x="60" y="60" width="20" height="40" fill="#FF6A00" rx="4" />
+        <rect x="90" y="60" width="20" height="40" fill="#FF6A00" rx="4" />
+        <rect x="120" y="60" width="20" height="40" fill="#FF6A00" rx="4" />
+    </g>
+
+    <!-- OSS Text -->
+    <!-- OSS文本 -->
+    <text x="100" y="150"
+          font-family="Arial, sans-serif"
+          font-weight="bold"
+          font-size="28"
+          fill="white"
+          text-anchor="middle">
+        OSS
+    </text>
+
+    <!-- Alibaba Text -->
+    <!-- 阿里巴巴文本 -->
+    <text x="100" y="170"
+          font-family="Arial, sans-serif"
+          font-size="14"
+          fill="white"
+          text-anchor="middle">
+        Alibaba
+    </text>
+</svg>

@@ -1,0 +1,49 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+    <!-- Background -->
+    <!-- 背景 -->
+    <circle cx="100" cy="100" r="100" fill="#00A6D1" />
+
+    <!-- Database icon -->
+    <!-- 数据库图标 -->
+    <g transform="translate(40, 25)">
+        <!-- Top cylinder -->
+        <!-- 顶部圆柱体 -->
+        <ellipse cx="60" cy="25" rx="50" ry="15"
+                 fill="none" stroke="white" stroke-width="8" />
+
+        <!-- Connecting lines -->
+        <!-- 连接线 -->
+        <line x1="10" y1="25" x2="10" y2="75"
+              stroke="white" stroke-width="8" />
+        <line x1="110" y1="25" x2="110" y2="75"
+              stroke="white" stroke-width="8" />
+
+        <!-- Middle cylinder -->
+        <!-- 中部圆柱体 -->
+        <ellipse cx="60" cy="75" rx="50" ry="15"
+                 fill="none" stroke="white" stroke-width="8" />
+
+        <!-- Bottom connecting lines -->
+        <!-- 底部连接线 -->
+        <line x1="10" y1="75" x2="10" y2="125"
+              stroke="white" stroke-width="8" />
+        <line x1="110" y1="75" x2="110" y2="125"
+              stroke="white" stroke-width="8" />
+
+        <!-- Bottom cylinder -->
+        <!-- 底部圆柱体 -->
+        <ellipse cx="60" cy="125" rx="50" ry="15"
+                 fill="none" stroke="white" stroke-width="8" />
+    </g>
+
+    <!-- DB2 Text -->
+    <!-- DB2文本 -->
+    <text x="100" y="158"
+          font-family="Arial, sans-serif"
+          font-weight="bold"
+          font-size="24"
+          fill="white"
+          text-anchor="middle">
+        DB2
+    </text>
+</svg>
