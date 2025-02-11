@@ -53,14 +53,13 @@
             </template>
 
             <div class="p-3">
-              <ShadcnAvatar square
-                            class="w-full object-fit"
-                            :src="`${item.avatar?.path ? item.avatar.path : '/static/images/dashboard.png'}`"
-                            :alt="item.name"
-                            :style="{ height: '250px' }">
-              </ShadcnAvatar>
+              <div class="aspect-video w-full relative overflow-hidden rounded-md flex items-center justify-center">
+                <img class="w-32 h-32 object-cover"
+                     :src="`${item.avatar?.path ? item.avatar.path : '/static/images/dashboard.png'}`"
+                     :alt="item.name"/>
+              </div>
 
-              <div class="text-xs text-muted-foreground text-right">{{ item.createTime }}</div>
+              <div class="text-xs text-muted-foreground text-right mt-2">{{ item.createTime }}</div>
             </div>
           </ShadcnCard>
         </ShadcnCol>
